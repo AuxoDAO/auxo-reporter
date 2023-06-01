@@ -55,6 +55,7 @@ def get_offchain_votes(conf: Config):
 def get_onchain_votes(conf: Config) -> list:
     """
     Grab vote proposals and votes from OZ Governor
+    To check: does the OZ implementation check delegation?
     """
 
     votes_query = """
@@ -179,6 +180,11 @@ def get_voters(
     not_voted = [addr for addr in stakers_addrs_no_delegators if addr not in voters] + [
         d.delegator for d in delegates if d.delegate not in voters
     ]
+
+    # dev: in the first epoch, we do not require voting, everyone is counted as active
+
+    voted = [addr for addr in stakers_addrs_no_delegators]
+    not_voted = []
 
     return (utils.unique(voted), utils.unique(not_voted))
 
