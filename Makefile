@@ -45,3 +45,9 @@ claims :; python -m reporter.run
 # Generate a merkle tree
 tree :; yarn create-merkle-tree
 tree-test :; yarn ts-node merkleTree/test.ts
+
+# create dockerfile
+build-docker :; docker build -t auxo-reporter .
+
+# run dockerfile
+run-docker :; docker run -it -v "$(pwd)":/app auxo-reporter
