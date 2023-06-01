@@ -51,3 +51,5 @@ build-docker :; docker build -t auxo-reporter .
 
 # run dockerfile
 run-docker :; docker run -it -v "$(pwd)":/app auxo-reporter
+
+docker :; make build-docker && make run-docker

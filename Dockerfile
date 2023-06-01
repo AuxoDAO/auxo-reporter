@@ -1,17 +1,17 @@
-# Use official Python image from the DockerHub
+# Use hfficial Python image from the DockerHub
 FROM python:3.9-slim-buster
 
 # Set the working directory to /app
 WORKDIR /app
 
-# Copy the dependencies file to the working directory 
-COPY requirements.txt package.json /app/
-
-# Install Node.js and make
+# Install  some system dependencies
 RUN apt-get update && \
-    apt-get install -y curl make && \
+    apt-get install -y curl make python3-dev && \
     curl -sL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get install -y nodejs
+
+# Copy the dependencies file to the working directory 
+COPY requirements.txt package.json /app/
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
@@ -24,3 +24,4 @@ COPY . /app
 
 # Run bash shell when the container launches to keep it running
 CMD ["/bin/bash"]
+
