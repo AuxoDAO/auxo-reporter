@@ -1,0 +1,1715 @@
+{
+    "ARV_stats": {
+        "1": {
+            "stakers": 97,
+            "votes": 0,
+            "proposals": 0,
+            "voters": 0,
+            "non_voters": 97,
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "70000000000000000000",
+                "pro_rata": "0.000000000000000000"
+            },
+            "token_stats": {
+                "total": "184168493661366419087831",
+                "active": "0",
+                "inactive": "184168493661366419087831"
+            }
+        }
+    },
+    "ARV_distribution": {
+        "1": {
+            "address": "0xa30C7B2e676bE6b0C26D631c8161b62eBeBC3cD2",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "35577719041315238106397"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "2": {
+            "address": "0xEa9f2E31Ad16636f4e1AF0012dB569900401248a",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "23814252902080863836937"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "3": {
+            "address": "0x89d2D4934ee4F1f579056418e6aeb136Ee919d65",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "17979716439106419245896"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "4": {
+            "address": "0x4281579D99d855F2430C95a13720e53a0fCC0549",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "16733352132446270107425"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "5": {
+            "address": "0xFbEA6F2B10e8Ee770F37Fff9B8C9E10d9B65741D",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "6561001435984477475580"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "6": {
+            "address": "0x56446712B219fcC34a5604f5E7AF5d50d65B6647",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "6489990493108621317957"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "7": {
+            "address": "0x461F635488972409981EDbD043834dbaA7239FA6",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "4822896784527500000000"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "8": {
+            "address": "0x519A0dF0Bd2b586b6F7126799c30A243E13ABCbe",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "4013883042617450935433"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "9": {
+            "address": "0x7bDb45b1fe5B3eB17a4C7a16C9750C7e10CcF08d",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "4076360000000000000000"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "10": {
+            "address": "0x71F9CCd68bf1f5F9b571f509E0765A04ca4fFad2",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "3870312069642949452734"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "11": {
+            "address": "0x1754352eacb753327Fec2d4F48f0fb36B672C5e0",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "3255229734100161070178"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "12": {
+            "address": "0xd3C808920D8fCcBeBd181Aae8D4FB2ACd1A433cD",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "3207793654312846923706"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "13": {
+            "address": "0x16765c8Fe6Eb838CB8f64e425b6DcCab38D4F102",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "3038961673851218212105"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "14": {
+            "address": "0x1dE4F046c45Cd4E39cfCDF36b7DF4856B4031955",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "3135761155595599680257"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "15": {
+            "address": "0x7ccf173012bfE53F16F4D6A2a4aea32abAfcD04C",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "2968131468473050242431"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "16": {
+            "address": "0xF8C84C6A4f1083f7a7Fd94885B303A3974116D82",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "3000000000000000000000"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "17": {
+            "address": "0x5C7a20b1EFa9A2aB5F448b651Aa264F233076C4C",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "2583530677058581726023"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "18": {
+            "address": "0x8e851e94e1667Cd76Dda1A49f258934E2BCDCF3e",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "2382117690353593121403"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "19": {
+            "address": "0x17e33637f6B64E9082Ea499481b6e6EbAE7EEA23",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "2138507541506406870325"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "20": {
+            "address": "0x00BA3CA0B6Df1486c912893d9f288311A60ED753",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "1998057615585548194832"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "21": {
+            "address": "0xD9A0013af48591f8524280D6f8f98189cef45308",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "2065419832175427000000"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "22": {
+            "address": "0x64B7fcC8C17540139BDd84d00c7261035602Cb66",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "1975278734052104775571"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "23": {
+            "address": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "1859243718608773062900"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "24": {
+            "address": "0xE5A3D77D7788A83f3549dD7F08Fc2aCed7E262d2",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "1774066524037548045838"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "25": {
+            "address": "0x7Cfed2A2d4a98680daC6aA55120f5AF2EC562EbD",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "1622645709830148777903"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "26": {
+            "address": "0x9A456152E0Da127C30a49357A461f4c3F80bd630",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "1299172402990094629450"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "27": {
+            "address": "0x1A1087Bf077f74fb21fD838a8a25Cf9Fe0818450",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "1199509443597529189347"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "28": {
+            "address": "0xd27d90b337717Fd91C4D409F712B890D4eE2FdD6",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "1004521962511954283546"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "29": {
+            "address": "0x8e2540edfA7410B6f32f54D4cBF715Acfe2F2e5B",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "1034895620730804419852"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "30": {
+            "address": "0xD5a7412e7f78E03E6Fb2bd133F6473bfe8a45eB8",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "973077715231014525414"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "31": {
+            "address": "0x4188c45B8dfC8998Ceee2398e746deC2797B0961",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "1000000000000000000000"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "32": {
+            "address": "0x21210E9f52300880E61D0fD0D08d1b882a6369f9",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "1000000000000000000000"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "33": {
+            "address": "0xf0754756E71aac7aD2B6497E7006F5E44D68D592",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "926176666073326513145"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "34": {
+            "address": "0x198ca1beaCF70b82c4e6dE21E8Cb7b6dA6D8477A",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "870133566923064964097"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "35": {
+            "address": "0x4929f4d38F2955649b5aa34343da04cf790B9D92",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "897688649406830284527"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "36": {
+            "address": "0xFB9e5F5874565A6eF8FCF1DEbc4975501331a8Ca",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "848481191235811116961"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "37": {
+            "address": "0x4796E4aFD565e43B7267F1688ec09B6A246cB5fc",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "785247388259361922240"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "38": {
+            "address": "0x8f9f865Aafd6487C7aC45a22bbb9278f8fc06d47",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "711869386244504491085"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "39": {
+            "address": "0xF3DD72AC3c9833574491861793e8fFe1f07c8905",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "661604753290807856916"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "40": {
+            "address": "0x424D88632Af00112b88475F1f40584D7Ae6F5C7e",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "579938287185714000000"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "41": {
+            "address": "0xB05136FAcE3F8c6f9e6CDb076a38Ee6D4910f6d4",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "524272837648820000000"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "42": {
+            "address": "0x1b50afeD405C9930eAe5fb3803418b03F9615B1C",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "538595190650930009031"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "43": {
+            "address": "0x5b0D3243c78fB9d4AC035fB2384FFdf7A9eF6396",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "536551346378886731670"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "44": {
+            "address": "0x19dd92C9A9c4Eb6f0426846C4F8a071A7b79209A",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "496182223963791783425"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "45": {
+            "address": "0xEed8e6512ff83092ffe544bD308e94934A113Ea0",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "432960623476827494576"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "46": {
+            "address": "0x19a61e7238270CA99F931C08D7BcfF1984F38AE4",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "427083673425271384725"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "47": {
+            "address": "0x477c8ece9393713D258169Aa50cDaF27E422214d",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "414713858051153046749"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "48": {
+            "address": "0xB6fcA91D1c166564cC9888F96b3B553f42C96349",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "379484556259695052367"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "49": {
+            "address": "0x91B26b4B49525fDFfff2B099190149a52A36c3cA",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "366256169336599405533"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "50": {
+            "address": "0x4D04EB67A2D1e01c71FAd0366E0C200207A75487",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "362419595104556033130"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "51": {
+            "address": "0x784F0d732aF31C7d70F2e37761D388Ce172c7482",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "360336667515253065232"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "52": {
+            "address": "0x2459d93923CC940E3AA1935Ead83eF8011534BB1",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "338404322564265573475"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "53": {
+            "address": "0xB478d2e5D241683667e15c9c79a2Bc0e5aF35923",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "334935545367931091972"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "54": {
+            "address": "0xB0331b22161cA290A15f825A29C008dCB5e1ff68",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "292280716686824728705"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "55": {
+            "address": "0x67017BEbE2A4B8645B28F83D5D472618b35a1230",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "255575299826277106678"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "56": {
+            "address": "0x42556f667Dfc74704914F98d1e0c0aC4Ea2f492e",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "255070207755560824554"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "57": {
+            "address": "0x2437Db820DE92d8DD64B524954fA0D160767c471",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "226383584606624676293"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "58": {
+            "address": "0x1Ec289BD5F002B7969887b8E18a1625052a67D0d",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "191329739576062456761"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "59": {
+            "address": "0xD6ccB9d49A2ecd78efC35D6C733214029a1C74cB",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "194992544230131479861"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "60": {
+            "address": "0x58E603d9824976F7a3940C6B408F0Ffa523a216C",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "187735779532839074127"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "61": {
+            "address": "0xeb4135a5fff5cD44c08614f012e103a6429f65B3",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "169731165165736449667"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "62": {
+            "address": "0xDccc5094404422cD48CD7AfA95b618fE0Cd3d0Fe",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "160431066095328964409"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "63": {
+            "address": "0x955A44E6baC7c2424Bb52b81870C01D28fCE0038",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "157398188473439885058"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "64": {
+            "address": "0xaFbA26E1E3A95d5002a4f91395584803C0B2C0dB",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "155959063539779277749"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "65": {
+            "address": "0xCaB5541bad35e9ee799BeA9765C3c416D8Cc1Bb8",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "146482854786326741427"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "66": {
+            "address": "0xaA1A54BfA93Be8Ac8D01182827433F227ba59e17",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "130302555446281230775"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "67": {
+            "address": "0x343E3391e48d3a33F731D35A5179a26fd2b5f693",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "127324415033034963415"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "68": {
+            "address": "0xe5cD86ff7f825a0ff6f699828D5c9bf163C0e3F9",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "114634977752416450440"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "69": {
+            "address": "0x5d47e5D242a8F66a6286b0a2353868875F5d6068",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "105609836487056901982"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "70": {
+            "address": "0x00C67d9D6D3D13b42a87424E145826c467CcCd84",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "93266535532063020003"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "71": {
+            "address": "0xedf4FA418216A13E7629fED73e7448985CC8Bc82",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "88163277383284759912"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "72": {
+            "address": "0x14B30b46ec4fA1a993806bd5Dda4195C5a82353e",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "72379776777150087678"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "73": {
+            "address": "0x3070f20f86fDa706Ac380F5060D256028a46eC29",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "67093060775798966171"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "74": {
+            "address": "0x4f38F2DA7720F1077A45b80E88c0A78C0144c136",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "69202496493264175282"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "75": {
+            "address": "0x305308cC98560E63e933A6bD70392617c9829BF8",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "61372314069320456517"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "76": {
+            "address": "0x8bFD3c3fc34F068C66796880756cC93ffDC6d080",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "63505657496474496669"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "77": {
+            "address": "0xa1E91a4CF28f8C098C7bAb3093734Ad38B89f278",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "61812580967321553818"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "78": {
+            "address": "0x7d0a2547b23e5F91F448bD9D2ae994748Af2C1E3",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "57247384367325511233"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "79": {
+            "address": "0xD781F65cD90eE9418C70d1D244192C349Bf1176c",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "50000000000000000000"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "80": {
+            "address": "0x2067BEd542762D26E2755Ce7d8776728F3429f48",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "50000000000000000000"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "81": {
+            "address": "0xb4367aBE9d87C508eceb60c422cBBF8E34Aa8dc9",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "38895243530135148772"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "82": {
+            "address": "0xb3a7FBC2fa38C18ad4433aE93FE7F215Fd2D057f",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "37329213621260309236"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "83": {
+            "address": "0xbD1bfF03034aC340235E48EE35c85b1121b8198e",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "36455731754745372898"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "84": {
+            "address": "0x7dd508a1e4Da1243789B799a480f8B45e58b1B5b",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "29198456550958838935"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "85": {
+            "address": "0x1959b5EFb8fdD52C688c1D685Ad8F3D82ea27B01",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "28938331996734097067"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "86": {
+            "address": "0x7ecF3a3ea7Cfd250dA7fc33d85bb2157706f247C",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "27752046385367558881"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "87": {
+            "address": "0xd384Cc029B537503895fE252f94FBA87A05D677E",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "23328974625651820726"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "88": {
+            "address": "0xadC5012f0206031632b09ddb61dBe84e41D66570",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "23982217146040890687"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "89": {
+            "address": "0x2b614ecc9e91aF9D056EB8ACcCF5D9928A7cF4F7",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "16606600914370800000"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "90": {
+            "address": "0x62661B101ca48734668669a9F1Cb83c4889049F3",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "14766918824579050568"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "91": {
+            "address": "0x65B0F840ea292fc284C23Fc839e65b3951d46195",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "12607376820951461608"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "92": {
+            "address": "0x7B79c37Bb80cc76Fe6b758c7140228FEcc7e2A2e",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "7943460740865766766"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "93": {
+            "address": "0x976DcA1615502419B7003A1853E022b023d47Cf4",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "5613196633656247123"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "94": {
+            "address": "0xA483C9954E8c6B43cBb6DBdeCAE14F98D81789e0",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "5616766972991156304"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "95": {
+            "address": "0xe8537cC2abDf20CfB8D0409BFc00E9Ff883Fa927",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "3463838496772338780"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "96": {
+            "address": "0x679A51D6F75Ea1bdCd8Cb2d3F3e6dE4663718cAd",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "1929158713811000000"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        },
+        "97": {
+            "address": "0xFDaF56c89Caf56Dc65192f1a80e2166F9e5a7A43",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "37334986205940000"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "state": "inactive",
+            "notes": []
+        }
+    },
+    "PRV_stats": {
+        "1": {
+            "stakers": 0,
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "30000000000000000000",
+                "pro_rata": "0.000000000000000000",
+                "redistributed_total": "30000000000000000000",
+                "redistributed_to_stakers": "0",
+                "redistributed_transferred": "30000000000000000000"
+            },
+            "token_stats": {
+                "total": "119560165718068933804064",
+                "active": "0",
+                "inactive": "119560165718068933804064"
+            }
+        }
+    },
+    "PRV_distribution": {
+        "1": {
+            "address": "0x3bCF3Db69897125Aa61496Fc8a8B55A5e3f245d5",
+            "token": {
+                "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
+                "symbol": "PRV",
+                "decimals": 18,
+                "amount": "0"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "30000000000000000000"
+            },
+            "state": "inactive",
+            "notes": [
+                "Transfer of 30000000000000000000"
+            ]
+        }
+    }
+}
