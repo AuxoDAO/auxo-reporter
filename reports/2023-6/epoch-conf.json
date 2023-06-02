@@ -7,7 +7,7 @@
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "symbol": "WETH",
         "decimals": 18,
-        "amount": "100000000000000000000"
+        "amount": "36544574590000000000"
     },
     "redistributions": [
         {
@@ -22,6 +22,6 @@
     "date": "2023-6",
     "start_timestamp": 1685577600,
     "end_timestamp": 1688169599,
-    "prv_rewards": "30000000000000000000",
-    "arv_rewards": "70000000000000000000"
+    "prv_rewards": "10963372376999999488",
+    "arv_rewards": "25581202212999999488"
 }

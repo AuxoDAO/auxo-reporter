@@ -5,605 +5,605 @@
         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "symbol": "WETH",
         "decimals": 18,
-        "amount": "29999999999999999999",
-        "pro_rata": "0.000250919692355914",
-        "redistributed_total": "1509178812845057086",
+        "amount": "10963372376999999487",
+        "pro_rata": "0.000091697534134006",
+        "redistributed_total": "551522976956638362",
         "redistributed_to_stakers": "0",
-        "redistributed_transferred": "1509178812845057086"
+        "redistributed_transferred": "551522976956638362"
     },
     "recipients": {
         "0x00BA3CA0B6Df1486c912893d9f288311A60ED753": {
             "windowIndex": 1,
             "accountIndex": 0,
-            "rewards": "204118867661889211",
+            "rewards": "74594371844962488",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x0252d89c8781b88858d5A2dbb8b9CF613f84917D": {
             "windowIndex": 1,
             "accountIndex": 1,
-            "rewards": "84853329713347831",
+            "rewards": "31009288369193030",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x037dFD569DeFBC08aE28001159b4c49f6d006cfF": {
             "windowIndex": 1,
             "accountIndex": 2,
-            "rewards": "12082934376911615",
+            "rewards": "4415656966031216",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x03C65618d9Ca830d9099B66bA6bd52A3B0344f82": {
             "windowIndex": 1,
             "accountIndex": 3,
-            "rewards": "39752628283688394",
+            "rewards": "14527428894617941",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x079f4C9456109E34bdD8153086d0b0372d196508": {
             "windowIndex": 1,
             "accountIndex": 4,
-            "rewards": "250919692355914397",
+            "rewards": "91697534134005660",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x0Eb21ed8543789C79bEd81D85b13eA31E7aC805b": {
             "windowIndex": 1,
             "accountIndex": 5,
-            "rewards": "9906515769594580",
+            "rewards": "3620294044689603",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x0fa36923d4dD8139673905DCddbC747Ad95EF353": {
             "windowIndex": 1,
             "accountIndex": 6,
-            "rewards": "312296704046264264",
+            "rewards": "114127501952298586",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x124C5E21A073Fb4694308fBDF72aF362451EAe12": {
             "windowIndex": 1,
             "accountIndex": 7,
-            "rewards": "6005220268744068",
+            "rewards": "2194582200404974",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x15579f74c1B93B573C0a4d865011EC68f909FD02": {
             "windowIndex": 1,
             "accountIndex": 8,
-            "rewards": "11634082864483662",
+            "rewards": "4251626090273640",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x18F23C3b96918518235136920F39Cb833B113F00": {
             "windowIndex": 1,
             "accountIndex": 9,
-            "rewards": "559789295731325",
+            "rewards": "204572616725370",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x19dd92C9A9c4Eb6f0426846C4F8a071A7b79209A": {
             "windowIndex": 1,
             "accountIndex": 10,
-            "rewards": "14144728124571820",
+            "rewards": "5169130720036856",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x1CA4C34b18ECF1df4bA7E2AE0EC1FC5960C349d9": {
             "windowIndex": 1,
             "accountIndex": 11,
-            "rewards": "258217470723835776",
+            "rewards": "94364476193083573",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x1e57d972AE6Bc70c101996f0d398BB683Ee052bf": {
             "windowIndex": 1,
             "accountIndex": 12,
-            "rewards": "10166577465067904",
+            "rewards": "3715332484971871",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x2024F13B2Fdb7957FEb422Af38eDd5218e79cE05": {
             "windowIndex": 1,
             "accountIndex": 13,
-            "rewards": "1414754700957517587",
+            "rewards": "517016086956951434",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x2067BEd542762D26E2755Ce7d8776728F3429f48": {
             "windowIndex": 1,
             "accountIndex": 14,
-            "rewards": "12545984617795719",
+            "rewards": "4584876706700283",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x20A1A940FA696513bF938FaC130F5272F38c0DC8": {
             "windowIndex": 1,
             "accountIndex": 15,
-            "rewards": "8550200865889776",
+            "rewards": "3124634533029914",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x22bE1f5e8544e71A390cED1b6a82b477b1127Ce5": {
             "windowIndex": 1,
             "accountIndex": 16,
-            "rewards": "27148815262691159",
+            "rewards": "9921419043975474",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x2346B18e56010272035e8eA7CF4C757Fc4E3f46a": {
             "windowIndex": 1,
             "accountIndex": 17,
-            "rewards": "49310098561476400",
+            "rewards": "18020165749201259",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x27E5E6074e259d98d6468454C32673E0e6f354ce": {
             "windowIndex": 1,
             "accountIndex": 18,
-            "rewards": "9831362348769563",
+            "rewards": "3592829546759268",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x2b285e1B49bA0cB6f71D8b0D9cAFdFBf9868fDA9": {
             "windowIndex": 1,
             "accountIndex": 19,
-            "rewards": "217422907607143079",
+            "rewards": "79456276646239183",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x2D81713c58452c92C19b2917e1C770eEcF53Fe41": {
             "windowIndex": 1,
             "accountIndex": 20,
-            "rewards": "264202614698274046",
+            "rewards": "96551721597141058",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x3170606aDd67Ee893d23E4aEe79c1A4997ce635a": {
             "windowIndex": 1,
             "accountIndex": 21,
-            "rewards": "4836288756887475",
+            "rewards": "1767401152148527",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x3211B0Ad2947310C521A1617c09aFD10D262a4b4": {
             "windowIndex": 1,
             "accountIndex": 22,
-            "rewards": "777079108613393110",
+            "rewards": "283980254470528546",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4": {
             "windowIndex": 1,
             "accountIndex": 23,
-            "rewards": "62881614387811778",
+            "rewards": "22979818473350046",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x3a0c5583d5AbADEcD7bb043709c4b1aED89267D6": {
             "windowIndex": 1,
             "accountIndex": 24,
-            "rewards": "396901305302378509",
+            "rewards": "145045893564911332",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x4188c45B8dfC8998Ceee2398e746deC2797B0961": {
             "windowIndex": 1,
             "accountIndex": 25,
-            "rewards": "1056622815454794764",
+            "rewards": "386138312928835502",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x420AE7560821A43826a2ead522Ac3fa819Ce9299": {
             "windowIndex": 1,
             "accountIndex": 26,
-            "rewards": "105076515726610816",
+            "rewards": "38399765666284368",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x4281579D99d855F2430C95a13720e53a0fCC0549": {
             "windowIndex": 1,
             "accountIndex": 27,
-            "rewards": "1191868538690593386",
+            "rewards": "435563287136526888",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x4282Ec9835edad61b9A58Fa02b78369D0978C430": {
             "windowIndex": 1,
             "accountIndex": 28,
-            "rewards": "51713093481618745",
+            "rewards": "18898330020186589",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x42b23bB838525D458F2B8109219eF45d229067B7": {
             "windowIndex": 1,
             "accountIndex": 29,
-            "rewards": "83804711705835286",
+            "rewards": "30626075379273436",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x43079513eBD84AFb15BE79021C420Fe8055Bc635": {
             "windowIndex": 1,
             "accountIndex": 30,
-            "rewards": "256921775501095993",
+            "rewards": "93890969885950367",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x4D04EB67A2D1e01c71FAd0366E0C200207A75487": {
             "windowIndex": 1,
             "accountIndex": 31,
-            "rewards": "452144991743636911",
+            "rewards": "165234463762702724",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x50806F1E52f4C482CC96d03145Abf731074FA33F": {
             "windowIndex": 1,
             "accountIndex": 32,
-            "rewards": "1001239194292969186",
+            "rewards": "365898604182709130",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x50bE72F4DAc794D00f84786dc414F0107F6F972B": {
             "windowIndex": 1,
             "accountIndex": 33,
-            "rewards": "50590844859291742",
+            "rewards": "18488209035315050",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x513AeDacE44cc9a0724CA276a8CeeeE950903576": {
             "windowIndex": 1,
             "accountIndex": 34,
-            "rewards": "25945274259836787",
+            "rewards": "9481590104466124",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x52876dAFDc67238390477Bb2403BdC8021944ddc": {
             "windowIndex": 1,
             "accountIndex": 35,
-            "rewards": "428029415404680987",
+            "rewards": "156421528979704586",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x542256Ef33279C5545AA71f4b3B6298990f30Ffc": {
             "windowIndex": 1,
             "accountIndex": 36,
-            "rewards": "11611183303923760",
+            "rewards": "4243257543284044",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x56FcfEb7D7Afa46C9aA58F08a04Fbb11Eb27808C": {
             "windowIndex": 1,
             "accountIndex": 37,
-            "rewards": "71860051043100011",
+            "rewards": "26260949953857755",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x59AB3cb9CA8B7910Ba2D137A138B69bbF85bDf28": {
             "windowIndex": 1,
             "accountIndex": 38,
-            "rewards": "85513838088588404",
+            "rewards": "31250668345056018",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x5c2cF283C3baCB15b3137d5E8af30643b33189b0": {
             "windowIndex": 1,
             "accountIndex": 39,
-            "rewards": "31169777105773661",
+            "rewards": "11390862443956198",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x5E03b07aE157EE1CA5BF2F3CBE5BC8dc38F3e965": {
             "windowIndex": 1,
             "accountIndex": 40,
-            "rewards": "17743279742413978",
+            "rewards": "6484206100178835",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x66991c98912A882E29e9603B6e1B4c129B34a264": {
             "windowIndex": 1,
             "accountIndex": 41,
-            "rewards": "53854511997999913",
+            "rewards": "19680902307189576",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x66d0E180af64fb368679F91765Affc99174396AC": {
             "windowIndex": 1,
             "accountIndex": 42,
-            "rewards": "24640592628987148",
+            "rewards": "9004799752718249",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x67e326eD4972650FbC9541b81A57dED004f3e4Ee": {
             "windowIndex": 1,
             "accountIndex": 43,
-            "rewards": "77682734079935222",
+            "rewards": "28388824699393276",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x68FE88060ac8772d9ec7F40deb535c4873260F8A": {
             "windowIndex": 1,
             "accountIndex": 44,
-            "rewards": "501839384711828794",
+            "rewards": "183395068268011321",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x72b223De2F773C814465C4A8f2Ef9FaAe702Cfb3": {
             "windowIndex": 1,
             "accountIndex": 45,
-            "rewards": "930728003330642820",
+            "rewards": "340130589407184434",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x73Cbc02516f5F4945cE2F2fACf002b2c6aA359e7": {
             "windowIndex": 1,
             "accountIndex": 46,
-            "rewards": "73056109485281443",
+            "rewards": "26698044423400741",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x76E0266c3C4d2766722A13db031714cB208C922d": {
             "windowIndex": 1,
             "accountIndex": 47,
-            "rewards": "3584740396634976",
+            "rewards": "1310028128106130",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x775797e5CBA871DdF85496d96B201FFdecF83ea7": {
             "windowIndex": 1,
             "accountIndex": 48,
-            "rewards": "12860928863464480",
+            "rewards": "4699971741475616",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x7917d37a540c6d26ffeEbD2dA51875ecb2568eA8": {
             "windowIndex": 1,
             "accountIndex": 49,
-            "rewards": "26958758099214224",
+            "rewards": "9851963462105008",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x79939118Ef2af99E20310eCC5CCC0E9697d390FC": {
             "windowIndex": 1,
             "accountIndex": 50,
-            "rewards": "1134132283969633048",
+            "rewards": "414463818464553143",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x8061199A31983A077E691C08B2263a4CF5c24093": {
             "windowIndex": 1,
             "accountIndex": 51,
-            "rewards": "64749052389108610",
+            "rewards": "23662265746655971",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x80FDc30D21A672EeF723b809Ed4ba7c91728D421": {
             "windowIndex": 1,
             "accountIndex": 52,
-            "rewards": "201562424512887949",
+            "rewards": "73660130571524777",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x81aFcF6Dd79897cBa488471eCEc2f41BF3f7CA9B": {
             "windowIndex": 1,
             "accountIndex": 53,
-            "rewards": "3546237912347671",
+            "rewards": "1295957559016753",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x8243A0cEdD065228d3FeBfF9733C9921832f398b": {
             "windowIndex": 1,
             "accountIndex": 54,
-            "rewards": "22669570953285463",
+            "rewards": "8284498266256379",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x827E0f89aC23fEfb2ed69FB5bfAbeF9429888245": {
             "windowIndex": 1,
             "accountIndex": 55,
-            "rewards": "286050105826101893",
+            "rewards": "104535794288393737",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x8410373DF6E9b20765c9599c26d585B2cd0Ef628": {
             "windowIndex": 1,
             "accountIndex": 56,
-            "rewards": "908181339122624575",
+            "rewards": "331891006888128374",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x8413d8E665078D31bEB3dc13F9d1F004A3cBD25c": {
             "windowIndex": 1,
             "accountIndex": 57,
-            "rewards": "275179874684921389",
+            "rewards": "100563314560899619",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x887C3599c4826F7b3cDe82003b894430F27d5b92": {
             "windowIndex": 1,
             "accountIndex": 58,
-            "rewards": "65819224965791669",
+            "rewards": "24053355762183637",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x91bE5DaA3E9CaceA49E4695B9cc2f7De899B4707": {
             "windowIndex": 1,
             "accountIndex": 59,
-            "rewards": "28365642492316518",
+            "rewards": "10366103378537344",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x95adAec801B3e8cb7aa90c6922E23dC987cA2bBf": {
             "windowIndex": 1,
             "accountIndex": 60,
-            "rewards": "21561868587467690",
+            "rewards": "7879693148944909",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x964Ca78fA3ab137e5BA050DD2C3531B629374A39": {
             "windowIndex": 1,
             "accountIndex": 61,
-            "rewards": "24711576482086261",
+            "rewards": "9030740499860911",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x999E3f0cB4D829B432BA63B0E50119bCFaf9e1b7": {
             "windowIndex": 1,
             "accountIndex": 62,
-            "rewards": "2843606871863807",
+            "rewards": "1039184034334634",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x9aDe42F4Ac329Ea6C37313c00366e6CCcba7B5AE": {
             "windowIndex": 1,
             "accountIndex": 63,
-            "rewards": "51141957414071494",
+            "rewards": "18689610773971391",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x9Fed225115A1374c7F0FaeF307D471c80fff1893": {
             "windowIndex": 1,
             "accountIndex": 64,
-            "rewards": "492848443266076918",
+            "rewards": "180109366965025303",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xA0BB038A8981fC526FecF3fCEA8701312D932e86": {
             "windowIndex": 1,
             "accountIndex": 65,
-            "rewards": "584731909926959030",
+            "rewards": "213687788974789147",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xa6D1FEda6fc70680816eF6A23faf5e454e2f9C09": {
             "windowIndex": 1,
             "accountIndex": 66,
-            "rewards": "38447514875811972",
+            "rewards": "14050480751792451",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xA742A54E0b9Cd1Cac03c8F569bA4C606694261f9": {
             "windowIndex": 1,
             "accountIndex": 67,
-            "rewards": "657945767920874107",
+            "rewards": "240443481919592119",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xab4382aAdae5bF4b37B90b9dc07FC72D52e2a28A": {
             "windowIndex": 1,
             "accountIndex": 68,
-            "rewards": "23048681484029361",
+            "rewards": "8423042596942628",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xAC9283ebcd0c41FAA7A5399Ad94acc444954b446": {
             "windowIndex": 1,
             "accountIndex": 69,
-            "rewards": "250919692355914496",
+            "rewards": "91697534134005697",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xaD1A787a26Dd30B7A810417bbe96E32f12564D83": {
             "windowIndex": 1,
             "accountIndex": 70,
-            "rewards": "125459846177957198",
+            "rewards": "45848767067002830",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xae8a85B6474543ae965930F0264421AB64Fd03f7": {
             "windowIndex": 1,
             "accountIndex": 71,
-            "rewards": "25093569625831995",
+            "rewards": "9170338269205757",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xaEFEFcB0cb43faD6A308A17c179DECd76d41873c": {
             "windowIndex": 1,
             "accountIndex": 72,
-            "rewards": "250919692355914397",
+            "rewards": "91697534134005660",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xB6C9e6A2415aB8d26335498BEAc8eeBED4BB2259": {
             "windowIndex": 1,
             "accountIndex": 73,
-            "rewards": "22430197189693182",
+            "rewards": "8197020142671508",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xbe8B1778AedfD6600BB8C72A90e9EbCd9aA06822": {
             "windowIndex": 1,
             "accountIndex": 74,
-            "rewards": "69636344422881803",
+            "rewards": "25448305829369344",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xc15c75955f49EC15A94E041624C227211810822D": {
             "windowIndex": 1,
             "accountIndex": 75,
-            "rewards": "201514620870720733",
+            "rewards": "73642660933856242",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xC3598d91844B061195136600AD243b077Cc164e2": {
             "windowIndex": 1,
             "accountIndex": 76,
-            "rewards": "1637192549373364211",
+            "rewards": "598305052387671634",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xC43D49a247923F1C7837c806a1eEaa1891387f75": {
             "windowIndex": 1,
             "accountIndex": 77,
-            "rewards": "213298374478130409",
+            "rewards": "77948983560417887",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xc4d6fdEA25346267441622FeB0e2618544Cef228": {
             "windowIndex": 1,
             "accountIndex": 78,
-            "rewards": "141841945318412171",
+            "rewards": "51835535506794146",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xC9B7F801541f88aE2F62C4C0eED29949D057c951": {
             "windowIndex": 1,
             "accountIndex": 79,
-            "rewards": "77456633994209407",
+            "rewards": "28306197384917151",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xC9C03900134fa324422519852094792298c71825": {
             "windowIndex": 1,
             "accountIndex": 80,
-            "rewards": "11683004911720789",
+            "rewards": "4269504444317167",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xcf4B7136D45DEDB13448ad189c2B7a041c84Cce2": {
             "windowIndex": 1,
             "accountIndex": 81,
-            "rewards": "914720649595232286",
+            "rewards": "334280770081462180",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xcfF7303b8E08403438c751bF21c04771252fA413": {
             "windowIndex": 1,
             "accountIndex": 82,
-            "rewards": "73881936552939573",
+            "rewards": "26999839412125476",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xd18a54f89603Fe4301b29EF6a8ab11b9Ba24f139": {
             "windowIndex": 1,
             "accountIndex": 83,
-            "rewards": "2695882429270406",
+            "rewards": "985198765223427",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xd27d90b337717Fd91C4D409F712B890D4eE2FdD6": {
             "windowIndex": 1,
             "accountIndex": 84,
-            "rewards": "117932255407279766",
+            "rewards": "43097841042982660",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xD2f96F8D1884CFD7F3e10611A86d9e932A235Ed3": {
             "windowIndex": 1,
             "accountIndex": 85,
-            "rewards": "93583004736133853",
+            "rewards": "34199510969359667",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xD781F65cD90eE9418C70d1D244192C349Bf1176c": {
             "windowIndex": 1,
             "accountIndex": 86,
-            "rewards": "12545984617795719",
+            "rewards": "4584876706700283",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xD84409d9593413Ca38A3B2b9A2Ba776E7C1EBCa1": {
             "windowIndex": 1,
             "accountIndex": 87,
-            "rewards": "10460008855356397",
+            "rewards": "3822565738266323",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xDb8D484c46cE6B0bd00f38a51b299EB129928AC0": {
             "windowIndex": 1,
             "accountIndex": 88,
-            "rewards": "10348269731584604",
+            "rewards": "3781731150833328",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xdC6b5549763D893b01A41aCF0D7d77CCb44f3417": {
             "windowIndex": 1,
             "accountIndex": 89,
-            "rewards": "1212167237746291477",
+            "rewards": "442981360353736103",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xdC6CE98A9020905973C9C026c6f3e34df9998D8A": {
             "windowIndex": 1,
             "accountIndex": 90,
-            "rewards": "202065079695118571",
+            "rewards": "73843823769525547",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xE26EDCA05417A65819295c49fC67272Ab247D791": {
             "windowIndex": 1,
             "accountIndex": 91,
-            "rewards": "132453624973141734",
+            "rewards": "48404613775468646",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xe89dEe662C94FfEE76d0942f4a4bAD27cC076dd2": {
             "windowIndex": 1,
             "accountIndex": 92,
-            "rewards": "1312346936626544",
+            "rewards": "479591605135067",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xefE7a2bbe01adc090AB28eD422a359b553aAbC16": {
             "windowIndex": 1,
             "accountIndex": 93,
-            "rewards": "44789206499039706",
+            "rewards": "16368024977310692",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xf5288cd6B213476A2E1cCF9506050043f7Ba30c7": {
             "windowIndex": 1,
             "accountIndex": 94,
-            "rewards": "6571277577591428277",
+            "rewards": "2401445435858844520",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xf677E155f96c448102d448F64B23aCEF8e74E4Ea": {
             "windowIndex": 1,
             "accountIndex": 95,
-            "rewards": "7517270768692551",
+            "rewards": "2747154623197115",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xfB1D7F6c700A053683f80447B387A891D5f76aaC": {
             "windowIndex": 1,
             "accountIndex": 96,
-            "rewards": "36482309407987342",
+            "rewards": "13332304773756521",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0xfB8aA192dA69DD3DE22a9354EA99538315446c0D": {
             "windowIndex": 1,
             "accountIndex": 97,
-            "rewards": "44420379949187358",
+            "rewards": "16233238883692177",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         },
         "0x3bCF3Db69897125Aa61496Fc8a8B55A5e3f245d5": {
             "windowIndex": 1,
             "accountIndex": 98,
-            "rewards": "1509178812845057086",
+            "rewards": "551522976956638362",
             "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
         }
     }

@@ -5,7 +5,7 @@
   "block_snapshot": 17385599,
   "distribution_window": 1,
   "rewards": {
-    "amount": "100000000000000000000",
+    "amount": "36544574590000000000",
     "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
     "decimals": 18,
     "symbol": "WETH"
