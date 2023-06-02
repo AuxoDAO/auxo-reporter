@@ -20,5 +20,9 @@ function accountIndexUnique(tree: MerkleDistributor): boolean {
 function totalRewardCorrect(tree: MerkleDistributor): boolean {
   const totalReward = tree.aggregateRewards.amount;
   const sum = Object.values(tree.recipients).reduce((acc, recipient) => acc.add(recipient.rewards), BigNumber.from(0));
-  return totalReward === sum.toString();
+  if (sum.gt(totalReward)) {
+    throw new Error("Sum of rewards > than total reward, not all claimants will be able to claim");
+  }
+  const diff = sum.sub(totalReward);
+  return diff.lt(100);
 }
