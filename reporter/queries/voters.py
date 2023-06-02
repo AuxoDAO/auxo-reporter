@@ -162,6 +162,13 @@ def get_voters(
     :returns: 2 lists:
         * First is all addresses that voted
         * Second is all addresses that have not voted
+
+    dev: in the first epoch, we did not require voting, everyone was counted as active
+    the code below was replaced with:
+    ```
+    voted = [addr for addr in stakers_addrs_no_delegators]
+    not_voted = []
+    ```
     """
     voters = set([v.voter for v in votes])
     stakers_addrs = [s.address for s in stakers]
@@ -180,11 +187,6 @@ def get_voters(
     not_voted = [addr for addr in stakers_addrs_no_delegators if addr not in voters] + [
         d.delegator for d in delegates if d.delegate not in voters
     ]
-
-    # dev: in the first epoch, we do not require voting, everyone is counted as active
-
-    voted = [addr for addr in stakers_addrs_no_delegators]
-    not_voted = []
 
     return (utils.unique(voted), utils.unique(not_voted))
 
