@@ -57,13 +57,13 @@ def load_conf(config_path: str) -> Config:
     return parse_file_as(Config, path=f"{config_path}/epoch-conf.json")
 
 
-def main() -> str:
+def main(directory='reports') -> str:
     """Generates config file and saves in newly created directory with correct strcutre"""
     path_to_config_file = input(" Path to the config file ")
     conf = create_conf(path_to_config_file)
 
     # create directories
-    epoch = f"reports/{conf.date}"
+    epoch = f"{directory}/{conf.date}"
     Path(epoch).mkdir(parents=True, exist_ok=True)
     Path(f"{epoch}/csv/").mkdir(parents=True, exist_ok=True)
     Path(f"{epoch}/json/").mkdir(parents=True, exist_ok=True)
@@ -75,6 +75,6 @@ def main() -> str:
         dct["arv_rewards"] = str(conf.arv_rewards)
         j.write(json.dumps(dct, indent=4))
 
-    print(f"😃 Created a new epoch folder reports/{conf.date}")
+    print(f"😃 Created a new epoch folder {epoch}")
 
     return epoch

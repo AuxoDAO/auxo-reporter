@@ -29,19 +29,19 @@ def initialize_container(inactive: Decimal, config: Config) -> RedistributionCon
     return container
 
 
-def run_prv(path_to_config) -> None:
+def run_prv(path_to_config, directory='reports') -> None:
 
     # load the config file
     config = load_conf(path_to_config)
-    writer = Writer(config)
-    path = f"reports/{config.date}"
+    writer = Writer(config, directory)
+    path = f"{directory}/{config.date}"
 
     if not DB.exists(f"{path}/reporter-db.json"):
         raise MissingDBException(
-            f"Missing DB at f{path}, please run the ARV distribution first"
+            f"Missing DB at {path}, please run the ARV distribution first"
         )
     # don't drop the DB as we rely on it
-    db = DB(config, drop=False)
+    db = DB(config, drop=False, directory=directory)
 
     # compute supply at the passed block
     supply = get_prv_total_supply(config.block_snapshot)

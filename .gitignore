@@ -11,7 +11,8 @@ venv
 *.log
 reports/test*/
 
+reporter/test/test-reports/
 # specific reports
 reports/2099-*
-
+reports/2023-1
 _*

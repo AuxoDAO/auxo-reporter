@@ -52,7 +52,7 @@ export const makeTreesWithPrompt = async (
     const fileDestination = treePath(auxo_token, epoch);
     writeFileSync(fileDestination, strTree);
     if (options.latest) {
-      writeFileSync(`reports/latest/merkle-tree${auxo_token}.json`, strTree);
+      writeFileSync(`reports/latest/merkle-tree-${auxo_token}.json`, strTree);
     }
     console.log(`✨✨ ${auxo_token} Merkle Tree Created at ${fileDestination} ✨✨`);
   });

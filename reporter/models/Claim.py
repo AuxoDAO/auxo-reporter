@@ -30,3 +30,4 @@ class ClaimsWindow(BaseModel):
     chainId: int
     aggregateRewards: Union[ARVRewardSummary, PRVRewardSummary]
     recipients: dict[EthereumAddress, ClaimsRecipient]
+

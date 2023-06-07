@@ -9,10 +9,11 @@ from reporter.models.Config import Config
 @dataclass
 class Writer:
     config: Config
+    directory: str = 'reports'
 
     @property
     def path(self) -> str:
-        return f"reports/{self.config.date}"
+        return f"{self.directory}/{self.config.date}"
 
     @property
     def csv_path(self) -> str:

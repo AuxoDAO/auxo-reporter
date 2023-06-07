@@ -3,6 +3,8 @@ from pydantic import ValidationError
 from reporter.config import create_conf, main, load_conf, get_epoch_dates, EpochBoundary
 import datetime
 
+from reporter.test.conftest import TEST_REPORTS_DIR
+
 PATH = "reporter/test/stubs/config/"
 
 
@@ -10,7 +12,7 @@ def test_config_file(monkeypatch):
 
     conf = create_conf(f"{PATH}/input.json")
     monkeypatch.setattr("builtins.input", lambda _: f"{PATH}/input.json")
-    main()
+    main(TEST_REPORTS_DIR)
 
     epoch_conf = load_conf(PATH)
     assert epoch_conf.block_snapshot == conf.block_snapshot
@@ -26,7 +28,6 @@ def test_config_file(monkeypatch):
 def test_invalid_json_fails(invalids):
     with pytest.raises(ValidationError):
         create_conf(invalids)
-
 
 def test_get_dates():
     # Test case 1: January 2023

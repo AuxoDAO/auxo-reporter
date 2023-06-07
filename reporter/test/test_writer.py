@@ -1,15 +1,7 @@
 import os, json
 import pytest
-from reporter.models import Config, Writer
-
-
-def test_write_claims(monkeypatch, config: Config):
-    # monkeypatch.setattr("reporter.writer.load_conf", lambda path: config)
-
-    # path = "reporter/test/stubs/db"
-    # main(path)
-    pass
-
+from reporter.models import Writer
+from reporter.test.conftest import TEST_REPORTS_DIR
 
 # tmp_path is an inbuilt pytest fixture
 # it uses python's Pathlib to create a temporary directory
@@ -24,7 +16,7 @@ def tmp_dir(tmp_path):
 @pytest.fixture
 def writer(config):
     config.date = "2099-12"
-    return Writer(config)
+    return Writer(config, directory=TEST_REPORTS_DIR)
 
 
 def test_create_dirs(writer):
