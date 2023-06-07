@@ -1,6 +1,7 @@
 import json
 from reporter.compounding.compound import (
     fetch_and_write_arv_compounders,
+    distribute_compounded_auxo,
 )
 from reporter.config import create_conf
 from reporter.test.conftest import TEST_REPORTS_DIR
@@ -47,3 +48,7 @@ def test_main(monkeypatch):
 
     with open(f"{TEST_REPORTS_DIR}/{conf.date}/compounding/recipients-1.json") as f:
         assert recipients == json.load(f)
+    
+
+    # now assume we distribute
+    distribute_compounded_auxo(conf, "333888084700000000000", "recipients-0.json", TEST_REPORTS_DIR)

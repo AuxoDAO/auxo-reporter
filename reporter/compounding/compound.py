@@ -212,6 +212,17 @@ def fetch_and_write_arv_compounders(conf: Config, directory="reports"):
     tuple_only = create_tuple_array(recipients)
     writer.to_json(tuple_only, "recipients-tuple")
 
-    accounts, summary = compute_pro_rata_auxo(recipients, "333888084700000000000")
-    writer.to_json([a.dict() for a in accounts], "accounts")
-    writer.to_json(summary.dict(), "summary")
+# TODO compounding config
+def distribute_compounded_auxo(conf: Config, amount: str, recipients_filename: str, directory="reports"):
+
+    with open(f"{directory}/{conf.date}/compounding/{recipients_filename}") as f:
+        recipients = json.load(f)
+        recipients = {recipient: MerkleRecipient.parse_obj(data) for recipient, data in recipients.items()}
+
+    accounts, summary = compute_pro_rata_auxo(recipients, amount)
+    combined = {**summary.dict(), "recipients": [{**a.dict(), 'notes': [
+        f"Compounding Rewards for compound epoch {recipients_filename.split('-')[1].split('.')[0]}",
+    ]} for a in accounts]}
+
+    writer = RecipientWriter(conf, directory)
+    writer.to_json(combined, "compound")
