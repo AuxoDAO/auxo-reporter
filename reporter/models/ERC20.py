@@ -59,3 +59,16 @@ class PRV(ERC20Amount):
 
     def __init__(self, **kwargs):
         super().__init__(decimals=18, address=ADDRESSES.PRV, symbol="PRV", **kwargs)
+
+
+class AuxoERC20(ERC20Amount):
+    """Auxo token"""
+
+    def __init__(self, **kwargs):
+        super().__init__(decimals=18, address=ADDRESSES.AUXO, symbol="AUXO", **kwargs)
+
+class WETH(ERC20Amount):
+    """WETH token"""
+
+    def __init__(self, **kwargs):
+        super().__init__(decimals=18, address=ADDRESSES.WETH, symbol="WETH", **kwargs)

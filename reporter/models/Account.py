@@ -80,3 +80,4 @@ class Account(Staker):
         staker: ARVStaker, rewards: ERC20Amount, state: AccountState
     ) -> Account:
         return Account(**staker.dict(), rewards=rewards, state=state)
+

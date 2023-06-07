@@ -20,6 +20,8 @@ class ADDRESSES:
     GOVERNOR = env_var("GOVERNOR_ADDRESS")
     PRV = env_var("PRV_ADDRESS")
     ARV = env_var("ARV_ADDRESS")
+    AUXO = env_var("AUXO_ADDRESS")
+    WETH = env_var("WETH_ADDRESS")
     PRV_ROLLSTAKER = env_var("PRV_ROLLSTAKER")
     DECAY_ORACLE = env_var("DECAY_ORACLE")
     TOKEN_LOCKER = env_var("TOKEN_LOCKER")

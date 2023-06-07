@@ -72,20 +72,22 @@ class Writer:
                         flattened_row.append(v)
                 writer.writerow(flattened_row)
 
-    # create the directory in the reports folder for csv and json if it doesn't exist
-    def _create_dir(self) -> None:
+    def _create_csv_dir(self) -> None:
         Path(self.path).mkdir(parents=True, exist_ok=True)
         Path(self.csv_path).mkdir(parents=True, exist_ok=True)
+
+    def _create_json_dir(self) -> None:
+        Path(self.path).mkdir(parents=True, exist_ok=True)
         Path(self.json_path).mkdir(parents=True, exist_ok=True)
 
     # write to a csv file
     def to_csv(self, data, name: str, fieldnames: list[str]) -> None:
-        self._create_dir()
+        self._create_csv_dir()
         self.write_csv(data, f"{self.csv_path}/{name}.csv", fieldnames)
 
     # write to a json file
     def to_json(self, data, name: str) -> None:
-        self._create_dir()
+        self._create_json_dir()
         with open(f"{self.json_path}/{name}.json", "w") as f:
             json.dump(data, f, indent=4)
 

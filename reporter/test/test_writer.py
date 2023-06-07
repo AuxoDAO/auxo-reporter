@@ -20,7 +20,8 @@ def writer(config):
 
 
 def test_create_dirs(writer):
-    writer._create_dir()
+    writer._create_json_dir()
+    writer._create_csv_dir()
     assert os.path.exists(writer.path)
     assert os.path.exists(writer.csv_path)
     assert os.path.exists(writer.json_path)

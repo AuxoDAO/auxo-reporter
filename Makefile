@@ -27,9 +27,11 @@ conf :; grep -v "^\s*\/\/" config/example.jsonc >> config/example.json
 
 ### TEST ###
 
-# Run tests once
-test :; python -m pytest -rfPs
-test-e2e :; python -m pytest -rfPs reporter/test/scenario_testing/test_e2e.py
+# run tests
+# clean empties the test-reports folder when starting a new run so you can inspect in between runs
+clean :; rm -rf reporter/test/test-reports/*
+test :; make clean && python -m pytest -rfPs
+test-e2e :; make clean && python -m pytest -rfPs reporter/test/scenario_testing/test_e2e.py
 
 # run tests in watch mode
 test-watch :; python -m pytest_watch reporter/test -- -rfPs
