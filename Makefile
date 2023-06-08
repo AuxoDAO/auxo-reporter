@@ -47,3 +47,9 @@ claims :; python -m reporter.run
 # Generate a merkle tree
 tree :; yarn create-merkle-tree
 tree-test :; yarn ts-node merkleTree/test.ts
+
+# fetch the list of compounders
+compound-fetch :; python -m reporter.compound_fetch
+
+# generate the compound quantities per user
+compound-send :; python -m reporter.compound_send

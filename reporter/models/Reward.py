@@ -35,7 +35,7 @@ class RewardSummary(ERC20Amount):
     @classmethod
     def transform_pro_rata(cls, p: str):
         if float(p) >= 1:
-            return str(int(float(p)))
+            return str(float(p))
         else:
             return f"{float(p):.18f}"
 

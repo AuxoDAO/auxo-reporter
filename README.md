@@ -119,6 +119,30 @@ That's it! Just follow the instructions in the command prompt and you will autom
 
 Compounding refers to users delegating their claim back to the DAO, in exchange for more Auxo. 
 
+### Fetch the list of compounders that have not claimed
+
+> NB: It is suggested you lock the Distributors before fetching the list of compounders: to avoid someone claiming during the generation process.
+
+```
+make compound-fetch
+```
+You will be asked for the epoch, put it in the form [YYYY]-[MM] where MM is the month without leading zeros (2023-6)
+
+This will create some new files inside `reports/{EPOCH}/compounding`:
+- `recipients-{TOKEN}-{X}`: the list of users for ARV or PRV who have yet to claim
+- `recipients-tuple-{TOKEN}-{X}`: an array of claim objects that can be passed to smart contracts in the MerkleDistributor
+
+Use this list to claim on behalf of compounders.
+
+Running this command multiple times will generate a new version of the file. This allows you to run several times over an epoch (weekly compounding, for example)
+
+### Determine the Amount of Auxo/ARV/PRV to compound
+
+```
+make compound-send
+```
+This will output a `compound-{X}` file, similar to the claims.json file. It shows the amount of PRV that should be sent to each user, based on their WETH compounded.
+
 > At the time of writing, Delegated rewards are converted to PRV only.
 
 Steps for compounding:
@@ -130,32 +154,18 @@ Steps for compounding:
 5. Based on the number of Auxo purchased, a pro-rata figure for WETH is computed
 6. Users are sent (pro-rata * WETH_qty) PRV
 
-### Notes on compounding
+## TODO
 
-There are a few ways to fetch the compounding data:
-
-1. Event logs: we can fetch the list of Delegated Events from the contract
-    - DelegateAdded with the MULTISIG would be good
-    - We also need to track DelegateRemoved
-    - You would probably still need to check the user's claims are still valid
-2. Contract Calls: we can reach out to the contract at a specific block to get a few bits of data:
-    - run `isRewardsDelegate(MULTISIG, user)` for all users in the claims window
-    - run `isClaimed(accountIndex, windowIndex)` for all delegated accounts
-   This gives us users who have yet to claim, but have delegated.
-
-(1) is probably best handled using a subgraph to maintain a current `state` of delegation
-Both (1) and (2) have the potential problem that it is still possible to claim while delegated. 
-From a process POV you probably need to lock the Distributor before doing the compounding
-
-Next, we need to create a batch TX to claim for all users. This simply involves filtering the merkle tree for all users who are delegated and !claimed.
-
-Once claimed the contracts can be unlocked.
-
-The DAO will have a total WETH value and a WETH value per user. This should be saved in a snapshot.
-
-We can finally compute a pro-rata WETH:Auxo/PRV value per user by inputting the total Auxo back into the reporter.
-
-
-
-
-
+- [] Clean up the code
+    - [] Move out of the god script
+    - [] Refactor
+    - [] Add better config support for compounding
+    - [] Create makecalls to build the relevant piece
+        - [x] fetch
+        - [] send
+- [] Add PRV compounding support
+- [x] Replace Auxo with PRV
+- [x] Add the pro-rata unit tests
+- [x] Add a bit of documentation
+- [] Combine PRV/ARV integration (final step)
+- [] Support for combining multiple epochs
