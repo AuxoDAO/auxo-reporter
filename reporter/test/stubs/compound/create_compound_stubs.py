@@ -1,165 +1,52 @@
 import json
-from typing import NamedTuple
-from reporter.models.types import BigNumber, EthereumAddress
-
+from pathlib import Path
+from reporter.models.ERC20 import AUXO_TOKEN_NAMES
+from reporter.models.types import EthereumAddress
+from reporter.test.stubs.compound.compounders import Compounder
+from reporter.test.stubs.compound.compounders import TestData
 TREE_PATH = "reporter/test/stubs/compound"
 
-class Compounder(NamedTuple):
-    address: EthereumAddress
-    weth_rewards: BigNumber
-    auxo_compound: BigNumber
 
-_COMPOUNDERS = [
-    (
-        "0x89d2D4934ee4F1f579056418e6aeb136Ee919d65",
-        "2498026159571371249",
-        "69861597437725400000",
-    ),
-    (
-        "0x4281579D99d855F2430C95a13720e53a0fCC0549",
-        "2324861546384188872",
-        "65018751236699800000",
-    ),
-    (
-        "0xFbEA6F2B10e8Ee770F37Fff9B8C9E10d9B65741D",
-        "911557936721782185",
-        "25493285317455600000",
-    ),
-    (
-        "0x56446712B219fcC34a5604f5E7AF5d50d65B6647",
-        "901691975068800020",
-        "25217366733218300000",
-    ),
-    (
-        "0x461F635488972409981EDbD043834dbaA7239FA6",
-        "670072988829689815",
-        "18739743465114700000",
-    ),
-    (
-        "0x519A0dF0Bd2b586b6F7126799c30A243E13ABCbe",
-        "557672023131008100",
-        "15596257162072900000",
-    ),
-    (
-        "0x7bDb45b1fe5B3eB17a4C7a16C9750C7e10CcF08d",
-        "566352308742886738",
-        "15839016276799500000",
-    ),
-    (
-        "0x1754352eacb753327Fec2d4F48f0fb36B672C5e0",
-        "452267924176500487",
-        "12648450270126800000",
-    ),
-    (
-        "0xd3C808920D8fCcBeBd181Aae8D4FB2ACd1A433cD",
-        "445677354819216746",
-        "12464133664169800000",
-    ),
-    (
-        "0x16765c8Fe6Eb838CB8f64e425b6DcCab38D4F102",
-        "422220549747025535",
-        "11808123771379200000",
-    ),
-    (
-        "0x1dE4F046c45Cd4E39cfCDF36b7DF4856B4031955",
-        "435669462495420024",
-        "12184245744643400000",
-    ),
-    (
-        "0x7ccf173012bfE53F16F4D6A2a4aea32abAfcD04C",
-        "412379699001591308",
-        "11532907456855000000",
-    ),
-    (
-        "0xF8C84C6A4f1083f7a7Fd94885B303A3974116D82",
-        "416807378697823601",
-        "11656735133893600000",
-    ),
-    (
-        "0x5C7a20b1EFa9A2aB5F448b651Aa264F233076C4C",
-        "358944883096733627",
-        "10038510937586900000",
-    ),
-    (
-        "0x00BA3CA0B6Df1486c912893d9f288311A60ED753",
-        "277601719079812013",
-        "7763609469046590000",
-    ),
-    (
-        "0xD9A0013af48591f8524280D6f8f98189cef45308",
-        "286960742053179489",
-        "8025350641319970000",
-    ),
-]
-
-COMPOUNDERS = [Compounder(*c) for c in _COMPOUNDERS]
-
-NON_COMPOUNDOORS = [
-    "0xC9EF3A5f54d1122898fc36AC4d25AD5DC40ad620",
-    "0x9fa203C0526b71acD52699E6C16744cD5873B09D",
-    "0xB70B56B84b76c823D35b72D5566f5C341Ed13ad2",
-    "0x59Ba43462ea618c39429B38F5A75cd87D9F0B2b8",
-    "0xB8daA7986A3862b974177eb6eF3bbf0211F858D1",
-    "0xCafF1dac2eD451a0C9F61e6445175048974E35a7",
-    "0x559032700A79af643A149DF1432dB284C48E524b",
-    "0x7024D6F89C2ADF88904812728cA68730eABBA23D",
-    "0x9cB55DC24641511FD586Dbf25067799F845C2C19",
-]
-
-CLAIMOOORS = [
-    "0x578104a30B5dF2c7092Ec5F66A6766be4E6Baa3e",
-    "0xdA74CdeE06b9e1067F8664129A61B10CADAA6c18",
-    "0xC7af166691A06E217B08935FBE6C5Fc5D03751f6",
-    "0x7716c88b632458Ab62aE0E78cFAa3e9C2a30a73D",
-    "0x999781A4b98010a497c13385C7437551520A1278",
-    "0x2242618f1272e52C9930720e0d1B47D258175aaa",
-    "0x5D11669C9fA09A78190AD255377BBd932432dD86",
-    "0x43AcEd99D1BF6da686E84b6D7B9b4950B58919fE",
-    "0xb342De8c16E418dD5Aad9dB22e70922F72759553",
-    "0xF9efabefB7954Eeee036a8C36a70D7fAeD734B29",
-    "0x63ccE2078fa0717f7CBa49580D3b91783Efebd1A",
-]
-
-def get_compounder_by_address(address: EthereumAddress) -> Compounder:
-    for c in COMPOUNDERS:
+def get_compounder_by_address(address: EthereumAddress, compounders: list[Compounder]) -> Compounder:
+    for c in compounders:
         if c.address == address:
             return c
 
     raise Exception(f"Compounder with address {address} not found")
 
-def create_is_claimed_response() -> dict[EthereumAddress, bool]:
+def create_is_claimed_response(data: TestData) -> dict[EthereumAddress, bool]:
     res = {}
 
-    for c in COMPOUNDERS:
+    for c in data.COMPOUNDERS:
         res[c.address] = False
 
-    for address in NON_COMPOUNDOORS:
+    for address in data.NON_COMPOUNDERS:
         res[address] = False
 
-    for address in CLAIMOOORS:
+    for address in data.CLAIMOORS:
         res[address] = True
 
     return res
 
 
-def create_is_compounder_response() -> dict[EthereumAddress, bool]:
+def create_is_compounder_response(data: TestData) -> dict[EthereumAddress, bool]:
     res = {}
 
-    for c in COMPOUNDERS:
+    for c in data.COMPOUNDERS:
         res[c.address] = True
 
-    for address in CLAIMOOORS:
+    for address in data.CLAIMOORS:
         res[address] = True
 
-    for address in NON_COMPOUNDOORS:
+    for address in data.NON_COMPOUNDERS:
         res[address] = False
 
     return res
 
 
-def create_mock_tree():
+def create_mock_tree(data: TestData, token: AUXO_TOKEN_NAMES, destination: str):
     # read the source merkle tree
-    with open(f"{TREE_PATH}/original/merkle-tree-ARV.json") as f:
+    with open(f"{TREE_PATH}/original/merkle-tree-base.json") as f:
         tree = json.load(f)
 
     # save recipients and clear out - we will be replacing them
@@ -167,24 +54,25 @@ def create_mock_tree():
     tree["recipients"] = {}
 
     # replace the first len(COMPOUNDERS) recipients with the COMPOUNDERS addresses and rewards
-    for i,c in enumerate(COMPOUNDERS):
+    for i,c in enumerate(data.COMPOUNDERS):
         tree["recipients"][c.address] = recipient_data[i]
-        tree["recipients"][c.address]["reward"] = c.weth_rewards
+        tree["recipients"][c.address]["rewards"] = c.weth_rewards
 
-    # replace the next len(NON_COMPOUNDOORS) recipients with the NON_COMPOUNDOORS addresses
-    for i, address in enumerate(NON_COMPOUNDOORS):
-        tree["recipients"][address] = recipient_data[i + len(COMPOUNDERS)]
+    # replace the next len(data.NON_COMPOUNDERS) recipients with the data.NON_COMPOUNDERS addresses
+    for i, address in enumerate(data.NON_COMPOUNDERS):
+        tree["recipients"][address] = recipient_data[i + len(data.COMPOUNDERS)]
 
-    # replace the next len(CLAIMOOORS) recipients with the CLAIMOOORS addresses
-    for i, address in enumerate(CLAIMOOORS):
+    # replace the next len(data.CLAIMOORS) recipients with the data.CLAIMOORS addresses
+    for i, address in enumerate(data.CLAIMOORS):
         tree["recipients"][address] = recipient_data[
-            i + len(COMPOUNDERS) + len(NON_COMPOUNDOORS)
+            i + len(data.COMPOUNDERS) + len(data.NON_COMPOUNDERS)
         ]
 
-    assert len(tree["recipients"]) == len(COMPOUNDERS) + len(NON_COMPOUNDOORS) + len(
-        CLAIMOOORS
+    assert len(tree["recipients"]) == len(data.COMPOUNDERS) + len(data.NON_COMPOUNDERS) + len(
+        data.CLAIMOORS
     )
 
     # save our new tree
-    with open(f"{TREE_PATH}/merkle-tree-ARV.json", "w") as f:
+    Path(destination).mkdir(parents=True, exist_ok=True)
+    with open(f"{destination}/merkle-tree-{token}.json", "w") as f:
         json.dump(tree, f, indent=2)

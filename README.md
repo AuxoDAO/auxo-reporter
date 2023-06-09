@@ -162,10 +162,12 @@ Steps for compounding:
     - [] Add better config support for compounding
     - [] Create makecalls to build the relevant piece
         - [x] fetch
-        - [] send
-- [] Add PRV compounding support
+        - [x] send
+- [x] Rounding errors
+- [x] Add PRV compounding support
 - [x] Replace Auxo with PRV
 - [x] Add the pro-rata unit tests
 - [x] Add a bit of documentation
+- [] Safe TX with ApeWorX
 - [] Combine PRV/ARV integration (final step)
 - [] Support for combining multiple epochs
