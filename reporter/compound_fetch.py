@@ -1,4 +1,5 @@
-from reporter.compounding import ARV_DISTRIBUTOR, PRV_DISTRIBUTOR, fetch_and_write_compounders
+from reporter.compounding import fetch_and_write_compounders
+from reporter.env import ADDRESSES
 from reporter.config import load_conf 
 
 if __name__ == "__main__":
@@ -14,12 +15,12 @@ if __name__ == "__main__":
     epoch = input(" What is the epoch? ")
     conf = load_conf(f"reports/{epoch}")
 
-    filename = fetch_and_write_compounders(conf, 'ARV', ARV_DISTRIBUTOR)
+    filename = fetch_and_write_compounders(conf, 'ARV', ADDRESSES.ARV_DISTRIBUTOR)
     print(
         f"💰💰💰 Created a new compounders file at ./reports/{epoch}/compounding/{filename} 💰💰💰"
     )
 
-    filename = fetch_and_write_compounders(conf, 'PRV', PRV_DISTRIBUTOR)
+    filename = fetch_and_write_compounders(conf, 'PRV', ADDRESSES.PRV_DISTRIBUTOR)
     print(
         f"💰💰💰 Created a new compounders file at ./reports/{epoch}/compounding/{filename} 💰💰💰"
     )

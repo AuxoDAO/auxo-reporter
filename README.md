@@ -156,11 +156,10 @@ Steps for compounding:
 
 ## TODO
 
-- [] Clean up the code
-    - [] Move out of the god script
-    - [] Refactor
-    - [] Add better config support for compounding
-    - [] Create makecalls to build the relevant piece
+- [x] Clean up the code
+    - [x] Move out of the god script
+    - [x] Refactor
+    - [x] Create makecalls to build the relevant piece
         - [x] fetch
         - [x] send
 - [x] Rounding errors
@@ -168,6 +167,8 @@ Steps for compounding:
 - [x] Replace Auxo with PRV
 - [x] Add the pro-rata unit tests
 - [x] Add a bit of documentation
+- [] Export JSON transactions
 - [] Safe TX with ApeWorX
+- [] Add better config support for compounding
 - [] Combine PRV/ARV integration (final step)
 - [] Support for combining multiple epochs

@@ -2,13 +2,12 @@ from decimal import Decimal
 import pytest
 import json
 from reporter.compounding import (
-    ARV_DISTRIBUTOR,
-    PRV_DISTRIBUTOR,
     fetch_and_write_compounders,
     distribute_compounded_auxo,
 )
 from reporter.config import create_conf
-from reporter.models.Config import Config
+from reporter.env import ADDRESSES
+from reporter.models import Config
 from reporter.test.conftest import TEST_REPORTS_DIR
 from reporter.test.stubs.compound.compounders import TestDataARV, TestDataPRV
 from reporter.test.stubs.compound.create_compound_stubs import (
@@ -17,6 +16,9 @@ from reporter.test.stubs.compound.create_compound_stubs import (
     create_is_compounder_response,
     get_compounder_by_address,
 )
+
+ARV_DISTRIBUTOR = ADDRESSES.ARV_DISTRIBUTOR
+PRV_DISTRIBUTOR = ADDRESSES.PRV_DISTRIBUTOR
 
 # --------- FIXTURES ---------
 
@@ -37,12 +39,12 @@ def setup(conf: Config):
 def recipients_arv(monkeypatch, conf: Config):
 
     monkeypatch.setattr(
-        "reporter.compounding.multicall_is_claimed",
+        "reporter.queries.compound.multicall_is_claimed",
         lambda *_: create_is_claimed_response(TestDataARV),
     )
 
     monkeypatch.setattr(
-        "reporter.compounding.multicall_is_compounder",
+        "reporter.queries.compound.multicall_is_compounder",
         lambda *_: create_is_compounder_response(TestDataARV),
     )
 
@@ -56,12 +58,12 @@ def recipients_arv(monkeypatch, conf: Config):
 @pytest.fixture(scope="function")
 def recipients_prv(monkeypatch, conf: Config):
     monkeypatch.setattr(
-        "reporter.compounding.multicall_is_claimed",
+        "reporter.queries.compound.multicall_is_claimed",
         lambda *_: create_is_claimed_response(TestDataPRV),
     )
 
     monkeypatch.setattr(
-        "reporter.compounding.multicall_is_compounder",
+        "reporter.queries.compound.multicall_is_compounder",
         lambda *_: create_is_compounder_response(TestDataPRV),
     )
 
@@ -116,6 +118,11 @@ def test_compound_distribution(conf: Config):
         ) as f:
             compounded = json.load(f)
 
+        with open(
+            f"{TEST_REPORTS_DIR}/{conf.date}/compounding/safe-tx-{token}-0.json"
+        ) as o:
+            safe_tx = json.load(o)
+
         # check some basics
         assert compounded
         assert len(compounded["recipients"]) == len(testData.COMPOUNDERS)
@@ -133,6 +140,12 @@ def test_compound_distribution(conf: Config):
         if not run_loop:
             continue
 
+        def fetch_from_safe_tx(address: str) -> str:
+            for transaction in safe_tx["transactions"]:
+                if transaction["contractInputsValues"]['_receiver'] == address:
+                    return transaction["contractInputsValues"]['_amount']
+            raise Exception(f"Could not find {address} in safe tx")
+
         for recipient in compounded["recipients"]:
             reward_amount = Decimal(recipient["rewards"]["amount"])
             compounder = get_compounder_by_address(
@@ -140,6 +153,9 @@ def test_compound_distribution(conf: Config):
             )
             expected_reward = Decimal(compounder.auxo_compound)
             diff = abs(reward_amount - expected_reward)
-            print(f"reward {reward_amount} expected {expected_reward} diff {diff}")
             # TODO this looks bad, so need to check
             assert diff <= Decimal(5000000000)  # 5 GWEI
+            assert fetch_from_safe_tx(recipient["address"]) == str(reward_amount)
+
+
+
