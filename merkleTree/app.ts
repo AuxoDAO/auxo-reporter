@@ -52,17 +52,24 @@ export const makeTreesWithPrompt = async (
     const fileDestination = treePath(auxo_token, epoch);
     writeFileSync(fileDestination, strTree);
     if (options.latest) {
-      writeFileSync(`reports/latest/merkle-tree${auxo_token}.json`, strTree);
+      writeFileSync(`reports/latest/merkle-tree-${auxo_token}.json`, strTree);
     }
-    console.log(`✨✨ ${auxo_token} Merkle Tree Created at ${fileDestination} ✨✨`);
+    console.log(
+      `✨✨ ${auxo_token} Merkle Tree Created at ${fileDestination} ✨✨`
+    );
   });
   // combine the trees
 
   const combined = await combineTrees(epoch);
   if (options.latest) {
-    writeFileSync(`reports/latest/merkle-tree-combined.json`, JSON.stringify(combined, null, 4));
+    writeFileSync(
+      `reports/latest/merkle-tree-combined.json`,
+      JSON.stringify(combined, null, 4)
+    );
   }
-  console.log(`✨✨ Combined Merkle Tree Created at reports/${epoch}/combined-trees.json ✨✨`);
+  console.log(
+    `✨✨ Combined Merkle Tree Created at reports/${epoch}/combined-trees.json ✨✨`
+  );
 
   if (options.ipfsPrompt) {
     let post = String(await prompt("Post to IPFS? [Y/n]\n"));

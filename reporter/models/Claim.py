@@ -3,7 +3,18 @@ from typing import Union
 from pydantic import BaseModel
 
 from reporter.models.Reward import ARVRewardSummary, PRVRewardSummary
-from reporter.models.types import BigNumber, EthereumAddress
+from reporter.models.types import BigNumber, Bytes32, EthereumAddress
+
+
+#   struct Claim {
+#       uint256 windowIndex;
+#       uint256 accountIndex;
+#       uint256 amount;
+#       address token;
+#       bytes32[] merkleProof;
+#       address account;
+#   }
+Claim = tuple[int, int, BigNumber, EthereumAddress, list[Bytes32], EthereumAddress]
 
 
 class ClaimsRecipient(BaseModel):
@@ -30,3 +41,28 @@ class ClaimsWindow(BaseModel):
     chainId: int
     aggregateRewards: Union[ARVRewardSummary, PRVRewardSummary]
     recipients: dict[EthereumAddress, ClaimsRecipient]
+
+
+class MerkleRecipient(ClaimsRecipient):
+    """
+    Extend the base ClaimsRecipient with a MerkleProof
+
+    """
+
+    proof: list[Bytes32]
+
+
+RecipientMerkleClaim = dict[EthereumAddress, MerkleRecipient]
+
+
+class MerkleTree(ClaimsWindow):
+    """
+    Extends the base ClaimsWindow with a root hash and Merkl Recipients
+
+    """
+
+    windowIndex: int
+    chainId: int
+    aggregateRewards: Union[ARVRewardSummary, PRVRewardSummary]
+    recipients: RecipientMerkleClaim
+    root: Bytes32

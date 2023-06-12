@@ -28,28 +28,24 @@ def distribute_rewards(account: Account, pro_rata: Decimal) -> Account:
 
 
 def compute_rewards(
-    total_rewards: ERC20Amount, total_active_tokens: Decimal, accounts: list[Account]
+    total_rewards: ERC20Amount, total_tokens: Decimal, accounts: list[Account]
 ) -> tuple[list[Account], RewardSummary]:
     """
 
     Add the rewards that will be distributed across all users, including the pro-rata reward rate for each token
     Modifies the accounts object to add rewards
 
-    :param `total_rewards`: rewards token with total quantities to distribute amongst stakers
-    :param `total_active_tokens`: tokens belonging to active stakers (total - inactive)
+    :param `total_rewards`: rewards token with total quantities to distribute amongst recipients
+    :param `total_tokens`: Will be active tokens in the case of stakers
     :param `accounts`: base array of Account objects that have yet to have rewards added
     """
-    pro_rata = (
-        0
-        if total_active_tokens == 0
-        else Decimal(total_rewards.amount) / total_active_tokens
-    )
+    pro_rata = 0 if total_tokens == 0 else Decimal(total_rewards.amount) / total_tokens
 
     rewarded_accounts = list(
         map(
             distribute_rewards,  # type: ignore
             accounts,
-            itertools.repeat(pro_rata),
+            itertools.repeat(pro_rata),  # type: ignore
         )
     )
     """ 

@@ -3,7 +3,10 @@ import { treePath } from "./utils";
 
 // Returns the MerkleDistributor for the given epoch and token.
 // The MerkleDistributor is read from the file system.
-async function readTree(epoch: string, token: AuxoTokenSymbol): Promise<MerkleDistributor> {
+async function readTree(
+  epoch: string,
+  token: AuxoTokenSymbol
+): Promise<MerkleDistributor> {
   const path = treePath(token, epoch);
   const file = await readFile(path, { encoding: "utf8" });
   return JSON.parse(file) as MerkleDistributor;
@@ -11,7 +14,10 @@ async function readTree(epoch: string, token: AuxoTokenSymbol): Promise<MerkleDi
 
 /// read both new token trees from the epoch folder
 const treesByMonth = async (epoch: string): Promise<MerkleTreesByMonth> => {
-  const [ARV, PRV] = await Promise.all([readTree(epoch, "ARV"), readTree(epoch, "PRV")]);
+  const [ARV, PRV] = await Promise.all([
+    readTree(epoch, "ARV"),
+    readTree(epoch, "PRV"),
+  ]);
   return {
     [epoch]: {
       ARV,
@@ -23,7 +29,9 @@ const treesByMonth = async (epoch: string): Promise<MerkleTreesByMonth> => {
 const latestTree = async (): Promise<MerkleTreesByUser> => {
   try {
     return JSON.parse(
-      await readFile("reports/latest/merkle-tree-combined.json", { encoding: "utf8" })
+      await readFile("reports/latest/merkle-tree-combined.json", {
+        encoding: "utf8",
+      })
     ) as MerkleTreesByUser;
   } catch {
     return {};
@@ -34,11 +42,17 @@ const latestTree = async (): Promise<MerkleTreesByUser> => {
 // of recipients. The first level of the tree corresponds to tokens, the
 // second level corresponds to months, and the third level corresponds to recipients.
 // adds it to the current latest tree
-const treesByUser = (trees: MerkleTreesByMonth, latest: MerkleTreesByUser): MerkleTreesByUser => {
+const treesByUser = (
+  trees: MerkleTreesByMonth,
+  latest: MerkleTreesByUser
+): MerkleTreesByUser => {
   // save the month
   for (const [month, treesByToken] of Object.entries(trees)) {
     // save the token
-    for (const [token, tree] of Object.entries(treesByToken) as [AuxoTokenSymbol, MerkleDistributor][]) {
+    for (const [token, tree] of Object.entries(treesByToken) as [
+      AuxoTokenSymbol,
+      MerkleDistributor
+    ][]) {
       // save the user
       for (const userAddress of Object.keys(tree.recipients)) {
         // create the user entry if it doesn't exist
@@ -66,9 +80,14 @@ const treesByUser = (trees: MerkleTreesByMonth, latest: MerkleTreesByUser): Merk
  * as an argument and returns the trees by user data.
  * @param epoch will correspond to the folder with existing trees
  */
-export const combineTrees = async (epoch: string): Promise<MerkleTreesByUser> => {
+export const combineTrees = async (
+  epoch: string
+): Promise<MerkleTreesByUser> => {
   const [tbm, latest] = await Promise.all([treesByMonth(epoch), latestTree()]);
   const tbu = treesByUser(tbm, latest);
-  await writeFile(`reports/${epoch}/combined-trees.json`, JSON.stringify(tbu, null, 4));
+  await writeFile(
+    `reports/${epoch}/combined-trees.json`,
+    JSON.stringify(tbu, null, 4)
+  );
   return tbu;
 };

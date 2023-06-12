@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "year": {
+      "type": "integer",
+      "minimum": 2023
+    },
+    "month": {
+      "type": "integer",
+      "maximum": 12,
+      "minimum": 1
+    },
+    "block_snapshot": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "compound_epoch": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "rewards": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "type": "string",
+          "pattern": "^\\d+$"
+        },
+        "address": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{40}$"
+        },
+        "decimals": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "symbol": {
+          "type": "string"
+        }
+      },
+      "required": ["amount", "address", "decimals", "symbol"]
+    },
+    "arv_percentage": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    }
+  },
+  "required": [
+    "year",
+    "month",
+    "block_snapshot",
+    "compound_epoch"
+  ]
+}

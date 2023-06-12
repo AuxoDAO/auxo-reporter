@@ -18,7 +18,8 @@ function prompt(question: string) {
   });
 }
 
-const destination = (epoch: unknown) => `reports/${epoch}/merkle-verifier-prv.json`;
+const destination = (epoch: unknown) =>
+  `reports/${epoch}/merkle-verifier-prv.json`;
 
 export const makeTreeWithPrompt = async (epoch: unknown) => {
   // create merkle trees for both tokens
@@ -35,7 +36,9 @@ export const makeTreeWithPrompt = async (epoch: unknown) => {
   // write the file
   const fileDestination = destination(epoch);
   writeFileSync(fileDestination, tree);
-  console.log(`✨✨ Withdrawal Merkle Verifier Created at ${fileDestination} ✨✨`);
+  console.log(
+    `✨✨ Withdrawal Merkle Verifier Created at ${fileDestination} ✨✨`
+  );
 };
 
 async function main() {

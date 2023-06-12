@@ -1,7 +1,11 @@
 import { BigNumber } from "ethers";
 
 export function validateTree(tree: MerkleDistributor): boolean {
-  return addressesUnique(tree) && accountIndexUnique(tree) && totalRewardCorrect(tree);
+  return (
+    addressesUnique(tree) &&
+    accountIndexUnique(tree) &&
+    totalRewardCorrect(tree)
+  );
 }
 
 // check that each account index is unique
@@ -12,16 +16,23 @@ function addressesUnique(tree: MerkleDistributor): boolean {
 
 // check only one of each account index in tree
 function accountIndexUnique(tree: MerkleDistributor): boolean {
-  const accountIndexes = Object.values(tree.recipients).map((recipient) => recipient.accountIndex);
+  const accountIndexes = Object.values(tree.recipients).map(
+    (recipient) => recipient.accountIndex
+  );
   return accountIndexes.length === new Set(accountIndexes).size;
 }
 
 // check that the sum of all rewards is equal to the total reward
 function totalRewardCorrect(tree: MerkleDistributor): boolean {
   const totalReward = tree.aggregateRewards.amount;
-  const sum = Object.values(tree.recipients).reduce((acc, recipient) => acc.add(recipient.rewards), BigNumber.from(0));
+  const sum = Object.values(tree.recipients).reduce(
+    (acc, recipient) => acc.add(recipient.rewards),
+    BigNumber.from(0)
+  );
   if (sum.gt(totalReward)) {
-    throw new Error("Sum of rewards > than total reward, not all claimants will be able to claim");
+    throw new Error(
+      "Sum of rewards > than total reward, not all claimants will be able to claim"
+    );
   }
   const diff = sum.sub(totalReward);
   return diff.lt(100);

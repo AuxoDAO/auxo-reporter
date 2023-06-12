@@ -2,7 +2,7 @@ import os
 from typing import Optional
 from decimal import Decimal
 from tinydb import TinyDB, where
-from utils import write_json
+from reporter.utils import write_json
 from reporter.models import (
     Account,
     AUXO_TOKEN_NAMES,
@@ -24,11 +24,12 @@ class DB(TinyDB):
     arv_summary: Optional[ARVRewardSummary]
     prv_summary: Optional[PRVRewardSummary]
 
-    def __init__(self, conf: Config, drop=False, **kwargs):
+    def __init__(self, conf: Config, drop=False, directory="reports", **kwargs):
         self.config = conf
         self.arv_summary = None
         self.prv_summary = None
-        path = f"reports/{conf.date}/reporter-db.json"
+        self.base_path = f"{directory}/{conf.date}"
+        path = f"{self.base_path}/reporter-db.json"
 
         # check if the directory exists
         create_dirs = self.exists(path) == False
@@ -126,7 +127,7 @@ class DB(TinyDB):
             "aggregateRewards": self.get_aggregate_rewards(token_name).dict(),
             "recipients": recipients,
         }
-        write_json(claims, f"reports/{self.config.date}/claims-{token_name}.json")
+        write_json(claims, f"{self.base_path}/claims-{token_name}.json")
         print(
             f"🚀🚀🚀 Successfully created the {token_name} claims database, check it and generate the merkle tree"
         )

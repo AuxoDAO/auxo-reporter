@@ -50,6 +50,7 @@ from typing import Callable
 from reporter import config
 from reporter.run_arv import run_arv as arv_main
 from reporter.run_prv import run_prv as prv_main
+from reporter.test.conftest import TEST_REPORTS_DIR
 from reporter.test.scenario_testing.create_scenario import init_users
 
 
@@ -130,12 +131,12 @@ def test_e2e_0(monkeypatch):
         lambda *_: f"./reporter/test/scenario_testing/inputs/scenario-{scenario}.json",
     )
 
-    epoch = config.main()
+    epoch = config.main(TEST_REPORTS_DIR)
 
     init_e2e_arv_mocks(monkeypatch, read_mock)
 
     # run ARV
-    arv_main(epoch)
+    arv_main(epoch, TEST_REPORTS_DIR)
 
     """
     Now we can run some checks:
@@ -174,7 +175,7 @@ def test_e2e_0(monkeypatch):
     )
 
     init_e2e_prv_mocks(monkeypatch, read_mock, generate_users)
-    prv_main(epoch)
+    prv_main(epoch, TEST_REPORTS_DIR)
 
     """
     Additional PRV Checks
@@ -217,12 +218,12 @@ def test_e2e_1(monkeypatch):
         lambda *_: f"./reporter/test/scenario_testing/inputs/scenario-{scenario}.json",
     )
 
-    epoch = config.main()
+    epoch = config.main(TEST_REPORTS_DIR)
 
     init_e2e_arv_mocks(monkeypatch, read_mock)
 
     # run ARV
-    arv_main(epoch)
+    arv_main(epoch, TEST_REPORTS_DIR)
 
     """
     Now we can run some checks:
@@ -262,7 +263,7 @@ def test_e2e_1(monkeypatch):
     init_e2e_prv_mocks(monkeypatch, read_mock, generate_users)
 
     # run PRV
-    prv_main(epoch)
+    prv_main(epoch, TEST_REPORTS_DIR)
 
     """
     Additional PRV Checks
@@ -331,12 +332,12 @@ def test_e2e_2(monkeypatch):
         lambda *_: f"./reporter/test/scenario_testing/inputs/scenario-{scenario}.json",
     )
 
-    epoch = config.main()
+    epoch = config.main(TEST_REPORTS_DIR)
 
     init_e2e_arv_mocks(monkeypatch, read_mock)
 
     # run ARV
-    arv_main(epoch)
+    arv_main(epoch, TEST_REPORTS_DIR)
 
     """
     Now we can run some checks:
@@ -366,7 +367,7 @@ def test_e2e_2(monkeypatch):
     stats = reporter_db_arv["ARV_stats"]["1"]["token_stats"]
 
     init_e2e_prv_mocks(monkeypatch, read_mock, generate_users)
-    prv_main(epoch)
+    prv_main(epoch, TEST_REPORTS_DIR)
 
     """
     Additional PRV Checks

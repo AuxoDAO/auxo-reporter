@@ -114,3 +114,76 @@ You can use [Web3.storage](https://web3.storage/tokens/) to create an API Key.
 Add it to a `.env` file by copying the `.env.example` and adding your key.
 
 That's it! Just follow the instructions in the command prompt and you will automatically post to the IPFS and generate a link.
+
+## Compounding
+
+Compounding refers to users delegating their claim back to the DAO, in exchange for more Auxo. 
+
+### Config
+
+Similar to building claims, compounding works of a config file. Examples and schema are defined in the [config folder](./config). 
+
+Compounding is a 4 step process:
+
+1. Generate the list of Claims that need compounding (a claim object is associated with the Merkle Distributor, passing the claim when delegated will transfer rewards from a user to the delegated sender). 
+
+2. Claim against each distributor, then purchase Auxo with the claimants' WETH, to get the total compounded value.
+
+3. Set the total purchased Auxo in the config, and generate the amount of PRV to stake on behalf of compounders.
+
+(1) and (3) can be run with `make compound-fetch` and `make compound-send` respectively. You'll be asked for a config file. You can share the same config file across both commands, but in the `compound-send` step, you'll need to provide details of the reward quantity.
+
+### Fetch the list of compounders that have not claimed
+
+> NB: It is suggested you lock the Distributors before fetching the list of compounders: to avoid someone claiming during the generation process.
+
+```
+make compound-fetch
+```
+You will be asked for the epoch, put it in the form [YYYY]-[MM] where MM is the month without leading zeros (2023-6)
+
+This will create some new files inside `reports/{EPOCH}/compounding`:
+- `recipients-{TOKEN}-{X}`: the list of users for ARV or PRV who have yet to claim
+- `recipients-tuple-{TOKEN}-{X}`: an array of claim objects that can be passed to smart contracts in the MerkleDistributor
+
+Use the tuples list to create the claim on behalf of compounders, the function is `claimDelegatedMulti(Claim[])`
+
+### Determine the Amount of Auxo/ARV/PRV to compound
+
+Before running this command, ensure the config file has its rewards.amount set.
+
+```
+make compound-send
+```
+This will output a `compound-{X}` file, similar to the claims.json file. It shows the amount of PRV that should be sent to each user, based on their WETH compounded.
+
+> At the time of writing, Delegated rewards are converted to PRV only.
+
+Steps for compounding:
+
+1. User must delegate claim to the Multisig
+2. Fetch claims for delegated users
+3. Treasury can claim on behalf of delegated users, WETH is sent to the treasury
+4. WETH is used to purchase Auxo
+5. Based on the number of Auxo purchased, a pro-rata figure for WETH is computed
+6. Users are sent (pro-rata * WETH_qty) PRV
+
+## TODO
+
+- [x] Clean up the code
+    - [x] Move out of the god script
+    - [x] Refactor
+    - [x] Create makecalls to build the relevant piece
+        - [x] fetch
+        - [x] send
+- [x] Rounding errors
+- [x] Add PRV compounding support
+- [x] Replace Auxo with PRV
+- [x] Add the pro-rata unit tests
+- [x] Add a bit of documentation
+- [x] Export JSON transactions
+- [x] Add better config support for compounding
+- [] Safe TX with ApeWorX
+- [] Combine PRV/ARV integration (final step)
+- [] Support for combining multiple epochs
+
