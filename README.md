@@ -119,6 +119,20 @@ That's it! Just follow the instructions in the command prompt and you will autom
 
 Compounding refers to users delegating their claim back to the DAO, in exchange for more Auxo. 
 
+### Config
+
+Similar to building claims, compounding works of a config file. Examples and schema are defined in the [config folder](./config). 
+
+Compounding is a 4 step process:
+
+1. Generate the list of Claims that need compounding (a claim object is associated with the Merkle Distributor, passing the claim when delegated will transfer rewards from a user to the delegated sender). 
+
+2. Claim against each distributor, then purchase Auxo with the claimants' WETH, to get the total compounded value.
+
+3. Set the total purchased Auxo in the config, and generate the amount of PRV to stake on behalf of compounders.
+
+(1) and (3) can be run with `make compound-fetch` and `make compound-send` respectively. You'll be asked for a config file. You can share the same config file across both commands, but in the `compound-send` step, you'll need to provide details of the reward quantity.
+
 ### Fetch the list of compounders that have not claimed
 
 > NB: It is suggested you lock the Distributors before fetching the list of compounders: to avoid someone claiming during the generation process.
@@ -132,11 +146,11 @@ This will create some new files inside `reports/{EPOCH}/compounding`:
 - `recipients-{TOKEN}-{X}`: the list of users for ARV or PRV who have yet to claim
 - `recipients-tuple-{TOKEN}-{X}`: an array of claim objects that can be passed to smart contracts in the MerkleDistributor
 
-Use this list to claim on behalf of compounders.
-
-Running this command multiple times will generate a new version of the file. This allows you to run several times over an epoch (weekly compounding, for example)
+Use the tuples list to create the claim on behalf of compounders, the function is `claimDelegatedMulti(Claim[])`
 
 ### Determine the Amount of Auxo/ARV/PRV to compound
+
+Before running this command, ensure the config file has its rewards.amount set.
 
 ```
 make compound-send
@@ -167,8 +181,9 @@ Steps for compounding:
 - [x] Replace Auxo with PRV
 - [x] Add the pro-rata unit tests
 - [x] Add a bit of documentation
-- [] Export JSON transactions
+- [x] Export JSON transactions
+- [x] Add better config support for compounding
 - [] Safe TX with ApeWorX
-- [] Add better config support for compounding
 - [] Combine PRV/ARV integration (final step)
 - [] Support for combining multiple epochs
+

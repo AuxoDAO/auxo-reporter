@@ -1,0 +1,27 @@
+
+/// Example config file for the compounding script
+{
+  // import the schema relative to the config file for validation
+  "$schema": "./compound-schema.json",
+  // epoch year and month, a directory will be created in the format {yyyy}-{mm}
+  "year": 2099,
+  // month from 1 - 12, pass 1,2 ... 9 instead of 01, 02 ... 09
+  "month": 1,
+  // block number where on chain readings will be taken
+  // it is up to the operator to ensure this block is within the epoch
+  "block_snapshot": 17464187,
+  // should be +1 from the previous window
+  "compound_epoch": 99,
+  // total rewards to distribute this epoch
+  // we do not validate this in any way
+  "rewards": {
+    // amount in wei
+    "amount": "1000000000000000000000",
+    // token address
+    "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
+    // token decimals
+    "decimals": 18,
+    // token symbol
+    "symbol": "PRV"
+  }
+}

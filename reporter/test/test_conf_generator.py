@@ -29,6 +29,7 @@ def test_invalid_json_fails(invalids):
     with pytest.raises(ValidationError):
         create_conf(invalids)
 
+
 def test_get_dates():
     # Test case 1: January 2023
     month = 1

@@ -48,15 +48,19 @@ class MerkleRecipient(ClaimsRecipient):
     Extend the base ClaimsRecipient with a MerkleProof
 
     """
+
     proof: list[Bytes32]
 
 
 RecipientMerkleClaim = dict[EthereumAddress, MerkleRecipient]
+
+
 class MerkleTree(ClaimsWindow):
     """
     Extends the base ClaimsWindow with a root hash and Merkl Recipients
 
     """
+
     windowIndex: int
     chainId: int
     aggregateRewards: Union[ARVRewardSummary, PRVRewardSummary]

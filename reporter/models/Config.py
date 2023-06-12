@@ -1,13 +1,15 @@
-from typing import Any
+from __future__ import annotations
 from decimal import Decimal
 from pydantic import BaseModel, parse_obj_as, validator
+from reporter.env import ADDRESSES
 from reporter.errors import BadConfigException
-from reporter.models.ERC20 import ERC20Amount
+from reporter.models.ERC20 import AUXO_TOKEN_NAMES, PRV, ERC20Amount
 from reporter.models.Redistribution import (
     ERROR_MESSAGES,
     RedistributionOption,
     RedistributionWeight,
 )
+from reporter.models.types import BigNumber, EthereumAddress
 
 
 class InputConfig(BaseModel):
@@ -124,3 +126,81 @@ class Config(InputConfig):
     @property
     def prv_erc20(self) -> ERC20Amount:
         return self.reward_token(str(self.prv_rewards))
+
+
+class CompoundConf(BaseModel):
+    """
+    Config for rewards compounding
+    :param `block_snapshot`: block number to fetch list compounding data (claims and delegations)
+    :param `year`: YYYY
+    :param `month`: MM
+    :param `compound_epoch`: unique id within the distribution epoch. Example week 1 epoch 7 -> compound epoch == 1
+    :param `rewards`: when you have it, add the reward token here
+    :param `arv_percentage`: choose if to bias rewards to ARV. Defaults to no bias (50%)
+    :param `directory`: where to save the report, defaults to the reports folder.
+    """
+
+    block_snapshot: int
+    year: int
+    month: int
+    compound_epoch: int
+    rewards: ERC20Amount
+    arv_percentage = 50
+    directory: str = "reports"
+
+    @staticmethod
+    def distributor(token: AUXO_TOKEN_NAMES) -> EthereumAddress:
+        if token == "ARV":
+            return ADDRESSES.ARV_DISTRIBUTOR
+        elif token == "PRV":
+            return ADDRESSES.PRV_DISTRIBUTOR
+        else:
+            raise ValueError(f"Unknown token {token}")
+
+    @property
+    def date(self) -> str:
+        return f"{self.year}-{self.month}"
+
+    @staticmethod
+    def from_json(path: str) -> CompoundConf:
+        return CompoundConf.parse_file(path)
+
+    def arv_reward_total(self) -> BigNumber:
+        return str(
+            (Decimal(self.rewards.amount) * Decimal(self.arv_percentage)) / Decimal(100)
+        )
+
+    def prv_reward_total(self) -> BigNumber:
+        return str(
+            (Decimal(self.rewards.amount) * Decimal(100 - self.arv_percentage))
+            / Decimal(100)
+        )
+
+    def token_rewards(self, token: AUXO_TOKEN_NAMES) -> ERC20Amount:
+        if token == "ARV":
+            return PRV(amount=self.arv_reward_total())
+        elif token == "PRV":
+            return PRV(amount=self.prv_reward_total())
+        else:
+            raise ValueError(f"Unknown token {token}")
+
+    @validator("arv_percentage")
+    @classmethod
+    def validate_arv_percentage(cls, arv_percentage):
+        if arv_percentage > 100 or arv_percentage <= 0:
+            raise BadConfigException("ARV percentage out of range")
+        return arv_percentage
+
+    @validator("month")
+    @classmethod
+    def validate_month(cls, _month):
+        if _month > 12 or _month < 1:
+            raise BadConfigException("Month out of range")
+        return int(_month)
+
+    @validator("year")
+    @classmethod
+    def validate_year(cls, _year):
+        if _year < 2023:
+            raise BadConfigException(f"Year is likely incorrect, adjust in {__file__}")
+        return int(_year)

@@ -24,7 +24,7 @@ class DB(TinyDB):
     arv_summary: Optional[ARVRewardSummary]
     prv_summary: Optional[PRVRewardSummary]
 
-    def __init__(self, conf: Config, drop=False, directory='reports', **kwargs):
+    def __init__(self, conf: Config, drop=False, directory="reports", **kwargs):
         self.config = conf
         self.arv_summary = None
         self.prv_summary = None

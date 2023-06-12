@@ -20,8 +20,8 @@ def test_safe_tx():
 
     for t in tx.transactions:
 
-        if t.contractInputsValues['_receiver'] == tx_data[0][0]:
-            assert t.contractInputsValues['_amount'] == tx_data[0][1]
+        if t.contractInputsValues["_receiver"] == tx_data[0][0]:
+            assert t.contractInputsValues["_amount"] == tx_data[0][1]
 
-        if t.contractInputsValues['_receiver'] == tx_data[1][0]:
-            assert t.contractInputsValues['_amount'] == tx_data[1][1]
+        if t.contractInputsValues["_receiver"] == tx_data[1][0]:
+            assert t.contractInputsValues["_amount"] == tx_data[1][1]

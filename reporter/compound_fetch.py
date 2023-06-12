@@ -1,26 +1,22 @@
 from reporter.compounding import fetch_and_write_compounders
-from reporter.env import ADDRESSES
-from reporter.config import load_conf 
+from reporter.models.Config import CompoundConf
 
 if __name__ == "__main__":
     """
-    Should we be doing by epoch?
-    Could we instead just get ALL delegates
-    Then we go over all epochs
-    - Each time the reporter exhausts all epochs, so in theory we can just run
-      under the assumption that all previous epochs are fully accounted for
+    Parses a config file then writes both ARV and PRV compounders.
 
-    2 modes: USE DB (Happy Path) vs. SCAN everything (SLOW)
+    We contain everything to a given epoch. A future improvement would be
+    to iterate over all epochs or even make a stateful reporter that fetches all historic
+    compounding activity.
     """
-    epoch = input(" What is the epoch? ")
-    conf = load_conf(f"reports/{epoch}")
-
-    filename = fetch_and_write_compounders(conf, 'ARV', ADDRESSES.ARV_DISTRIBUTOR)
+    path = input(" Path to compound config file: ")
+    conf = CompoundConf.from_json(path)
+    filename = fetch_and_write_compounders(conf, "ARV")
     print(
-        f"💰💰💰 Created a new compounders file at ./reports/{epoch}/compounding/{filename} 💰💰💰"
+        f"💰💰💰 Created a new compounders file at ./reports/{conf.compound_epoch}/compounding/{filename} 💰💰💰"
     )
 
-    filename = fetch_and_write_compounders(conf, 'PRV', ADDRESSES.PRV_DISTRIBUTOR)
+    filename = fetch_and_write_compounders(conf, "PRV")
     print(
-        f"💰💰💰 Created a new compounders file at ./reports/{epoch}/compounding/{filename} 💰💰💰"
+        f"💰💰💰 Created a new compounders file at ./reports/{conf.compound_epoch}/compounding/{filename} 💰💰💰"
     )

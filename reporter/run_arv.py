@@ -18,7 +18,7 @@ from reporter.rewards import distribute
 getcontext().prec = 42
 
 
-def run_arv(path_to_config, directory='reports') -> None:
+def run_arv(path_to_config, directory="reports") -> None:
     """
     The main() function is the entry point of the program and is responsible
     for orchestrating the various steps of the ARV token distribution process.

@@ -4,15 +4,19 @@ from reporter.models.ERC20 import AUXO_TOKEN_NAMES
 from reporter.models.types import EthereumAddress
 from reporter.test.stubs.compound.compounders import Compounder
 from reporter.test.stubs.compound.compounders import TestData
+
 TREE_PATH = "reporter/test/stubs/compound"
 
 
-def get_compounder_by_address(address: EthereumAddress, compounders: list[Compounder]) -> Compounder:
+def get_compounder_by_address(
+    address: EthereumAddress, compounders: list[Compounder]
+) -> Compounder:
     for c in compounders:
         if c.address == address:
             return c
 
     raise Exception(f"Compounder with address {address} not found")
+
 
 def create_is_claimed_response(data: TestData) -> dict[EthereumAddress, bool]:
     res = {}
@@ -54,7 +58,7 @@ def create_mock_tree(data: TestData, token: AUXO_TOKEN_NAMES, destination: str):
     tree["recipients"] = {}
 
     # replace the first len(COMPOUNDERS) recipients with the COMPOUNDERS addresses and rewards
-    for i,c in enumerate(data.COMPOUNDERS):
+    for i, c in enumerate(data.COMPOUNDERS):
         tree["recipients"][c.address] = recipient_data[i]
         tree["recipients"][c.address]["rewards"] = c.weth_rewards
 
@@ -68,9 +72,9 @@ def create_mock_tree(data: TestData, token: AUXO_TOKEN_NAMES, destination: str):
             i + len(data.COMPOUNDERS) + len(data.NON_COMPOUNDERS)
         ]
 
-    assert len(tree["recipients"]) == len(data.COMPOUNDERS) + len(data.NON_COMPOUNDERS) + len(
-        data.CLAIMOORS
-    )
+    assert len(tree["recipients"]) == len(data.COMPOUNDERS) + len(
+        data.NON_COMPOUNDERS
+    ) + len(data.CLAIMOORS)
 
     # save our new tree
     Path(destination).mkdir(parents=True, exist_ok=True)

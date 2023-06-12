@@ -67,6 +67,7 @@ class AuxoERC20(ERC20Amount):
     def __init__(self, **kwargs):
         super().__init__(decimals=18, address=ADDRESSES.AUXO, symbol="AUXO", **kwargs)
 
+
 class WETH(ERC20Amount):
     """WETH token"""
 

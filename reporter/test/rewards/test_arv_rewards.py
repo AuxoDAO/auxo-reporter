@@ -3,15 +3,10 @@ from reporter import utils
 from reporter.models import (
     Account,
     AccountState,
-    Config,
     ARVStaker,
-    TokenSummaryStats,
-    ERC20Amount,
-    ARVRewardSummary,
     ARV,
 )
 from reporter.rewards import (
-    compute_rewards,
     init_account_rewards,
     tokens_by_status,
     compute_token_stats,

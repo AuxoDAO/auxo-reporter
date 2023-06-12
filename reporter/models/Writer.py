@@ -9,7 +9,7 @@ from reporter.models.Config import Config
 @dataclass
 class Writer:
     config: Config
-    directory: str = 'reports'
+    directory: str = "reports"
 
     @property
     def path(self) -> str:

@@ -7,7 +7,10 @@ from reporter.compounding import (
 )
 from reporter.config import create_conf
 from reporter.env import ADDRESSES
-from reporter.models import Config
+from reporter.models import CompoundConf
+from reporter.models.Config import CompoundConf
+from reporter.models.ERC20 import PRV
+from reporter.models.types import BigNumber
 from reporter.test.conftest import TEST_REPORTS_DIR
 from reporter.test.stubs.compound.compounders import TestDataARV, TestDataPRV
 from reporter.test.stubs.compound.create_compound_stubs import (
@@ -24,19 +27,26 @@ PRV_DISTRIBUTOR = ADDRESSES.PRV_DISTRIBUTOR
 
 
 @pytest.fixture(scope="module")
-def conf() -> Config:
-    return create_conf("config/6-23.json")
+def conf() -> CompoundConf:
+    return CompoundConf(
+        block_snapshot=12345678,
+        year=2023,
+        month=6,
+        directory=TEST_REPORTS_DIR,
+        compound_epoch=0,
+        rewards=PRV(amount=0),
+    )
 
 
 # creates a merkle tree using sample data
 @pytest.fixture(autouse=True, scope="module")
-def setup(conf: Config):
+def setup(conf: CompoundConf):
     create_mock_tree(TestDataARV, "ARV", f"{TEST_REPORTS_DIR}/{conf.date}")
     create_mock_tree(TestDataPRV, "PRV", f"{TEST_REPORTS_DIR}/{conf.date}")
 
 
 @pytest.fixture(scope="function")
-def recipients_arv(monkeypatch, conf: Config):
+def recipients_arv(monkeypatch, conf: CompoundConf):
 
     monkeypatch.setattr(
         "reporter.queries.compound.multicall_is_claimed",
@@ -48,7 +58,7 @@ def recipients_arv(monkeypatch, conf: Config):
         lambda *_: create_is_compounder_response(TestDataARV),
     )
 
-    fetch_and_write_compounders(conf, "ARV", ARV_DISTRIBUTOR, TEST_REPORTS_DIR)
+    fetch_and_write_compounders(conf, "ARV")
 
     with open(f"{TEST_REPORTS_DIR}/{conf.date}/compounding/recipients-ARV-0.json") as f:
         recipients = json.load(f)
@@ -56,7 +66,7 @@ def recipients_arv(monkeypatch, conf: Config):
 
 
 @pytest.fixture(scope="function")
-def recipients_prv(monkeypatch, conf: Config):
+def recipients_prv(monkeypatch, conf: CompoundConf):
     monkeypatch.setattr(
         "reporter.queries.compound.multicall_is_claimed",
         lambda *_: create_is_claimed_response(TestDataPRV),
@@ -67,7 +77,7 @@ def recipients_prv(monkeypatch, conf: Config):
         lambda *_: create_is_compounder_response(TestDataPRV),
     )
 
-    fetch_and_write_compounders(conf, "PRV", PRV_DISTRIBUTOR, TEST_REPORTS_DIR)
+    fetch_and_write_compounders(conf, "PRV")
 
     with open(f"{TEST_REPORTS_DIR}/{conf.date}/compounding/recipients-PRV-0.json") as f:
         recipients = json.load(f)
@@ -95,14 +105,7 @@ def test_get_compounding_recipients(recipients_arv: dict, recipients_prv: dict):
     assert all(c.address in recipients_prv for c in TestDataPRV.COMPOUNDERS)
 
 
-def test_multiple_compounding_increments_filename(conf: Config, recipients_arv: dict):
-    fetch_and_write_compounders(conf, "ARV", ARV_DISTRIBUTOR, TEST_REPORTS_DIR)
-
-    with open(f"{TEST_REPORTS_DIR}/{conf.date}/compounding/recipients-ARV-1.json") as f:
-        assert recipients_arv == json.load(f)
-
-
-def test_compound_distribution(conf: Config):
+def test_compound_distribution(conf: CompoundConf):
     params = [
         ["333888084700000000000", "ARV", TestDataARV, True],
         ["100000000000000000000", "PRV", TestDataPRV, False],
@@ -110,7 +113,11 @@ def test_compound_distribution(conf: Config):
 
     for total, token, testData, run_loop in params:
         distribute_compounded_auxo(
-            conf, total, f"recipients-{token}-0.json", TEST_REPORTS_DIR
+            conf,
+            token,
+            PRV(amount=total),
+            f"recipients-{token}-0.json",
+            TEST_REPORTS_DIR,
         )
 
         with open(
@@ -142,8 +149,8 @@ def test_compound_distribution(conf: Config):
 
         def fetch_from_safe_tx(address: str) -> str:
             for transaction in safe_tx["transactions"]:
-                if transaction["contractInputsValues"]['_receiver'] == address:
-                    return transaction["contractInputsValues"]['_amount']
+                if transaction["contractInputsValues"]["_receiver"] == address:
+                    return transaction["contractInputsValues"]["_amount"]
             raise Exception(f"Could not find {address} in safe tx")
 
         for recipient in compounded["recipients"]:
@@ -156,6 +163,3 @@ def test_compound_distribution(conf: Config):
             # TODO this looks bad, so need to check
             assert diff <= Decimal(5000000000)  # 5 GWEI
             assert fetch_from_safe_tx(recipient["address"]) == str(reward_amount)
-
-
-

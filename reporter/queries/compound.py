@@ -1,7 +1,14 @@
 from reporter.env import ADDRESSES
+from reporter.models.Config import CompoundConf
+from reporter.models.ERC20 import AUXO_TOKEN_NAMES
 from reporter.queries import w3
 from multicall import Call, Multicall  # type: ignore
-from reporter.models import MerkleRecipient, MerkleTree, RecipientMerkleClaim, EthereumAddress
+from reporter.models import (
+    MerkleRecipient,
+    MerkleTree,
+    RecipientMerkleClaim,
+    EthereumAddress,
+)
 
 
 MulticallIsRewardsCompounder = dict[EthereumAddress, bool]
@@ -18,7 +25,11 @@ def multicall_is_compounder(
             # address to call:
             distributor,
             # function isRewardsDelegate(address _user, address _delegate) public view returns (bool)
-            ["isRewardsDelegate(address,address)(bool)", address, ADDRESSES.MULTISIG_OPS],
+            [
+                "isRewardsDelegate(address,address)(bool)",
+                address,
+                ADDRESSES.MULTISIG_OPS,
+            ],
             # return in a format of {[address]: bool}:
             [[address, None]],
         )
@@ -69,8 +80,10 @@ def delegated_and_unclaimed(
 
 
 def get_unclaimed_delegated_recipients(
-    tree: MerkleTree, distributor: EthereumAddress, block: int
+    tree: MerkleTree, conf: CompoundConf, token: AUXO_TOKEN_NAMES
 ) -> RecipientMerkleClaim:
+    distributor = conf.distributor(token)
+    block = conf.block_snapshot
     delegated = multicall_is_compounder(tree.recipients, distributor, block)
     claimed = multicall_is_claimed(tree.recipients, distributor, block)
     delegated_but_unclaimed = delegated_and_unclaimed(delegated, claimed)

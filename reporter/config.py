@@ -57,7 +57,7 @@ def load_conf(config_path: str) -> Config:
     return parse_file_as(Config, path=f"{config_path}/epoch-conf.json")
 
 
-def main(directory='reports') -> str:
+def main(directory="reports") -> str:
     """Generates config file and saves in newly created directory with correct strcutre"""
     path_to_config_file = input(" Path to the config file ")
     conf = create_conf(path_to_config_file)

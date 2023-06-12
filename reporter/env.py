@@ -29,6 +29,7 @@ class ADDRESSES:
     ARV_DISTRIBUTOR = env_var("ARV_DISTRIBUTOR")
     PRV_DISTRIBUTOR = env_var("PRV_DISTRIBUTOR")
 
+
 class SUBGRAPHS:
     SNAPSHOT = "https://hub.snapshot.org/graphql"
     AUXO_STAKING = env_var("SUBGRAPH_AUXO_STAKING")

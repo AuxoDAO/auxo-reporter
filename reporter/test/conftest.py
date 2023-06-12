@@ -19,7 +19,8 @@ _addresses = [
     "0xdeA708968f8dd520f5e2F0aB6785F28c98521ca8",
 ]
 
-TEST_REPORTS_DIR='reporter/test/test-reports'
+TEST_REPORTS_DIR = "reporter/test/test-reports"
+
 
 @pytest.fixture
 def config() -> Config:

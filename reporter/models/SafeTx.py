@@ -53,7 +53,6 @@ class PRVCompoundDepositForSafeTx(SafeTx):
         transactions = self._create_transactions(compound_data)
         super().__init__(meta=meta, createdAt=created_at, transactions=transactions)
 
-
     def _create_transactions(
         self, compound_data: list[tuple[EthereumAddress, BigNumber]]
     ) -> list[SafeTxTransaction]:
@@ -61,7 +60,9 @@ class PRVCompoundDepositForSafeTx(SafeTx):
             self._prv_deposit_for(address, amount) for address, amount in compound_data
         ]
 
-    def _prv_deposit_for(self, address: EthereumAddress, amount: BigNumber) -> SafeTxTransaction:
+    def _prv_deposit_for(
+        self, address: EthereumAddress, amount: BigNumber
+    ) -> SafeTxTransaction:
         return SafeTxTransaction(
             to=ADDRESSES.PRV_ROLLSTAKER,
             contractMethod=SafeContractMethod(

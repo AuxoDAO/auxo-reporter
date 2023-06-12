@@ -29,7 +29,7 @@ def initialize_container(inactive: Decimal, config: Config) -> RedistributionCon
     return container
 
 
-def run_prv(path_to_config, directory='reports') -> None:
+def run_prv(path_to_config, directory="reports") -> None:
 
     # load the config file
     config = load_conf(path_to_config)
