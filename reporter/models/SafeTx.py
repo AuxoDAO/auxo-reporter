@@ -5,6 +5,7 @@ import time
 from pydantic import BaseModel
 
 from reporter.env import ADDRESSES
+from reporter.models.Claim import Claim
 from reporter.models.types import BigNumber, EthereumAddress
 
 
@@ -23,8 +24,12 @@ class TxInput(BaseModel):
     type: str
 
 
+class TxComponent(TxInput):
+    components: list[TxInput]
+
+
 class SafeContractMethod(BaseModel):
-    inputs: list[TxInput]
+    inputs: list[TxInput | TxComponent]
     name: str
     payable: bool = False
 
@@ -43,6 +48,11 @@ class SafeTx(BaseModel):
     createdAt: int
     meta: SafeTxMeta
     transactions: list[SafeTxTransaction]
+
+    def write(self, path: str) -> None:
+        Path(path).parent.mkdir(parents=True, exist_ok=True)
+        with open(path, "w") as f:
+            json.dump(self.json(), f, indent=4)
 
 
 class PRVCompoundDepositForSafeTx(SafeTx):
@@ -75,7 +85,62 @@ class PRVCompoundDepositForSafeTx(SafeTx):
             contractInputsValues={"_amount": amount, "_receiver": address},
         )
 
-    def write(self, path: str) -> None:
-        Path(path).parent.mkdir(parents=True, exist_ok=True)
-        with open(path, "w") as f:
-            json.dump(self.json(), f, indent=4)
+
+class MerkeDistributorClaimMultiDelegatedTx(SafeTx):
+
+    def __init__(self, distributor: EthereumAddress, claims: list[Claim]):
+        meta = SafeTxMeta()
+        # created at is the unix timestamp in whole seconds
+        created_at = int(time.time())
+        transactions = self._create_transactions(claims, distributor)
+        super().__init__(meta=meta, createdAt=created_at, transactions=transactions)
+
+    def _create_transactions(self, claims: list[Claim], distributor: EthereumAddress) -> list[SafeTxTransaction]:
+        return [
+            SafeTxTransaction(
+                to=distributor,
+                contractInputsValues={"_claims": json.dumps(claims)},
+                contractMethod=SafeContractMethod(
+                    inputs=[
+                        TxComponent(
+                            internalType="struct IMerkleDistributor.Claim[]",
+                            name="_claims",
+                            type="tuple[]",
+                            components=[
+                                TxInput(
+                                    internalType="uint256",
+                                    name="windowIndex",
+                                    type="uint256",
+                                ),
+                                TxInput(
+                                    internalType="uint256",
+                                    name="accountIndex",
+                                    type="uint256",
+                                ),
+                                TxInput(
+                                    internalType="uint256",
+                                    name="amount",
+                                    type="uint256",
+                                ),
+                                TxInput(
+                                    internalType="address",
+                                    name="token",
+                                    type="address",
+                                ),
+                                TxInput(
+                                    internalType="bytes32[]",
+                                    name="merkleProof",
+                                    type="bytes32[]",
+                                ),
+                                TxInput(
+                                    internalType="address",
+                                    name="account",
+                                    type="address",
+                                ),
+                            ],
+                        )
+                    ],
+                    name="claimMultiDelegated",
+                ),
+            )
+        ]
