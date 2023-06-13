@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "chainId": "1",
+  "createdAt": 1686582601509,
+  "meta": {
+    "name": "Transactions Batch",
+    "description": "",
+    "txBuilderVersion": "1.14.1",
+    "createdFromSafeAddress": "0x2e6D659669884089Cd5792b6EDb782392785cAf0",
+    "createdFromOwnerAddress": "",
+    "checksum": "0x01f14c3527fb0fbccd4a582c7f82bced91d748f4ca4dd46c569fae477e422c81"
+  },
+  "transactions": [
+    {
+      "to": "0x727a21924D9267E49D025a48464324edfcD215B5",
+      "value": "0",
+      "data": null,
+      "contractMethod": {
+        "inputs": [
+          {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "windowIndex",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "accountIndex",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256"
+              },
+              { "internalType": "address", "name": "token", "type": "address" },
+              {
+                "internalType": "bytes32[]",
+                "name": "merkleProof",
+                "type": "bytes32[]"
+              },
+              {
+                "internalType": "address",
+                "name": "account",
+                "type": "address"
+              }
+            ],
+            "internalType": "struct IMerkleDistributorCore.Claim",
+            "name": "_claim",
+            "type": "tuple"
+          }
+        ],
+        "name": "claim",
+        "payable": false
+      },
+      "contractInputsValues": {
+        "_claim": "     [         0,         61,         \"22289617373630449\",         \"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\",         [             \"0x154cde04de36583a75af89b737cf24eb334f4658c61cfe9a6e060c37a9433727\",             \"0xd8452846e224802d1237c43d7e73119ebd14d944fe1993a51495c9c63d4ea30a\",             \"0xf925fb01be2a3e25c197bab7ea88e4af1cf10269201f8660af00a36e75e6bdfb\",             \"0x60fe6226f5148a2e55cb9b9fdcc01f399a19b59ae405b735adf6c642f694ec92\",             \"0xf2b42299883f7f99c057e801830e1e850fe34a9d7f49a59a4f6e912cdd32ea79\",             \"0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5\",             \"0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307\"         ],         \"0xDccc5094404422cD48CD7AfA95b618fE0Cd3d0Fe\"     ] "
+      }
+    }
+  ]
+}
