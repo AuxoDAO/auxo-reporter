@@ -188,3 +188,6 @@ Steps for compounding:
 - [] Combine PRV/ARV integration (final step)
 - [] Support for combining multiple epochs
 
+## Known Issues
+
+PRV and ARV 'pro rata' in compounding splits compounding 50/50. This is incorrect - we should instead calculate the pro-rata and totals based on the TOTAL ARV and PRV.
