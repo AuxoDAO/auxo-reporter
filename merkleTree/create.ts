@@ -72,7 +72,8 @@ function withdrawalsTree(input: WithdrawalDistributorInput) {
 }
 
 export function createWithdrawalsTree(
-  input: WithdrawalDistributorInput
+  input: WithdrawalDistributorInput,
+  params: Omit<WithdrawalDistributorInput, "recipients">
 ): WMerkleDistributor {
   // create merkle tree
   const tree = withdrawalsTree(input);
@@ -95,6 +96,7 @@ export function createWithdrawalsTree(
   // finally add the root
   return {
     ...input,
+    ...params,
     root: tree.root,
     recipients: merkleRecipients,
   };

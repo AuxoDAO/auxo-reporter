@@ -1,12 +1,69 @@
 import { readFileSync, writeFileSync } from "fs";
 import { createWithdrawalsTree } from "./create";
+import axios from "axios";
 import * as dotenv from "dotenv";
 
-// WIP: The PRV Withdrawals tree
-
 dotenv.config();
-
 const { stdin, stdout } = process;
+const ENDPOINT =
+  "https://api.thegraph.com/subgraphs/name/jordaniza/auxo-staking";
+
+async function queryPRVNonZeroBalancesAtBlock(
+  blockNumber: number
+): Promise<GraphQLResponse<ERC20GraphQLResponse>> {
+  const query = `
+  query PRVNonZeroBalancesAtBlock {
+    erc20Balances(
+      block: {number: ${blockNumber}},
+      where: {
+        and: [
+          {contract_: {symbol: "PRV"}},
+          {value_not: "0"},
+          {account_not: null}
+        ]
+      }
+    ) {
+      account {
+        id
+      }
+      value
+      valueExact
+    }
+  }
+`;
+
+  try {
+    const response = await axios.post(ENDPOINT, { query });
+    return response.data;
+  } catch (error) {
+    console.error(error);
+    throw new Error("No response from the Subgraph");
+  }
+}
+
+/**
+ * Grabs PRV staking positions from the Subgraph
+ */
+async function fetchPRVHolders(
+  blockNumber: number
+): Promise<WithdrawalDistributorInput> {
+  const response = await queryPRVNonZeroBalancesAtBlock(blockNumber);
+  const { erc20Balances } = response.data;
+  const recipients: WithdrawalRecipient = {};
+  erc20Balances.forEach((balance) => {
+    recipients[balance.account.id] = {
+      windowIndex: 0,
+      amount: balance.valueExact,
+    };
+  });
+  return {
+    windowIndex: 0,
+    maxAmount: "0",
+    startBlock: blockNumber,
+    endBlock: blockNumber,
+    recipients,
+  };
+}
 
 function prompt(question: string) {
   return new Promise((resolve, reject) => {
@@ -19,23 +76,42 @@ function prompt(question: string) {
 }
 
 const destination = (epoch: unknown) =>
-  `reports/${epoch}/merkle-verifier-prv.json`;
+  `reports/${epoch}/merkle-verifier-PRV.json`;
 
-export const makeTreeWithPrompt = async (epoch: unknown) => {
-  // create merkle trees for both tokens
-  // fetch the claims database
-  const claims = JSON.parse(
-    readFileSync(`reports/${epoch}/withdrawals-prv.json`, {
-      encoding: "utf8",
-    })
-  );
+export const makeTreeWithPrompt = async ({
+  epoch,
+  blockNumber,
+  windowIndex,
+  startBlock,
+  endBlock,
+  budget,
+}: {
+  epoch: unknown;
+  windowIndex: number;
+  startBlock: number;
+  endBlock: number;
+  budget: string;
+  blockNumber: number;
+}) => {
+  const holders = await fetchPRVHolders(blockNumber);
 
   // create the tree as a string
-  const tree = JSON.stringify(createWithdrawalsTree(claims), null, 4);
+  const tree = JSON.stringify(
+    createWithdrawalsTree(holders, {
+      windowIndex,
+      startBlock,
+      endBlock,
+      maxAmount: budget,
+    }),
+    null,
+    4
+  );
 
   // write the file
   const fileDestination = destination(epoch);
-  writeFileSync(fileDestination, tree);
+  // writeFileSync(fileDestination, tree);
+  console.log(tree);
+  console.log(fileDestination);
   console.log(
     `✨✨ Withdrawal Merkle Verifier Created at ${fileDestination} ✨✨`
   );
@@ -43,7 +119,25 @@ export const makeTreeWithPrompt = async (epoch: unknown) => {
 
 async function main() {
   const epoch = await prompt("What is the epoch {YYYY}-{MM}? eg: 2022-11\n");
-  await makeTreeWithPrompt(epoch);
+  const blockNumberPrompt = await prompt("What is the block number?\n");
+  const blockNumber = parseInt(blockNumberPrompt as string);
+  let input = await prompt(
+    "WindowIndex, budget (in wei), startBlock, and endBlock, separated by spaces:\n"
+  );
+  let inputs = (input as string).split(" ").map(i => i.trim());
+  if (inputs.length !== 4) {
+    throw new Error("Incorrect number of inputs");
+  }
+  let [_windowIndex, budget, _startBlock, _endBlock] = inputs;
+
+  await makeTreeWithPrompt({
+    epoch,
+    windowIndex: parseInt(_windowIndex),
+    startBlock: parseInt(_startBlock),
+    endBlock: parseInt(_endBlock),
+    budget,
+    blockNumber,
+  });
 }
 
 // only run if called directly
