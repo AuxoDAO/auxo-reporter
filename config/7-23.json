@@ -1,0 +1,21 @@
+{
+  "$schema": "./schema.json",
+  "year": 2023,
+  "month": 7,
+  "block_snapshot": 17595510,
+  "distribution_window": 1,
+  "rewards": {
+    "amount": "25754357360000000000",
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18,
+    "symbol": "WETH"
+  },
+  "arv_percentage": 70,
+  "redistributions": [
+    {
+      "weight": 100,
+      "option": "transfer",
+      "address": "0x3bCF3Db69897125Aa61496Fc8a8B55A5e3f245d5"
+    }
+  ]
+}

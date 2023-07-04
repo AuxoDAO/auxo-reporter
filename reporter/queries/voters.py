@@ -220,8 +220,8 @@ def get_votes(conf: Config) -> tuple[list[Vote], list[Proposal]]:
     Fetch all votes from offchain and onchain sources and combine them
     """
     offchain_votes = parse_offchain_votes(conf)
+    print(f"Found {len(offchain_votes)} offchain votes")
     onchain_votes = parse_onchain_votes(conf)
-
     combined_votes = combine_on_off_chain_votes(offchain_votes, onchain_votes)
 
     return filter_votes_by_proposal(combined_votes)

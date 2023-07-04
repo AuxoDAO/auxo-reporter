@@ -13,9 +13,20 @@ class EpochBoundary(NamedTuple):
     start_date: datetime.datetime
     end_date: datetime.datetime
 
+def subtract_one_month(t):
+    """Returns a date one month earlier.
 
-def get_epoch_dates(month: int, year: int) -> EpochBoundary:
-    """Returns the start and end dates of a given month in UTC timezone.
+    Args:
+        t (datetime): The original date.
+    """
+    one_day = datetime.timedelta(days=1)
+    one_month_earlier = t - one_day
+    while one_month_earlier.month == t.month or one_month_earlier.day > t.day:
+        one_month_earlier -= one_day
+    return one_month_earlier
+
+def get_epoch_dates(month: int, year: int):
+    """Returns the start and end dates of a given month in UTC timezone, shifted back by one month.
 
     Args:
         month (int): The month (1-12).
@@ -23,17 +34,17 @@ def get_epoch_dates(month: int, year: int) -> EpochBoundary:
     """
     if month < 1 or month > 12:
         raise ValueError("Invalid month value. Must be between 1 and 12.")
-
     if year < 2023:
         raise ValueError("Invalid year value. Must be a positive integer >= 2023.")
-
+    
     _, n_days = calendar.monthrange(year, month)
-
     date = datetime.date(year, month, 1)
     start_date = datetime.datetime(year, month, 1, tzinfo=datetime.timezone.utc)
-    end_date = datetime.datetime(
-        year, month, n_days, 23, 59, 59, tzinfo=datetime.timezone.utc
-    )
+    end_date = datetime.datetime(year, month, n_days, 23, 59, 59, tzinfo=datetime.timezone.utc)
+
+    # Subtract one month from both start and end date
+    start_date = subtract_one_month(start_date)
+    end_date = subtract_one_month(end_date)
 
     return EpochBoundary(date, start_date, end_date)
 

@@ -67,7 +67,7 @@ def graphql_iterate_query(
 
     current_batch = all_results
     loops = 0
-    while len(current_batch) > 0:
+    while loops <= 0:
         if loops > max_loops:
             raise TooManyLoopsError("graphql_iterate_query")
         params["variables"]["skip"] = len(current_batch)
