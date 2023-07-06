@@ -14,20 +14,6 @@
                     "0xb89d106332429563845adca343108019f54355d383aaf40eee05342e03dd100f",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 0,
-                "rewards": "4025940382946698917",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x609aa8ea68ca74a3a6e4b6f42c6c31f1e44c0437453c3a9e060bb7d40ac8dcd7",
-                    "0xe22e0b00eeb357d9e97c54d08c529e1445e50d5d234ab19d35bcd782b6bf778b",
-                    "0xb9f21cfce6d660f30ae3364bdea819d89a9c9444503edc9f9de70a390417d38e",
-                    "0x50c96cf43d51c310caf009b9719dcdbd51b19e360cc51900de619f3fdb89f418",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -45,20 +31,6 @@
                     "0x1abd01582f0c72535743aaa0c4eeeff1cd2c6f141da0453951a44380a3dd1426",
                     "0x3dd5a8d0e2d6da89eadfe287300e1462df3c13da5b0468bd07e3c41741691dce",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 1,
-                "rewards": "2507275900453903648",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xb60d6bafda73d2bd9b172639ff0bfca253dfcebf8e76285c8be860d14cd3a7d8",
-                    "0x17414ea35e950b256472ddf7731d658435c0e10dbc89950fbba86def354e09de",
-                    "0x09ced1a1cefea78000100bed6c3d2aaad35647eccc8262431446df7ffc7aa4a1",
-                    "0xa5ea8ac520b16c138e738b7d3f269131ac163c3007ae66ff8c8adf47663c126e",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -79,20 +51,6 @@
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 2,
-                "rewards": "2034567376342213499",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xc7a087c5f8153eab1f43925afc909ef694e7a1cc173a5d996fc9d3dfaba070a2",
-                    "0x600849858ded367ee9ce25fc469797adb7533453750e9bc85ff5fb7c626f60a5",
-                    "0x21abb2f66112e88310194164258d48b0475150904753e1660944e388d197c430",
-                    "0x0545de01b2952c4606c069f30a3ab16ccdd53386d8b1d1e6dc6e4a198624e53c",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -112,20 +70,6 @@
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 3,
-                "rewards": "1826459943060033195",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x56cf85c909d7292952252b1b2c45f2ab8508a4ace303a2802fdbfc49ed10d459",
-                    "0xce19e5f8e008483c37e3d7a8c6edd820dffdd5868ed388c4790205dc71f52f28",
-                    "0x9b527d6faa696990f5a84e859a1db5e5d0892998fd93030d3187b18374f87246",
-                    "0x50c96cf43d51c310caf009b9719dcdbd51b19e360cc51900de619f3fdb89f418",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         },
         "PRV": {
@@ -142,21 +86,6 @@
                     "0xc131deab18ca3513aa51f68f9ad5c8419f5b365dd0488495540feedca4cc3359",
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 27,
-                "rewards": "306962814502040254",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x0913dae71930f02599fdff239e81c5e8fa0dd5fbd8c0f61fa9f6a7c2faf4af10",
-                    "0xfa6379481f2a4defa988f0e502160c9b7cf3e558c422ad80ec619e0322d8c45c",
-                    "0xb7936ca412f8b1d29257df0f9ddae054c652786f6b0b09b39b317b12a2949489",
-                    "0xf0b0228a0afe7f61fc23d2b441ee7396396bdcb16c0468f7d97e50b6f6f02d57",
-                    "0x4fe42d2fb0b40eee623ee9be1dc7b83802f9607e4a8b60b5170550aa7b115784",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -175,20 +104,6 @@
                     "0x52bb7749acaaa475acb2a778c9c2a3bc5e79c39ec5d6d13da27d0e64d2df2cd1",
                     "0xb89d106332429563845adca343108019f54355d383aaf40eee05342e03dd100f",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 4,
-                "rewards": "716139014725505289",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x04db24a3f97c81be247b6b3dfd311ccada2d614c837f90561ab7dc82f0b96fd8",
-                    "0xff62bf213e9ff092eb3c5c2e0386aa524a7268e7f0c8afbc0081056d478a7e84",
-                    "0x3a307c13bacb874bb412b496043418d2ae84931aecb04a434e68f3bfbfb7eb98",
-                    "0x7cb6ec2953616a6c4594c3a05ba55ed12181e6b70ab587da7d8c88bb8144a1c4",
-                    "0xac77356e7bdeb160502dec58ce29b121edb08a2cb350229fa6c076850353161e",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
                 ]
             }
         }
@@ -209,20 +124,6 @@
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 5,
-                "rewards": "683296546167288985",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x1f374492a0fa2b910434f785cd42baf7c731c7ddd0267977793fe4b5be4af9c9",
-                    "0x7620fc95cac760fdda0cd1ddf6e325913b9140a00cdd521258eb03e36ffe766b",
-                    "0x6c5b853f8ed677f0eac03ca13e1d8a5f9fdbaac15b2480675544922959fba985",
-                    "0xeb107fc02d05d036631fa2f297d28a4348b692e4aa278a6bce8a19a07224b671",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
-                ]
             }
         }
     },
@@ -240,20 +141,6 @@
                     "0x1abd01582f0c72535743aaa0c4eeeff1cd2c6f141da0453951a44380a3dd1426",
                     "0x3dd5a8d0e2d6da89eadfe287300e1462df3c13da5b0468bd07e3c41741691dce",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 6,
-                "rewards": "507213295858235256",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xb735a18a92aed27d8938298b139c25391b6581c7af387f4e4d4a656054880a4e",
-                    "0x17414ea35e950b256472ddf7731d658435c0e10dbc89950fbba86def354e09de",
-                    "0x09ced1a1cefea78000100bed6c3d2aaad35647eccc8262431446df7ffc7aa4a1",
-                    "0xa5ea8ac520b16c138e738b7d3f269131ac163c3007ae66ff8c8adf47663c126e",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -273,20 +160,6 @@
                     "0xa2540df872e54a42840cd040f0ae398e71ab19b5ad74e32e18081ca56d8a799f",
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 7,
-                "rewards": "454207134946815603",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xce3c7be22093850a1cbef29c1ad9a23895ac4cbbbabbaf53757ae5c04c415958",
-                    "0x600849858ded367ee9ce25fc469797adb7533453750e9bc85ff5fb7c626f60a5",
-                    "0x21abb2f66112e88310194164258d48b0475150904753e1660944e388d197c430",
-                    "0x0545de01b2952c4606c069f30a3ab16ccdd53386d8b1d1e6dc6e4a198624e53c",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -325,20 +198,6 @@
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 8,
-                "rewards": "407032086430153781",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x8858fcf3df2b74c92acf3e8b1b70e85ce5dfc715009d96970eb88cdb1cd32920",
-                    "0x4623c090b9659c4687c8ab2d9034b78713f1be2bd8d906429874047876e6956c",
-                    "0xb04bf98190a9cf0fceb9b817028172b5a95a39bc835535dea0cf8f4d68146e2b",
-                    "0xcbeef452ae0d1dcc1e71d8278bab95ff2353bc1242bc9ba716e384cac51748bb",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -358,20 +217,6 @@
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 9,
-                "rewards": "355311157485497804",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x4de10ac4603ad2e0002a0b26e1b45c5246f68ca5aeed4954b12c5dedf7ca1ca3",
-                    "0xe56dc41cb9321bfd3769ef3f89e084a3d54aae826c500d9b80e3567ac71c7944",
-                    "0x8ad0beb23fcd61bbac596712b6250893c693aeb1fb81acd5d85630164436c37c",
-                    "0x1c6ba4f64bd03ac2d2839152c06b0daa9c89c78b34e59bb4223840604e0af43c",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
-                ]
             }
         }
     },
@@ -389,20 +234,6 @@
                     "0x52bb7749acaaa475acb2a778c9c2a3bc5e79c39ec5d6d13da27d0e64d2df2cd1",
                     "0xb89d106332429563845adca343108019f54355d383aaf40eee05342e03dd100f",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 10,
-                "rewards": "350133468107926392",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x956ac40309c0520ee406d9b6c95f203b119da3f0c00e82780cc9747ab277a544",
-                    "0x11e22811526fbe4abe0c534648d5b59d632515b5f25ee8d67a1ba6e5b3374597",
-                    "0xf525bb96aa44940774b7167ddc727e6c212684b9f41cb87007d4bc8549a2ea0b",
-                    "0xcbeef452ae0d1dcc1e71d8278bab95ff2353bc1242bc9ba716e384cac51748bb",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -441,19 +272,6 @@
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 11,
-                "rewards": "342271058205581156",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xebe17640f300f14dc3b9989e2c8bb6bc2a6ac776c4de976a6f2d98a4077f9472",
-                    "0xba0fd42801c7d6d0a987884d60b44f08f66f499a14f875ab100ced04ebf3811d",
-                    "0x507a13ea426c7bf05e7c7f7f1049eadc8f7302d0051daa8c983209cd157181c8",
-                    "0xac77356e7bdeb160502dec58ce29b121edb08a2cb350229fa6c076850353161e",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
-                ]
             }
         }
     },
@@ -471,20 +289,6 @@
                     "0x1abd01582f0c72535743aaa0c4eeeff1cd2c6f141da0453951a44380a3dd1426",
                     "0x3dd5a8d0e2d6da89eadfe287300e1462df3c13da5b0468bd07e3c41741691dce",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 12,
-                "rewards": "335870895122420683",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x079892dbae6db42fc59d53f9830ce430d5e01c98ede4ace01e8ee3d0b47e41c4",
-                    "0xff62bf213e9ff092eb3c5c2e0386aa524a7268e7f0c8afbc0081056d478a7e84",
-                    "0x3a307c13bacb874bb412b496043418d2ae84931aecb04a434e68f3bfbfb7eb98",
-                    "0x7cb6ec2953616a6c4594c3a05ba55ed12181e6b70ab587da7d8c88bb8144a1c4",
-                    "0xac77356e7bdeb160502dec58ce29b121edb08a2cb350229fa6c076850353161e",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
                 ]
             }
         }
@@ -505,20 +309,6 @@
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 13,
-                "rewards": "315854027934021886",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x64e067ad437c20ab45ecd1798143b0494805f898082527337a34dbdb736e3ac3",
-                    "0xe22e0b00eeb357d9e97c54d08c529e1445e50d5d234ab19d35bcd782b6bf778b",
-                    "0xb9f21cfce6d660f30ae3364bdea819d89a9c9444503edc9f9de70a390417d38e",
-                    "0x50c96cf43d51c310caf009b9719dcdbd51b19e360cc51900de619f3fdb89f418",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -538,20 +328,6 @@
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 14,
-                "rewards": "281994621039773169",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xbddd69d043e797c20185d08d62c1e1d676e35e06ecf45b6d583bbc2f9d69fb07",
-                    "0xa85241615b5f67759e496326b0caa6310a3d446267128c6069859b3ee86dd04b",
-                    "0x7ddbbc65ff5b8cafaf4352ee0e68114e5eecb7c98a9e157095a9dad76149eb0d",
-                    "0x0545de01b2952c4606c069f30a3ab16ccdd53386d8b1d1e6dc6e4a198624e53c",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -570,20 +346,6 @@
                     "0xd5b23a3dbc5cfa7f9afe9641b218467846623467aabf7734404b8e729db49f91",
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 15,
-                "rewards": "269558141020490714",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x9a7bbcdf85fa744d410f9d12c27ec298cf3e4c4525cc953c66ea190e6510b38e",
-                    "0x59b6d051f2e323db1d544be2040e6898f33735a8324277a14fd168354df24e1d",
-                    "0xb47997008050d085d72615faf3f82e186bcbef4f465653a77d074e5f0afc0c4d",
-                    "0xa5ea8ac520b16c138e738b7d3f269131ac163c3007ae66ff8c8adf47663c126e",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -623,20 +385,6 @@
                     "0x3dd5a8d0e2d6da89eadfe287300e1462df3c13da5b0468bd07e3c41741691dce",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 16,
-                "rewards": "226098273267567997",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xa6966af35a4b3b804a90baaa10c8f4c17ccdcf5a920fba37bc4102a2ee2ae63b",
-                    "0x36deb38f975610541dbb5b4b235bd4a3d0e74802d5f95ac70ee0d77e1438ecc3",
-                    "0x09ced1a1cefea78000100bed6c3d2aaad35647eccc8262431446df7ffc7aa4a1",
-                    "0xa5ea8ac520b16c138e738b7d3f269131ac163c3007ae66ff8c8adf47663c126e",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         },
         "PRV": {
@@ -653,21 +401,6 @@
                     "0xc131deab18ca3513aa51f68f9ad5c8419f5b365dd0488495540feedca4cc3359",
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 0,
-                "rewards": "52570312980405470",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x1124f691e64c54e4da90d01ed02d296bf84f42a80d272e8c44ffec148a208829",
-                    "0x2f7191ed3cf96b5ed8888c0dbd9860fac59a97a3d93321831c7e6a51268e296a",
-                    "0x957d8ae85a7768b8a329b365bd68b08bfe2abc7d978231b57625908bf82a647e",
-                    "0x8f0c2be34fdecdd412aed1c76d054e85eb724ff4164ff1b836f167c7845254b8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -686,20 +419,6 @@
                     "0x1abd01582f0c72535743aaa0c4eeeff1cd2c6f141da0453951a44380a3dd1426",
                     "0x3dd5a8d0e2d6da89eadfe287300e1462df3c13da5b0468bd07e3c41741691dce",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 17,
-                "rewards": "217457057789140038",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x76eac4974fe18bb575667a305a7c6e9d85f976fa927ac067fe14d78b74033a2e",
-                    "0x839fa44a5633640426585f492057e50cf51d1d546052c3fc1ff9fbab90f7e688",
-                    "0xb04bf98190a9cf0fceb9b817028172b5a95a39bc835535dea0cf8f4d68146e2b",
-                    "0xcbeef452ae0d1dcc1e71d8278bab95ff2353bc1242bc9ba716e384cac51748bb",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -720,20 +439,6 @@
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 18,
-                "rewards": "215603392289162184",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x0aec6e1e53474821a669eb4881a7c7d439b6c79e1850525a47a15f160d279b97",
-                    "0x09e40fc07ffbf6ea06ceeab90c65233aadfc0a104cf21ab66c4bb1c51c34247e",
-                    "0xec8ec7b9116ca9d60310eca5e1a43bda646f2e9aacc2c96109b662274374c151",
-                    "0xeb107fc02d05d036631fa2f297d28a4348b692e4aa278a6bce8a19a07224b671",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
-                ]
             }
         }
     },
@@ -753,19 +458,6 @@
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 19,
-                "rewards": "195532514265006445",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xf71ed11f1d5de3a4f5fc66e12ca56c5c19c5287e3bdf08f7c77aa824882719f1",
-                    "0xba0fd42801c7d6d0a987884d60b44f08f66f499a14f875ab100ced04ebf3811d",
-                    "0x507a13ea426c7bf05e7c7f7f1049eadc8f7302d0051daa8c983209cd157181c8",
-                    "0xac77356e7bdeb160502dec58ce29b121edb08a2cb350229fa6c076850353161e",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
-                ]
             }
         }
     },
@@ -784,20 +476,6 @@
                     "0xf2b42299883f7f99c057e801830e1e850fe34a9d7f49a59a4f6e912cdd32ea79",
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 20,
-                "rewards": "200751657318518444",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x5661700b5692668779b5aa76217baf5e73992651f08cb8384488c5957fc0c9aa",
-                    "0xce19e5f8e008483c37e3d7a8c6edd820dffdd5868ed388c4790205dc71f52f28",
-                    "0x9b527d6faa696990f5a84e859a1db5e5d0892998fd93030d3187b18374f87246",
-                    "0x50c96cf43d51c310caf009b9719dcdbd51b19e360cc51900de619f3fdb89f418",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -855,19 +533,6 @@
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 21,
-                "rewards": "130927499326629615",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xdc64511640382e0b6291697dfd988e4b8fc2b02a9143b80f5639fe2e369ffdef",
-                    "0x799f2c02b866627fcc54860f0721164ed53102797ccd9485243c5aa68e2e0bd9",
-                    "0x507a13ea426c7bf05e7c7f7f1049eadc8f7302d0051daa8c983209cd157181c8",
-                    "0xac77356e7bdeb160502dec58ce29b121edb08a2cb350229fa6c076850353161e",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
-                ]
             }
         }
     },
@@ -887,20 +552,6 @@
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 22,
-                "rewards": "113670736725348053",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x0ed286254c697a9a2729458ae27250251ac7c79e3f9c1031ffc1beceb0dda34c",
-                    "0x09e40fc07ffbf6ea06ceeab90c65233aadfc0a104cf21ab66c4bb1c51c34247e",
-                    "0xec8ec7b9116ca9d60310eca5e1a43bda646f2e9aacc2c96109b662274374c151",
-                    "0xeb107fc02d05d036631fa2f297d28a4348b692e4aa278a6bce8a19a07224b671",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
-                ]
             }
         },
         "PRV": {
@@ -917,21 +568,6 @@
                     "0xc131deab18ca3513aa51f68f9ad5c8419f5b365dd0488495540feedca4cc3359",
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 84,
-                "rewards": "30373162698096614",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x3a8c4d21231860614f6fd53a4101d336cc4aacd1ad1d44bd2a757987551ed3c0",
-                    "0xa20599b5e0f0b854145d5809ac4c02f5f17f3104068e26d60b61ab6f90862e0c",
-                    "0xd6695215b4d00409e15b630ef78862984ac5aed7d22aede15de03b3d5b2b3e86",
-                    "0xe51af77e247873eba072fdb667448173a4606633df167bbf67a4af47d59f1279",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -951,19 +587,6 @@
                     "0xa2540df872e54a42840cd040f0ae398e71ab19b5ad74e32e18081ca56d8a799f",
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 23,
-                "rewards": "108958650099701473",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xfcc1cfc9e8c4285ce00397d91dedefc60535f385085b0a4061b8d1202ee295c1",
-                    "0x67f21c2b843c097e4e1471475bf72190115a0ec083c38246cd87554d3685c9c4",
-                    "0x7cb6ec2953616a6c4594c3a05ba55ed12181e6b70ab587da7d8c88bb8144a1c4",
-                    "0xac77356e7bdeb160502dec58ce29b121edb08a2cb350229fa6c076850353161e",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
                 ]
             }
         }
@@ -1002,20 +625,6 @@
                     "0xb89d106332429563845adca343108019f54355d383aaf40eee05342e03dd100f",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 24,
-                "rewards": "105284675978007295",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x4e583c1b78cef956559ba431b30e42c73dd4b6dcd86b39916bbe7f7475bbc026",
-                    "0xb3694d0b8e8e5da43c5286beac5c81bee71ed6fda2a200f1d581267248ff0bdd",
-                    "0x9b527d6faa696990f5a84e859a1db5e5d0892998fd93030d3187b18374f87246",
-                    "0x50c96cf43d51c310caf009b9719dcdbd51b19e360cc51900de619f3fdb89f418",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         },
         "PRV": {
@@ -1032,21 +641,6 @@
                     "0xab82148ec62928eb921068d4d2067cec9be321c0fe072f2394e958ea17cd8d32",
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 25,
-                "rewards": "272130610692520920",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x84cdeb48a990a5e8924048722f523e9c144568b1bd5c9482944c8f0b61e0f8a4",
-                    "0xce354a0f7919b82e76580a946f9e1584e2dac16d5e3f9326411da9f8b500f6c7",
-                    "0xf6efb0eee8d93b97112f59c8b0a68cf370e96b8cdfc5a9b8f8d91d9e5c9d3cb2",
-                    "0x971460c3852261591e3a9464c60800106fa0837aeee2e01b94eebb9f382b64d7",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -1065,20 +659,6 @@
                     "0x7fa6b1b248d09501e75cb737451de8cc37ab621ef3c4b5dc00bba1ebe6d18fe8",
                     "0x3dd5a8d0e2d6da89eadfe287300e1462df3c13da5b0468bd07e3c41741691dce",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 25,
-                "rewards": "105284675978007295",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x891338613b9d43b365282ec7ee7c66cd569e318af80f6bac78bc19fa650e09db",
-                    "0xfc2b6efdfc4bae7b94cf2cd48c61736f070515f5eeee94fd295de66774d99449",
-                    "0xf525bb96aa44940774b7167ddc727e6c212684b9f41cb87007d4bc8549a2ea0b",
-                    "0xcbeef452ae0d1dcc1e71d8278bab95ff2353bc1242bc9ba716e384cac51748bb",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -1116,20 +696,6 @@
                     "0xd5b23a3dbc5cfa7f9afe9641b218467846623467aabf7734404b8e729db49f91",
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 26,
-                "rewards": "98463475456787415",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x3f8332948bbf810509bf6ddc1e61a113479fb4b88283cb3d2bbcd81c1fb8ea76",
-                    "0x1c5eebcdc49d4a4f5f5b6717f51930556306469d0b517536b2ac47c9fdfa41da",
-                    "0x8ad0beb23fcd61bbac596712b6250893c693aeb1fb81acd5d85630164436c37c",
-                    "0x1c6ba4f64bd03ac2d2839152c06b0daa9c89c78b34e59bb4223840604e0af43c",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
                 ]
             }
         }
@@ -1169,20 +735,6 @@
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 27,
-                "rewards": "92612460191233280",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xa28d08d7dadea0d273192020d0c2dcadc5b08ffd4b2195cdd76a7570afa489ee",
-                    "0x4783c071630cd452a2ea98dc9a59ad2fac95a7f53091137cb2ca5fec1a7f0353",
-                    "0xb47997008050d085d72615faf3f82e186bcbef4f465653a77d074e5f0afc0c4d",
-                    "0xa5ea8ac520b16c138e738b7d3f269131ac163c3007ae66ff8c8adf47663c126e",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -1201,20 +753,6 @@
                     "0x771f5f3131f3a372c550fcae4c9e44cda0ac873ae49e403684cffb8ff6304904",
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 28,
-                "rewards": "82674516835463410",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xc1af6b3ef4ca2ca9f87ffcb0e7af48ff5de1d99ea0f4a49a2fc594d477338025",
-                    "0xa85241615b5f67759e496326b0caa6310a3d446267128c6069859b3ee86dd04b",
-                    "0x7ddbbc65ff5b8cafaf4352ee0e68114e5eecb7c98a9e157095a9dad76149eb0d",
-                    "0x0545de01b2952c4606c069f30a3ab16ccdd53386d8b1d1e6dc6e4a198624e53c",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -1253,20 +791,6 @@
                     "0x771f5f3131f3a372c550fcae4c9e44cda0ac873ae49e403684cffb8ff6304904",
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 29,
-                "rewards": "69579495988525821",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xb37f114bbbc495c897b6b19f411169049df4d56bd15b304751b2203e179add74",
-                    "0x36deb38f975610541dbb5b4b235bd4a3d0e74802d5f95ac70ee0d77e1438ecc3",
-                    "0x09ced1a1cefea78000100bed6c3d2aaad35647eccc8262431446df7ffc7aa4a1",
-                    "0xa5ea8ac520b16c138e738b7d3f269131ac163c3007ae66ff8c8adf47663c126e",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -1343,20 +867,6 @@
                     "0x3dd5a8d0e2d6da89eadfe287300e1462df3c13da5b0468bd07e3c41741691dce",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 30,
-                "rewards": "56048587236186271",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xb7af44e6245f6f0890d884a6371dbb7db0e1361a398496dea338a72e8cbec8a3",
-                    "0x2a55ed37308630f2accbb3de58f942e842a2363ebe9f507b7888c08ff815f933",
-                    "0x7ddbbc65ff5b8cafaf4352ee0e68114e5eecb7c98a9e157095a9dad76149eb0d",
-                    "0x0545de01b2952c4606c069f30a3ab16ccdd53386d8b1d1e6dc6e4a198624e53c",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -1376,20 +886,6 @@
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 31,
-                "rewards": "52182377605578395",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x7842906ca17792e2f0a0129785137ffbc438a7fda023a586391425d791a4b5b7",
-                    "0x839fa44a5633640426585f492057e50cf51d1d546052c3fc1ff9fbab90f7e688",
-                    "0xb04bf98190a9cf0fceb9b817028172b5a95a39bc835535dea0cf8f4d68146e2b",
-                    "0xcbeef452ae0d1dcc1e71d8278bab95ff2353bc1242bc9ba716e384cac51748bb",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         },
         "PRV": {
@@ -1405,21 +901,6 @@
                     "0xa6a01a04623ca677003471f2bb2de88af3943e52cd175a46f6b14060fc79fa7c",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 10,
-                "rewards": "3642939984182165",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x3e3a2360a3c1dbf7fae558e5e7773c3335357aa3fa777a3aecd9d3abdeea85fb",
-                    "0xcc3f1be8c1b2e5ef5d548a902f1c86bbb738985491f46468d48c9e639f6f9904",
-                    "0x51cd5fbd087c661f11ed9e099aa02e3494d4dc62400e80fea491041fc2cc8b7c",
-                    "0xe51af77e247873eba072fdb667448173a4606633df167bbf67a4af47d59f1279",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -1438,20 +919,6 @@
                     "0x7fa6b1b248d09501e75cb737451de8cc37ab621ef3c4b5dc00bba1ebe6d18fe8",
                     "0x3dd5a8d0e2d6da89eadfe287300e1462df3c13da5b0468bd07e3c41741691dce",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 32,
-                "rewards": "45533502917797292",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x1199a3be7741612d0edd26d7d11c5957569369cbe363bc3930880c505039383a",
-                    "0xf560b6da1cc658f2682dc3296f96ef1680239201d67afd1853262f6746bb9d1b",
-                    "0xec8ec7b9116ca9d60310eca5e1a43bda646f2e9aacc2c96109b662274374c151",
-                    "0xeb107fc02d05d036631fa2f297d28a4348b692e4aa278a6bce8a19a07224b671",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
                 ]
             }
         }
@@ -1472,20 +939,6 @@
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 33,
-                "rewards": "48328376693944926",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x1f83f19a974d47b26bb71d6c3001e0ccf718799ebc4f3851f11bd3e5de950c1a",
-                    "0x7620fc95cac760fdda0cd1ddf6e325913b9140a00cdd521258eb03e36ffe766b",
-                    "0x6c5b853f8ed677f0eac03ca13e1d8a5f9fdbaac15b2480675544922959fba985",
-                    "0xeb107fc02d05d036631fa2f297d28a4348b692e4aa278a6bce8a19a07224b671",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
-                ]
             }
         }
     },
@@ -1504,20 +957,6 @@
                     "0x771f5f3131f3a372c550fcae4c9e44cda0ac873ae49e403684cffb8ff6304904",
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 34,
-                "rewards": "43614531303061576",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x13e776df58ca238218ab3a562529b6ef8c0f92625298de8504c2c1eadad179f8",
-                    "0xf560b6da1cc658f2682dc3296f96ef1680239201d67afd1853262f6746bb9d1b",
-                    "0xec8ec7b9116ca9d60310eca5e1a43bda646f2e9aacc2c96109b662274374c151",
-                    "0xeb107fc02d05d036631fa2f297d28a4348b692e4aa278a6bce8a19a07224b671",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
                 ]
             }
         }
@@ -1538,20 +977,6 @@
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 36,
-                "rewards": "42942106490198302",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x9efda0f21cb118c0c40f4bdc324f74625ee61d51a9f1170c684ba435291ad499",
-                    "0x4783c071630cd452a2ea98dc9a59ad2fac95a7f53091137cb2ca5fec1a7f0353",
-                    "0xb47997008050d085d72615faf3f82e186bcbef4f465653a77d074e5f0afc0c4d",
-                    "0xa5ea8ac520b16c138e738b7d3f269131ac163c3007ae66ff8c8adf47663c126e",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -1570,20 +995,6 @@
                     "0xf2b42299883f7f99c057e801830e1e850fe34a9d7f49a59a4f6e912cdd32ea79",
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 37,
-                "rewards": "41445194980691761",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x29b4713594241734c22458af74822092b059d5eb060c318c8748d13d2b2adda7",
-                    "0xb6861c217407b59ca412b54e455796391b637351e93a0bb728a6127b0fdfac1c",
-                    "0xcd45329e94d79234cfc29901ba309480f1e8596eb26185b214b28617a39febcf",
-                    "0x1c6ba4f64bd03ac2d2839152c06b0daa9c89c78b34e59bb4223840604e0af43c",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
                 ]
             }
         }
@@ -1604,19 +1015,6 @@
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 38,
-                "rewards": "38157229638663781",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xe35ed38b5469d472a67f416a385fa26da05bbee91ff9cc2e5de2e7408f7aaec2",
-                    "0x799f2c02b866627fcc54860f0721164ed53102797ccd9485243c5aa68e2e0bd9",
-                    "0x507a13ea426c7bf05e7c7f7f1049eadc8f7302d0051daa8c983209cd157181c8",
-                    "0xac77356e7bdeb160502dec58ce29b121edb08a2cb350229fa6c076850353161e",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
-                ]
             }
         },
         "PRV": {
@@ -1633,21 +1031,6 @@
                     "0x13f49ee30e8ebf8368a5b956c1c91be57149d21fdca909ad3bf0e2f54882dab6",
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 31,
-                "rewards": "116448832000471637",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x007dc5f4dac5a4fd30829590b7c4af98ed927e0792661bd01ed8ba04823384df",
-                    "0xff27c19517f080515db12081b4e04c271f703369b0d887694f7dc2b57748b5ef",
-                    "0xc8a977cc16bfba15a43a5249e2dd0297e385081030e299008f2204b54e1d97ba",
-                    "0xf0b0228a0afe7f61fc23d2b441ee7396396bdcb16c0468f7d97e50b6f6f02d57",
-                    "0x4fe42d2fb0b40eee623ee9be1dc7b83802f9607e4a8b60b5170550aa7b115784",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -1667,20 +1050,6 @@
                     "0xb89d106332429563845adca343108019f54355d383aaf40eee05342e03dd100f",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 39,
-                "rewards": "37937929282338366",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x2b9dc32387b094d9ee390fbbf31dc77781eefab0b8b45b0fd223f93da73f0efa",
-                    "0xb6861c217407b59ca412b54e455796391b637351e93a0bb728a6127b0fdfac1c",
-                    "0xcd45329e94d79234cfc29901ba309480f1e8596eb26185b214b28617a39febcf",
-                    "0x1c6ba4f64bd03ac2d2839152c06b0daa9c89c78b34e59bb4223840604e0af43c",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
-                ]
             }
         }
     },
@@ -1698,20 +1067,6 @@
                     "0x1abd01582f0c72535743aaa0c4eeeff1cd2c6f141da0453951a44380a3dd1426",
                     "0x3dd5a8d0e2d6da89eadfe287300e1462df3c13da5b0468bd07e3c41741691dce",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 40,
-                "rewards": "35589227688046079",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x4a2935a428673dd5f3bad19ebc5229d3eba6f03ef076e6b17cecfd84734a317f",
-                    "0xe56dc41cb9321bfd3769ef3f89e084a3d54aae826c500d9b80e3567ac71c7944",
-                    "0x8ad0beb23fcd61bbac596712b6250893c693aeb1fb81acd5d85630164436c37c",
-                    "0x1c6ba4f64bd03ac2d2839152c06b0daa9c89c78b34e59bb4223840604e0af43c",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
                 ]
             }
         }
@@ -1750,20 +1105,6 @@
                     "0x3dd5a8d0e2d6da89eadfe287300e1462df3c13da5b0468bd07e3c41741691dce",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 41,
-                "rewards": "33074204085417115",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x358605f12030fc5edfd7a5959b4a1420646925f58a01a4f8b7ab71ed8c144ef9",
-                    "0xa65fb3942977bc954810ba0543b19bcd9649ac927e886a5001b4f4afa3668716",
-                    "0xcd45329e94d79234cfc29901ba309480f1e8596eb26185b214b28617a39febcf",
-                    "0x1c6ba4f64bd03ac2d2839152c06b0daa9c89c78b34e59bb4223840604e0af43c",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
-                ]
             }
         }
     },
@@ -1782,20 +1123,6 @@
                     "0xf2b42299883f7f99c057e801830e1e850fe34a9d7f49a59a4f6e912cdd32ea79",
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 42,
-                "rewards": "26878284142575251",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x4f99fe0bec77dc853d47cfe377c1463a4cf618aafa58d57ca28191c0687063c7",
-                    "0xb3694d0b8e8e5da43c5286beac5c81bee71ed6fda2a200f1d581267248ff0bdd",
-                    "0x9b527d6faa696990f5a84e859a1db5e5d0892998fd93030d3187b18374f87246",
-                    "0x50c96cf43d51c310caf009b9719dcdbd51b19e360cc51900de619f3fdb89f418",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -1853,20 +1180,6 @@
                     "0xb89d106332429563845adca343108019f54355d383aaf40eee05342e03dd100f",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 35,
-                "rewards": "44966480084782162",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xc50ce59845f989f7351f6d160c3b0a706d1ac7d4868533d314a4d5684708438e",
-                    "0xffcbeba0d7c98f0f64f93e6901d4f0fd8a3a25fdbb248b0ebf8f4816cc951d33",
-                    "0x21abb2f66112e88310194164258d48b0475150904753e1660944e388d197c430",
-                    "0x0545de01b2952c4606c069f30a3ab16ccdd53386d8b1d1e6dc6e4a198624e53c",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -1884,20 +1197,6 @@
                     "0x52bb7749acaaa475acb2a778c9c2a3bc5e79c39ec5d6d13da27d0e64d2df2cd1",
                     "0xb89d106332429563845adca343108019f54355d383aaf40eee05342e03dd100f",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 43,
-                "rewards": "22461407782968110",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x1ddee0797ffda006093f20e5866521b80246357422ad4b7a7973c7fca952af7d",
-                    "0x0253ed01360654f71eaa7692724dc1d076d3e9cac5e8b9ad2a40152e9dcb0d99",
-                    "0x6c5b853f8ed677f0eac03ca13e1d8a5f9fdbaac15b2480675544922959fba985",
-                    "0xeb107fc02d05d036631fa2f297d28a4348b692e4aa278a6bce8a19a07224b671",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
                 ]
             }
         }
@@ -2012,20 +1311,6 @@
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 44,
-                "rewards": "15988731038148104",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x91841d4058fbd977770f6f12d0be2b64bfc4aff6fb591331095b048c616301e3",
-                    "0xfc2b6efdfc4bae7b94cf2cd48c61736f070515f5eeee94fd295de66774d99449",
-                    "0xf525bb96aa44940774b7167ddc727e6c212684b9f41cb87007d4bc8549a2ea0b",
-                    "0xcbeef452ae0d1dcc1e71d8278bab95ff2353bc1242bc9ba716e384cac51748bb",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -2083,20 +1368,6 @@
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 45,
-                "rewards": "12971983552281955",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x99cf662de1078b3d67ca3e7ebb8c2e1e4b56c8eb0ef3155ffb4a4bc57cf6bd1a",
-                    "0x11e22811526fbe4abe0c534648d5b59d632515b5f25ee8d67a1ba6e5b3374597",
-                    "0xf525bb96aa44940774b7167ddc727e6c212684b9f41cb87007d4bc8549a2ea0b",
-                    "0xcbeef452ae0d1dcc1e71d8278bab95ff2353bc1242bc9ba716e384cac51748bb",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -2115,20 +1386,6 @@
                     "0xa2540df872e54a42840cd040f0ae398e71ab19b5ad74e32e18081ca56d8a799f",
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 46,
-                "rewards": "11106750907773652",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x349f840a48d1a94208bf32cb9ad2c3fbc4c3ccbcdfcd0283ded138c69b047df2",
-                    "0xa65fb3942977bc954810ba0543b19bcd9649ac927e886a5001b4f4afa3668716",
-                    "0xcd45329e94d79234cfc29901ba309480f1e8596eb26185b214b28617a39febcf",
-                    "0x1c6ba4f64bd03ac2d2839152c06b0daa9c89c78b34e59bb4223840604e0af43c",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
                 ]
             }
         }
@@ -2167,19 +1424,6 @@
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 47,
-                "rewards": "10464405521287012",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xff52699f36533bd29f69dae0b6d7129289245a4a16b50287ba2d6a3da8da94cd",
-                    "0x67f21c2b843c097e4e1471475bf72190115a0ec083c38246cd87554d3685c9c4",
-                    "0x7cb6ec2953616a6c4594c3a05ba55ed12181e6b70ab587da7d8c88bb8144a1c4",
-                    "0xac77356e7bdeb160502dec58ce29b121edb08a2cb350229fa6c076850353161e",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
-                ]
             }
         }
     },
@@ -2216,20 +1460,6 @@
                     "0xf2b42299883f7f99c057e801830e1e850fe34a9d7f49a59a4f6e912cdd32ea79",
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 48,
-                "rewards": "7056027529862191",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x9a2635d329d5628adf2df71077258408932f164ac4386f2c7d5c4b1fcd2ccc03",
-                    "0x59b6d051f2e323db1d544be2040e6898f33735a8324277a14fd168354df24e1d",
-                    "0xb47997008050d085d72615faf3f82e186bcbef4f465653a77d074e5f0afc0c4d",
-                    "0xa5ea8ac520b16c138e738b7d3f269131ac163c3007ae66ff8c8adf47663c126e",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -2287,20 +1517,6 @@
                     "0x771f5f3131f3a372c550fcae4c9e44cda0ac873ae49e403684cffb8ff6304904",
                     "0xf07cfb24966cb361f8bfc535eb91bf672d9db437b440d501b133a84f3b59d1e5",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 49,
-                "rewards": "6931697764854481",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xc725690246fffdf2cc335e8d693f3e2691ba0af5ed16efcc0b1e37be48673a4a",
-                    "0xffcbeba0d7c98f0f64f93e6901d4f0fd8a3a25fdbb248b0ebf8f4816cc951d33",
-                    "0x21abb2f66112e88310194164258d48b0475150904753e1660944e388d197c430",
-                    "0x0545de01b2952c4606c069f30a3ab16ccdd53386d8b1d1e6dc6e4a198624e53c",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -2373,21 +1589,6 @@
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 86,
-                "rewards": "3231187521074107",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x986da07a6b8945f3299d4846b881ce54a8fc07bae8b1dd99baccc704fb1c1925",
-                    "0xf024c92fa3e6e318eb49033bedb84cd06dec27bbc07cefb1f761f66e070a8dca",
-                    "0xc58c22ad33ebaaed3e210db341c4ea7b865328bc01714c83ab9250e573334e87",
-                    "0x5203992c936dedd231363919348a1468411549d65668885cd4a1764fdccf41e8",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -2423,21 +1624,6 @@
                     "0x13f49ee30e8ebf8368a5b956c1c91be57149d21fdca909ad3bf0e2f54882dab6",
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 14,
-                "rewards": "3231187521074107",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x4a594a2f2da6cf369ba1508407054d1fde28c0821a253cfecdef49adf5268280",
-                    "0x9bedbd10bfd286fd8cb93839f7622a9fb9314e538915e5e5c0067f1436a7381e",
-                    "0x48b93af4536a0383b083e22e4d8d0f8fe14e12efc7ae958890039fc09a27ef5b",
-                    "0xd27868949bc2af206d8fc7e9a6698f2adf6cc3a60a423c362cc83a459e641550",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -2476,20 +1662,6 @@
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 51,
-                "rewards": "3925830122132818",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xbcb7deefe17326547e5a0b0494d9c20fe459c882ce66ee1fd59127656970e05a",
-                    "0x2a55ed37308630f2accbb3de58f942e842a2363ebe9f507b7888c08ff815f933",
-                    "0x7ddbbc65ff5b8cafaf4352ee0e68114e5eecb7c98a9e157095a9dad76149eb0d",
-                    "0x0545de01b2952c4606c069f30a3ab16ccdd53386d8b1d1e6dc6e4a198624e53c",
-                    "0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -2527,20 +1699,6 @@
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 52,
-                "rewards": "3070736539230382",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x5c13b7af501985f210290d4787e9e391b490a4dc7754c1188364e6ff79a230c6",
-                    "0xf4a39cad78d985fea3f1c83f55633a0aa9da4b27b36517ca7e744674cd6b6e3b",
-                    "0xb9f21cfce6d660f30ae3364bdea819d89a9c9444503edc9f9de70a390417d38e",
-                    "0x50c96cf43d51c310caf009b9719dcdbd51b19e360cc51900de619f3fdb89f418",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -2558,20 +1716,6 @@
                     "0x1abd01582f0c72535743aaa0c4eeeff1cd2c6f141da0453951a44380a3dd1426",
                     "0x3dd5a8d0e2d6da89eadfe287300e1462df3c13da5b0468bd07e3c41741691dce",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 53,
-                "rewards": "3000596731573502",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x48658262a40cc61cbe6bbf38fe67163743a933da0c4a912a4d66305445fec9be",
-                    "0x1c5eebcdc49d4a4f5f5b6717f51930556306469d0b517536b2ac47c9fdfa41da",
-                    "0x8ad0beb23fcd61bbac596712b6250893c693aeb1fb81acd5d85630164436c37c",
-                    "0x1c6ba4f64bd03ac2d2839152c06b0daa9c89c78b34e59bb4223840604e0af43c",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
                 ]
             }
         }
@@ -2667,20 +1811,6 @@
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 54,
-                "rewards": "1554730263639341",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x82010bdd7ae8c8895fe9b38912aa7d96ba019325e1b5c2d1fa093bf377730c8a",
-                    "0x4623c090b9659c4687c8ab2d9034b78713f1be2bd8d906429874047876e6956c",
-                    "0xb04bf98190a9cf0fceb9b817028172b5a95a39bc835535dea0cf8f4d68146e2b",
-                    "0xcbeef452ae0d1dcc1e71d8278bab95ff2353bc1242bc9ba716e384cac51748bb",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
-                ]
             }
         }
     },
@@ -2699,20 +1829,6 @@
                     "0xa2540df872e54a42840cd040f0ae398e71ab19b5ad74e32e18081ca56d8a799f",
                     "0x3fbbd57445314d0811cfaa503765da751ec2c63bf3cd3317995d16be5bbc220d",
                     "0x7e5b4021d1ebb4a3db4c84adf0f495ceed6e4bdc724de93673250f0851eb4307"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 55,
-                "rewards": "1267445139520541",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x57c977716fb63afe5ba1eec7ca457e7a3e8469806cddecce8e5547a524e091be",
-                    "0xf4a39cad78d985fea3f1c83f55633a0aa9da4b27b36517ca7e744674cd6b6e3b",
-                    "0xb9f21cfce6d660f30ae3364bdea819d89a9c9444503edc9f9de70a390417d38e",
-                    "0x50c96cf43d51c310caf009b9719dcdbd51b19e360cc51900de619f3fdb89f418",
-                    "0xd499034f39036bae42e2482a15768c9420180c7892ba678b22d4078747a0cc45",
-                    "0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17"
                 ]
             }
         }
@@ -2807,19 +1923,6 @@
                     "0xb89d106332429563845adca343108019f54355d383aaf40eee05342e03dd100f",
                     "0xc73d89d4d6bda6bb17b0580b17e21ed8a86de7f9877d91c66ef8e5999c9027ac"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 56,
-                "rewards": "218301739974561",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x9acfa5cc93d89787cfd66a9b993b3de6f19d6b87a416b50f071d75bb50e7cd5a",
-                    "0x3a307c13bacb874bb412b496043418d2ae84931aecb04a434e68f3bfbfb7eb98",
-                    "0x7cb6ec2953616a6c4594c3a05ba55ed12181e6b70ab587da7d8c88bb8144a1c4",
-                    "0xac77356e7bdeb160502dec58ce29b121edb08a2cb350229fa6c076850353161e",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
-                ]
             }
         }
     },
@@ -2858,21 +1961,6 @@
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 1,
-                "rewards": "21853766638805918",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x110dd499e9324355449ed4f7ce90315036aef6d722587b74bc34f496c14d9455",
-                    "0x2f7191ed3cf96b5ed8888c0dbd9860fac59a97a3d93321831c7e6a51268e296a",
-                    "0x957d8ae85a7768b8a329b365bd68b08bfe2abc7d978231b57625908bf82a647e",
-                    "0x8f0c2be34fdecdd412aed1c76d054e85eb724ff4164ff1b836f167c7845254b8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -2890,21 +1978,6 @@
                     "0x36368c2a6962551c77b837bdab49d5d97bc0485cc2a3fd89c96cfe0c42883341",
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 2,
-                "rewards": "3111930068944539",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x324e80d762f585dc73eeef998608daed0c19609f25c44769fc2ef2f9ca3be919",
-                    "0xd03e4791c8836fd77b4f1bb4b02731fc65c45fafca4bd7c99b258b2aa7814d96",
-                    "0xcd80d64494739d438f5a63e660cb34d9f214fffaaecf7b1c9e22995bc832f778",
-                    "0xf8bf141fc69196d54515b54b12e1b8e9e0dd30d064558060b108f25d3857dff8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -2924,21 +1997,6 @@
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 3,
-                "rewards": "10238191768381062",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x8e0dc4e8a1787459cd4635adc2b86b7ef2fb56be06c2733e04e2202551053600",
-                    "0x11acba58f34b8ce41187ea7687ebc775a74f6f56ec1026851b20d2bade914d1f",
-                    "0xffb20ba20fd4325c69dede3789d0abd7b6c9574eaebf3b1ca526d1975fa672bf",
-                    "0x2fcd1ca1d6caeb492b729b379e0472fa92864653245643545b04e3259990ca39",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -2956,21 +2014,6 @@
                     "0x8ced5d539403a0b19619ba1f6fe3adb20810a0b748ea366b01b0682287cadd8e",
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 4,
-                "rewards": "64623750421482158",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x598d05ff2167b9b5e9f9eb2a587a884e6ac78a6433588df5eabe689d989f950a",
-                    "0x52ff6dbe4c1dd0ffed5bc8a00d899fa14d2be10c5996abe0affcfa71bce74481",
-                    "0x24d1792cadb6da5aeef0b36771b3ae0648645735dcc65e0de2c6617143998f97",
-                    "0xb691d83397945f725e450df5acc1890415442766a4c652d1c5add3a71cb67e12",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -2991,21 +2034,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 5,
-                "rewards": "2551398802660246",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x67871a821d1d705aed7de06b5922d8308cfdfc32322843f4f50205252817f059",
-                    "0x5e74b7161e7d5764e10ea4e6b5ad6aa845017b07a321ee0b42b55a55960cac84",
-                    "0x92cecef47d564f9daa9625d9ee9a0e3eb0fcddfbe10c25e6112679acf152160f",
-                    "0xb691d83397945f725e450df5acc1890415442766a4c652d1c5add3a71cb67e12",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -3024,20 +2052,6 @@
                     "0x13f49ee30e8ebf8368a5b956c1c91be57149d21fdca909ad3bf0e2f54882dab6",
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 6,
-                "rewards": "80431249019350062",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xeca1bfea5ec7a25308634b8b551d40346abe249eea25761dd49339dba1d455a9",
-                    "0x248692ea25b0ed8231066957314b9fca39ed4484d0b1371b0c10854ff9c2c4b4",
-                    "0xb4671d45fb008656ed3acc268042f46bbf202f4f4c71a32b66a2412b334887e6",
-                    "0x08a174f356d07ea0b901d01cec0990baa713b1bb773aa1ef8ee5c38ce79c8566",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -3058,21 +2072,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 7,
-                "rewards": "1546629729335371",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x883ec2d1d921cde69f7dc257c7d9d1fda6ac17e8a7881224d142334722ce5005",
-                    "0x32ccb628ccedf0ee4f30ae61fda2d461893974351745fbc6b3a7ac4b74b90a0d",
-                    "0xf30fad3d23613dc1de9f087685a0197d1bee0081b603b21e59f422364ade9ad1",
-                    "0x971460c3852261591e3a9464c60800106fa0837aeee2e01b94eebb9f382b64d7",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -3091,21 +2090,6 @@
                     "0xc131deab18ca3513aa51f68f9ad5c8419f5b365dd0488495540feedca4cc3359",
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 8,
-                "rewards": "2996329464451907",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x2fcf9844290d8cc96e80d2ddb9d8817f0748532e3b54175b697f8b4394f59544",
-                    "0x67393f2118fa999c801086899d10a114af65b380e76403080953a6d0ed4197b5",
-                    "0xcd80d64494739d438f5a63e660cb34d9f214fffaaecf7b1c9e22995bc832f778",
-                    "0xf8bf141fc69196d54515b54b12e1b8e9e0dd30d064558060b108f25d3857dff8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -3126,21 +2110,6 @@
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 9,
-                "rewards": "144172358081188",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x4fc88b92d87de044712e1ebc47149c49bf5a11b8d23dc1dd48baa0bdc2c1bf07",
-                    "0xc3f2dbd1650563be2b1a2f803845fa37eaa0748934e31214d45b33887ffe8541",
-                    "0x48b93af4536a0383b083e22e4d8d0f8fe14e12efc7ae958890039fc09a27ef5b",
-                    "0xd27868949bc2af206d8fc7e9a6698f2adf6cc3a60a423c362cc83a459e641550",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -3160,21 +2129,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 11,
-                "rewards": "66503275314294846",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x85cb16f53d0f353db1757f222b948e809cdea28ce09b8bbf3d21a7de487a61af",
-                    "0xdcf281c7052866285d10933bc80ac359fddaf79ee0a06294e83213e218531230",
-                    "0xf30fad3d23613dc1de9f087685a0197d1bee0081b603b21e59f422364ade9ad1",
-                    "0x971460c3852261591e3a9464c60800106fa0837aeee2e01b94eebb9f382b64d7",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -3192,21 +2146,6 @@
                     "0x36368c2a6962551c77b837bdab49d5d97bc0485cc2a3fd89c96cfe0c42883341",
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 12,
-                "rewards": "2618377053528724",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x4ecffa26fdd793d3669543ab4446b0b5db4022145bce8016e2af5aa52d0db317",
-                    "0xc3f2dbd1650563be2b1a2f803845fa37eaa0748934e31214d45b33887ffe8541",
-                    "0x48b93af4536a0383b083e22e4d8d0f8fe14e12efc7ae958890039fc09a27ef5b",
-                    "0xd27868949bc2af206d8fc7e9a6698f2adf6cc3a60a423c362cc83a459e641550",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -3226,20 +2165,6 @@
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 13,
-                "rewards": "354673035545840892",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xf300b113e25ddd0fd68c85db2ad6b0336d5ab9f9e5d84d686c8f46f61299ea5b",
-                    "0x103fff26128401cc7affd48d3d2983ab1b030b73a03123f26dcee72132868adf",
-                    "0x9a399a997f94ffe740c7c9a17f8a2045993765bb81f2ecfbfa10c78679179298",
-                    "0x08a174f356d07ea0b901d01cec0990baa713b1bb773aa1ef8ee5c38ce79c8566",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -3257,21 +2182,6 @@
                     "0x8ced5d539403a0b19619ba1f6fe3adb20810a0b748ea366b01b0682287cadd8e",
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 15,
-                "rewards": "2202083230785443",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x1364c38f5cc75f204ac83ec6e272595596133b713867de77608752862e18061d",
-                    "0xfc5123c06e075483e53d8f087d16fc42187689e7aa3a80ba3b16efb7f3983c1a",
-                    "0x957d8ae85a7768b8a329b365bd68b08bfe2abc7d978231b57625908bf82a647e",
-                    "0x8f0c2be34fdecdd412aed1c76d054e85eb724ff4164ff1b836f167c7845254b8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -3292,20 +2202,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 16,
-                "rewards": "6992110684108787",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xe5a626f711dd86835ecb739e2bafbcfd9b6a00ee225a11dc15ec53a405f8cb0e",
-                    "0x917d5b746e37c5f1c44a534719c1bc7806629585dae569ff23419c0a8767850d",
-                    "0x4491dee96b5f5c7a71e7aed069c439b52c89183cd7d7a63e7ab209557e338d8c",
-                    "0x32a505e2da828885f0408376cb185c1a728c869bda1e62cbc5f6050e6be4d6a2",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -3323,20 +2219,6 @@
                     "0x8ced5d539403a0b19619ba1f6fe3adb20810a0b748ea366b01b0682287cadd8e",
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 17,
-                "rewards": "12699694762001912",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x0dd38d3300ceff14ca05d155fbcacde20d03d38f3f91dfac9fd03ac7e4fb834f",
-                    "0xc8a977cc16bfba15a43a5249e2dd0297e385081030e299008f2204b54e1d97ba",
-                    "0xf0b0228a0afe7f61fc23d2b441ee7396396bdcb16c0468f7d97e50b6f6f02d57",
-                    "0x4fe42d2fb0b40eee623ee9be1dc7b83802f9607e4a8b60b5170550aa7b115784",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -3357,21 +2239,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 18,
-                "rewards": "2532043223729328",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x8bbb7372f507cd352f4ef3612057a870c7240a925386311dac466cee3f7a2ce5",
-                    "0x2576b2bbb1908971a956c70d674f47584205038a9f6b19e7c55debaaaea6f41b",
-                    "0xffb20ba20fd4325c69dede3789d0abd7b6c9574eaebf3b1ca526d1975fa672bf",
-                    "0x2fcd1ca1d6caeb492b729b379e0472fa92864653245643545b04e3259990ca39",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -3391,21 +2258,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 19,
-                "rewards": "55996735789022667",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x2ed852127cd0cc57de78cce4509592b736c692b17a767f885edaf78b3fc2a0aa",
-                    "0x790816ff853c85664432c2cc35e3b8a50737402fbb7f0476be7c5f33f4f222da",
-                    "0x31dc76aafbe34622192f548f6441dffcae5c350c739c46cccf27e7820c7f42c6",
-                    "0xf8bf141fc69196d54515b54b12e1b8e9e0dd30d064558060b108f25d3857dff8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -3423,21 +2275,6 @@
                     "0xa6a01a04623ca677003471f2bb2de88af3943e52cd175a46f6b14060fc79fa7c",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 20,
-                "rewards": "68044734443346021",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xae9132eee669f605fe23b403a3d72ee950f66565740688cd5994607d523a0799",
-                    "0x6fba2def3954767a883cf6d5f370f8a3ad8e9bfccd45e7ace920cbe531e7f72a",
-                    "0x7311df8d1584a356af31b8191a8738048f0acb704b220440dd9d6c1b53591031",
-                    "0x5203992c936dedd231363919348a1468411549d65668885cd4a1764fdccf41e8",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -3458,21 +2295,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 21,
-                "rewards": "1245574289753227",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x6b7876785dce0d89f8403b940133c411c45c82e39d20e360d3bf79dfe772caaf",
-                    "0x18bcd9cd8bbcf9e5cec909edd176c93e10bdf9273098264651ae9f2a83c04c32",
-                    "0x92cecef47d564f9daa9625d9ee9a0e3eb0fcddfbe10c25e6112679acf152160f",
-                    "0xb691d83397945f725e450df5acc1890415442766a4c652d1c5add3a71cb67e12",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -3491,21 +2313,6 @@
                     "0x883a2dea07ddcde51503f94b4ed7c6a9ef7c772ce937ad30d072e7790f9aae51",
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 22,
-                "rewards": "190441253087471528",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x3f2bcfeeebaf84aa553d67274894cf2ae6d27d6b188c10c91dcd2c334d343906",
-                    "0x98632dc145d1df5c8a1b8a6da048180a60604b0ff49cfab520aba920f3b8a5c4",
-                    "0x51cd5fbd087c661f11ed9e099aa02e3494d4dc62400e80fea491041fc2cc8b7c",
-                    "0xe51af77e247873eba072fdb667448173a4606633df167bbf67a4af47d59f1279",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -3526,20 +2333,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 23,
-                "rewards": "16195005326779192",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xeebe31aa2bffba8686d8d3ec19cb1bb8d50f9092147072b07b01044315333af3",
-                    "0x248692ea25b0ed8231066957314b9fca39ed4484d0b1371b0c10854ff9c2c4b4",
-                    "0xb4671d45fb008656ed3acc268042f46bbf202f4f4c71a32b66a2412b334887e6",
-                    "0x08a174f356d07ea0b901d01cec0990baa713b1bb773aa1ef8ee5c38ce79c8566",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -3558,21 +2351,6 @@
                     "0x883a2dea07ddcde51503f94b4ed7c6a9ef7c772ce937ad30d072e7790f9aae51",
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 24,
-                "rewards": "102220956254957830",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x54f02735a4c8f2a641225d0c3af7fc0c85c54b02974cdc00d504dd9518406fd5",
-                    "0xa2d022d41b8df2170453eceb4fd6007c504c2b215db9182cfedc644a20639266",
-                    "0xc9c6ebebae17eb00b97f81b2aaafb8de418af0080481fd04a994a596ce7302ca",
-                    "0xd27868949bc2af206d8fc7e9a6698f2adf6cc3a60a423c362cc83a459e641550",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -3593,20 +2371,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 26,
-                "rewards": "27062198521444129",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xd506a02ca08c2db30c94051dfc868e1694d84f03f6ed0480f5560164f7be50d0",
-                    "0x2e883528eb1bea5dc9267cf305ed21ae71dbd8c85721511c59b5f9df20feb748",
-                    "0x49cfdf071f97cade46cac2867d69b8dc06239e76457ef2531195cc120ac83f78",
-                    "0x32a505e2da828885f0408376cb185c1a728c869bda1e62cbc5f6050e6be4d6a2",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -3625,21 +2389,6 @@
                     "0x883a2dea07ddcde51503f94b4ed7c6a9ef7c772ce937ad30d072e7790f9aae51",
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 28,
-                "rewards": "13318580201105265",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x6783c07e03466203799c859788a02a0042668f2f52933196fba2e29bd46f67b3",
-                    "0x950a7c7b80009b6aa6c912953461fd6aa513a226633ec0f3ff6142d1072f5ed5",
-                    "0x24d1792cadb6da5aeef0b36771b3ae0648645735dcc65e0de2c6617143998f97",
-                    "0xb691d83397945f725e450df5acc1890415442766a4c652d1c5add3a71cb67e12",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -3660,20 +2409,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 29,
-                "rewards": "21583697646736371",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xd52c1de009422d5d4f60dbf2fc5c762400343a20f7f20b84415cae75e8c22cbe",
-                    "0xede045b2ec2cb5f04782074aa7674f2e047f7a51e573e2943b895ebaa180dfa9",
-                    "0x4491dee96b5f5c7a71e7aed069c439b52c89183cd7d7a63e7ab209557e338d8c",
-                    "0x32a505e2da828885f0408376cb185c1a728c869bda1e62cbc5f6050e6be4d6a2",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -3692,37 +2427,6 @@
                     "0x13f49ee30e8ebf8368a5b956c1c91be57149d21fdca909ad3bf0e2f54882dab6",
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 30,
-                "rewards": "66169572192349867",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x27d0ce6ff631665bd42abe8adfbcbfb9232580716030e372089578364c0aa9f3",
-                    "0x4f3ef31589b33e41397ac0de4e67cef0c750f900d3f427f11a740afba1e799ad",
-                    "0x31dc76aafbe34622192f548f6441dffcae5c350c739c46cccf27e7820c7f42c6",
-                    "0xf8bf141fc69196d54515b54b12e1b8e9e0dd30d064558060b108f25d3857dff8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
-            }
-        },
-        "ARV": {
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 50,
-                "rewards": "5309343861813306",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x16c75c9404f17972cb22e6126e115938453b8e6ddef44490afbd155580b6a2df",
-                    "0x0253ed01360654f71eaa7692724dc1d076d3e9cac5e8b9ad2a40152e9dcb0d99",
-                    "0x6c5b853f8ed677f0eac03ca13e1d8a5f9fdbaac15b2480675544922959fba985",
-                    "0xeb107fc02d05d036631fa2f297d28a4348b692e4aa278a6bce8a19a07224b671",
-                    "0x0d4248f90d3bc67237715eae445a0e093ef2d21aeb374066dcd19c1b8ee66831",
-                    "0x00e87f30de5b77a4fbf8b71df27437497df0577fd2df091bf47904aa432d334f"
                 ]
             }
         }
@@ -3743,21 +2447,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 32,
-                "rewards": "257866695103452682",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x538fd0497d9ea1ac597ad8278ba4256e20b26142a2fab1e777e61786db0b31fd",
-                    "0x95476a80e8cdf64e9295f202fa9949c9fcec5bf2d755fb839d4fc8cd43a15f5c",
-                    "0xc9c6ebebae17eb00b97f81b2aaafb8de418af0080481fd04a994a596ce7302ca",
-                    "0xd27868949bc2af206d8fc7e9a6698f2adf6cc3a60a423c362cc83a459e641550",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -3776,20 +2465,6 @@
                     "0xab82148ec62928eb921068d4d2067cec9be321c0fe072f2394e958ea17cd8d32",
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 33,
-                "rewards": "13029547825052286",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xefab96e6ace0dbe705851a0d546f5b90cdc20070272ab812d5a080e7c7e2d0a0",
-                    "0xa7d4a43b5a9a79c1fa449e29eeadacf95e81ece12ec01a515f79253097d6a0d5",
-                    "0xb4671d45fb008656ed3acc268042f46bbf202f4f4c71a32b66a2412b334887e6",
-                    "0x08a174f356d07ea0b901d01cec0990baa713b1bb773aa1ef8ee5c38ce79c8566",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -3810,21 +2485,6 @@
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 34,
-                "rewards": "6682141655132939",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xb56727cab63475ea53612a53def2cd61988d9872413f0405c6353e5f47e36120",
-                    "0x2bfc0591040c58d70d34f1858310ab8e4c6cdb635d50c13ac0efcd276038c693",
-                    "0x7311df8d1584a356af31b8191a8738048f0acb704b220440dd9d6c1b53591031",
-                    "0x5203992c936dedd231363919348a1468411549d65668885cd4a1764fdccf41e8",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -3842,20 +2502,6 @@
                     "0x819fd8d7db1ba029710f00d7bde1253632d493210828acd8eccd4b02e6b2d56a",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 35,
-                "rewards": "110237924550496222",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xf0ca5b4e23e2f0fd635d7eea69317c20920fa8fd3656da4727d759f1795705cf",
-                    "0xfd6f40b10aceb6ebbcfe5d6a907214799491bb191668c2c5d51f0534c2db1c5c",
-                    "0x9a399a997f94ffe740c7c9a17f8a2045993765bb81f2ecfbfa10c78679179298",
-                    "0x08a174f356d07ea0b901d01cec0990baa713b1bb773aa1ef8ee5c38ce79c8566",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -3876,21 +2522,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 36,
-                "rewards": "2990431738878876",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x53b31aa262ff127af4d13d026a9fdce71f8e4fcfd0fdb551de214eb5c0ce882d",
-                    "0x95476a80e8cdf64e9295f202fa9949c9fcec5bf2d755fb839d4fc8cd43a15f5c",
-                    "0xc9c6ebebae17eb00b97f81b2aaafb8de418af0080481fd04a994a596ce7302ca",
-                    "0xd27868949bc2af206d8fc7e9a6698f2adf6cc3a60a423c362cc83a459e641550",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -3909,20 +2540,6 @@
                     "0x13f49ee30e8ebf8368a5b956c1c91be57149d21fdca909ad3bf0e2f54882dab6",
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 37,
-                "rewards": "18507379633230304",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xf6a6edc3f2bcbdc31ae8e992b4501c4f74a041c713dfd785b2acbc0941bd3311",
-                    "0x9651598c27f01b72a573633142d3380633781e08d093b895c4822f730b4adfef",
-                    "0xa0c5c7de7715ebb9e0f254fed0f14dd0932909a9835da4be9330f996d28c6080",
-                    "0x4fe42d2fb0b40eee623ee9be1dc7b83802f9607e4a8b60b5170550aa7b115784",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -3943,20 +2560,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 38,
-                "rewards": "22023878948414126",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xd8a9d4c377732bd6f04e71fec8aaa7466107a76fe3e371c1711cb3140022a17c",
-                    "0xede045b2ec2cb5f04782074aa7674f2e047f7a51e573e2943b895ebaa180dfa9",
-                    "0x4491dee96b5f5c7a71e7aed069c439b52c89183cd7d7a63e7ab209557e338d8c",
-                    "0x32a505e2da828885f0408376cb185c1a728c869bda1e62cbc5f6050e6be4d6a2",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -3976,20 +2579,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 39,
-                "rewards": "8027699529933950",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xbcbb72cc52e3c35aea7ba1a23b8246754716fcb6165bf691edcfc74e29f505ed",
-                    "0x8a72e3febfab15e51e1aa48c1d3b43d97e73bd7bea04c1a9d5b63204378322de",
-                    "0x1942965bc49138dfd3e4a3fa32afc8fe0132a61a99e99a2534f97dbf8b64cf45",
-                    "0x6013d17457fe04bb50783fd8165207cc8064ccef4a931b07a300195f42f90607",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -4008,21 +2597,6 @@
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 40,
-                "rewards": "4569738114081000",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x82873b933c61188369bb0a09d4ebc019c867cbaf2ff4b19f9bc82c43aaf08e93",
-                    "0x665684af090ee57cc67c9d1ed0fa75962084e323b705e36305654d1f65300778",
-                    "0xf6efb0eee8d93b97112f59c8b0a68cf370e96b8cdfc5a9b8f8d91d9e5c9d3cb2",
-                    "0x971460c3852261591e3a9464c60800106fa0837aeee2e01b94eebb9f382b64d7",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -4040,21 +2614,6 @@
                     "0x819fd8d7db1ba029710f00d7bde1253632d493210828acd8eccd4b02e6b2d56a",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 41,
-                "rewards": "13870097279941247",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x6a0d3f607b7f9fa12a138a57c124adcd81bafcd0b83c42e890d8a2b60e0b805c",
-                    "0x5e74b7161e7d5764e10ea4e6b5ad6aa845017b07a321ee0b42b55a55960cac84",
-                    "0x92cecef47d564f9daa9625d9ee9a0e3eb0fcddfbe10c25e6112679acf152160f",
-                    "0xb691d83397945f725e450df5acc1890415442766a4c652d1c5add3a71cb67e12",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -4075,21 +2634,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 42,
-                "rewards": "6346124105852965",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x8590f2ad3f292e33aabc89bcb8e7f845671dde4b525e8e7d9eaee7d22e01b1ef",
-                    "0xdcf281c7052866285d10933bc80ac359fddaf79ee0a06294e83213e218531230",
-                    "0xf30fad3d23613dc1de9f087685a0197d1bee0081b603b21e59f422364ade9ad1",
-                    "0x971460c3852261591e3a9464c60800106fa0837aeee2e01b94eebb9f382b64d7",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -4107,20 +2651,6 @@
                     "0xa6a01a04623ca677003471f2bb2de88af3943e52cd175a46f6b14060fc79fa7c",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 43,
-                "rewards": "20006997346861568",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xc8d12b681add2082a44e18dd7d831d5395b418e1d9a9b52eaf0b915ed45b2d0b",
-                    "0x48cc9a886d1bbe3205b3099f96837ea3b222e2ae5a31d3773c35045cbd94c459",
-                    "0x49cfdf071f97cade46cac2867d69b8dc06239e76457ef2531195cc120ac83f78",
-                    "0x32a505e2da828885f0408376cb185c1a728c869bda1e62cbc5f6050e6be4d6a2",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -4141,20 +2671,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 44,
-                "rewards": "129247500842964317",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xd24e8552ed2ee48887a4e320e68ac8e17fafd32d01cd0bb1223653d32f3b651e",
-                    "0x2e883528eb1bea5dc9267cf305ed21ae71dbd8c85721511c59b5f9df20feb748",
-                    "0x49cfdf071f97cade46cac2867d69b8dc06239e76457ef2531195cc120ac83f78",
-                    "0x32a505e2da828885f0408376cb185c1a728c869bda1e62cbc5f6050e6be4d6a2",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -4172,21 +2688,6 @@
                     "0x36368c2a6962551c77b837bdab49d5d97bc0485cc2a3fd89c96cfe0c42883341",
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 45,
-                "rewards": "239706711070762861",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x2e216d5080d6fc5f4fd901eace6222e7b5e7005cac913826f0fedfcbcb18997a",
-                    "0x4f3ef31589b33e41397ac0de4e67cef0c750f900d3f427f11a740afba1e799ad",
-                    "0x31dc76aafbe34622192f548f6441dffcae5c350c739c46cccf27e7820c7f42c6",
-                    "0xf8bf141fc69196d54515b54b12e1b8e9e0dd30d064558060b108f25d3857dff8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -4207,20 +2708,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 46,
-                "rewards": "18815421547084570",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xc592e177b10131ae34965ea190db283c12037ed4ce3dba8672e85f18d0360df0",
-                    "0xb1ddbdf3ae66854e9bc9e821da4c2e17c24f9c82dbbfaf07f8ab193df16a0452",
-                    "0x5402e1e18a4d605f7bf918572fe5c30dc4f65214f60df1b72c71ab12d3165de6",
-                    "0x6013d17457fe04bb50783fd8165207cc8064ccef4a931b07a300195f42f90607",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -4238,21 +2725,6 @@
                     "0x819fd8d7db1ba029710f00d7bde1253632d493210828acd8eccd4b02e6b2d56a",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 47,
-                "rewards": "923241083802019",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x3e7a53cae4d5016ef4dfc1b37c35986310fbd0a1ab76b2d1cd37d760a9f44744",
-                    "0xcc3f1be8c1b2e5ef5d548a902f1c86bbb738985491f46468d48c9e639f6f9904",
-                    "0x51cd5fbd087c661f11ed9e099aa02e3494d4dc62400e80fea491041fc2cc8b7c",
-                    "0xe51af77e247873eba072fdb667448173a4606633df167bbf67a4af47d59f1279",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -4273,21 +2745,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 48,
-                "rewards": "3312300637935062",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x54b393e887cc3f9335cf2e7a958221c0ce62b4a04f92144269cbf770861a534c",
-                    "0xa2d022d41b8df2170453eceb4fd6007c504c2b215db9182cfedc644a20639266",
-                    "0xc9c6ebebae17eb00b97f81b2aaafb8de418af0080481fd04a994a596ce7302ca",
-                    "0xd27868949bc2af206d8fc7e9a6698f2adf6cc3a60a423c362cc83a459e641550",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -4305,20 +2762,6 @@
                     "0x36368c2a6962551c77b837bdab49d5d97bc0485cc2a3fd89c96cfe0c42883341",
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 49,
-                "rewards": "6943161928500850",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xdc6cc6569f34b0b91bce2d2da96a28f32edc3c4d1d92d12e00d0978b0efe803a",
-                    "0x917d5b746e37c5f1c44a534719c1bc7806629585dae569ff23419c0a8767850d",
-                    "0x4491dee96b5f5c7a71e7aed069c439b52c89183cd7d7a63e7ab209557e338d8c",
-                    "0x32a505e2da828885f0408376cb185c1a728c869bda1e62cbc5f6050e6be4d6a2",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -4339,20 +2782,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 50,
-                "rewards": "292092983918691398",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xf0918ffc93066dbec01629d5dd5ab25500217ada7c11e846202d0cbc0ffcc10b",
-                    "0xfd6f40b10aceb6ebbcfe5d6a907214799491bb191668c2c5d51f0534c2db1c5c",
-                    "0x9a399a997f94ffe740c7c9a17f8a2045993765bb81f2ecfbfa10c78679179298",
-                    "0x08a174f356d07ea0b901d01cec0990baa713b1bb773aa1ef8ee5c38ce79c8566",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -4371,21 +2800,6 @@
                     "0x13f49ee30e8ebf8368a5b956c1c91be57149d21fdca909ad3bf0e2f54882dab6",
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 51,
-                "rewards": "16675959396945273",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x975dcd4f295c7115f3609d65a60e62fbbf10993f12885ab5cfb2c5690cd80408",
-                    "0xf024c92fa3e6e318eb49033bedb84cd06dec27bbc07cefb1f761f66e070a8dca",
-                    "0xc58c22ad33ebaaed3e210db341c4ea7b865328bc01714c83ab9250e573334e87",
-                    "0x5203992c936dedd231363919348a1468411549d65668885cd4a1764fdccf41e8",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -4406,21 +2820,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 52,
-                "rewards": "51911907326880957",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x07336066c7895a6f5d404eaff360ed4c2fac5315d78faa304b72c74a7a2be274",
-                    "0xfa6379481f2a4defa988f0e502160c9b7cf3e558c422ad80ec619e0322d8c45c",
-                    "0xb7936ca412f8b1d29257df0f9ddae054c652786f6b0b09b39b317b12a2949489",
-                    "0xf0b0228a0afe7f61fc23d2b441ee7396396bdcb16c0468f7d97e50b6f6f02d57",
-                    "0x4fe42d2fb0b40eee623ee9be1dc7b83802f9607e4a8b60b5170550aa7b115784",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -4439,21 +2838,6 @@
                     "0xa6a01a04623ca677003471f2bb2de88af3943e52cd175a46f6b14060fc79fa7c",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 53,
-                "rewards": "913324863549124",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x2feaed078651b65354eca8b951c7180c08a459839204cefecba939573a556305",
-                    "0x67393f2118fa999c801086899d10a114af65b380e76403080953a6d0ed4197b5",
-                    "0xcd80d64494739d438f5a63e660cb34d9f214fffaaecf7b1c9e22995bc832f778",
-                    "0xf8bf141fc69196d54515b54b12e1b8e9e0dd30d064558060b108f25d3857dff8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -4474,21 +2858,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 54,
-                "rewards": "5838492314780928",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x19416355138194ae95c3038e41cda33eb2b2ee710c6eb3204ff68920d0f999f4",
-                    "0x0cd0ffa436dd8957efc67b59eb6126be7c5a45ef92234a2998df109dafb290e1",
-                    "0x2692ae39ad22b9e20922fe424a1cf44770aa70a37736ce8b154e07d35b65eeaf",
-                    "0x8f0c2be34fdecdd412aed1c76d054e85eb724ff4164ff1b836f167c7845254b8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -4507,21 +2876,6 @@
                     "0xc131deab18ca3513aa51f68f9ad5c8419f5b365dd0488495540feedca4cc3359",
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 55,
-                "rewards": "73671502118390214",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x231caaab96109ac6cee2e257cebe0faaa92819fb1b6a3cb6750b81bd8d48cb43",
-                    "0x6b9fd8d6ec185eebf3db79530a85dee416b0adaea0856377a489a96ee810a455",
-                    "0x2692ae39ad22b9e20922fe424a1cf44770aa70a37736ce8b154e07d35b65eeaf",
-                    "0x8f0c2be34fdecdd412aed1c76d054e85eb724ff4164ff1b836f167c7845254b8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -4542,21 +2896,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 56,
-                "rewards": "233899873086324404",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x5f0e751d863c455763ddf8e5460c812b338b12091a7151e8032f50cb7ad6038e",
-                    "0x950a7c7b80009b6aa6c912953461fd6aa513a226633ec0f3ff6142d1072f5ed5",
-                    "0x24d1792cadb6da5aeef0b36771b3ae0648645735dcc65e0de2c6617143998f97",
-                    "0xb691d83397945f725e450df5acc1890415442766a4c652d1c5add3a71cb67e12",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -4575,21 +2914,6 @@
                     "0xc131deab18ca3513aa51f68f9ad5c8419f5b365dd0488495540feedca4cc3359",
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 57,
-                "rewards": "70871900788993342",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x8adf84d95eb744e92692644100bf3494c4faf358d4b97dbe2caac74178aacbe7",
-                    "0x2576b2bbb1908971a956c70d674f47584205038a9f6b19e7c55debaaaea6f41b",
-                    "0xffb20ba20fd4325c69dede3789d0abd7b6c9574eaebf3b1ca526d1975fa672bf",
-                    "0x2fcd1ca1d6caeb492b729b379e0472fa92864653245643545b04e3259990ca39",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -4610,21 +2934,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 58,
-                "rewards": "16951579715359275",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x10b2cf9b24cf29142f0d5ef4912c346c441146a52b3a3be9f4d9e66744bc5dec",
-                    "0xf0b4e41df8f90ef27b30d1443471d68cf2de1f7b8db41f435ebfcb8bc62cff00",
-                    "0xb7936ca412f8b1d29257df0f9ddae054c652786f6b0b09b39b317b12a2949489",
-                    "0xf0b0228a0afe7f61fc23d2b441ee7396396bdcb16c0468f7d97e50b6f6f02d57",
-                    "0x4fe42d2fb0b40eee623ee9be1dc7b83802f9607e4a8b60b5170550aa7b115784",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -4644,21 +2953,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 59,
-                "rewards": "7305501548153975",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x93d0938839079fce9378fd96dbe5598679677af3c395529218dfc7bddad787d4",
-                    "0x3c4f2db39457645fa6d157f8f52d4566fb288db1a0d67db8f04b4c6beef9bf16",
-                    "0x0531cb799483c00e4c0c8d87eb19615dde793798909c233427f50141b70ec8e7",
-                    "0x2fcd1ca1d6caeb492b729b379e0472fa92864653245643545b04e3259990ca39",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -4676,21 +2970,6 @@
                     "0xa6a01a04623ca677003471f2bb2de88af3943e52cd175a46f6b14060fc79fa7c",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 60,
-                "rewards": "5553206291361309",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x748376f677e70373740e92ef527995fc00d8f1b3bc1dc0036ccb2ed90c3a55b2",
-                    "0x665684af090ee57cc67c9d1ed0fa75962084e323b705e36305654d1f65300778",
-                    "0xf6efb0eee8d93b97112f59c8b0a68cf370e96b8cdfc5a9b8f8d91d9e5c9d3cb2",
-                    "0x971460c3852261591e3a9464c60800106fa0837aeee2e01b94eebb9f382b64d7",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -4711,21 +2990,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 61,
-                "rewards": "6364405822857964",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xa7ba9a492b93928871ca31c1c6e4b772910eb07eee435bd5144a27a08614af0c",
-                    "0x9ef34318e5c41e27bdd9d0720fa26a82fae246be4396c19266ed7a3368929bda",
-                    "0xc58c22ad33ebaaed3e210db341c4ea7b865328bc01714c83ab9250e573334e87",
-                    "0x5203992c936dedd231363919348a1468411549d65668885cd4a1764fdccf41e8",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -4744,21 +3008,6 @@
                     "0x13f49ee30e8ebf8368a5b956c1c91be57149d21fdca909ad3bf0e2f54882dab6",
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 62,
-                "rewards": "732363964975213",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x21c4f0b6a1147bc1f74cfd2a780c09f146f5df2eb81e0f7c26a01da7d1165df7",
-                    "0x0cd0ffa436dd8957efc67b59eb6126be7c5a45ef92234a2998df109dafb290e1",
-                    "0x2692ae39ad22b9e20922fe424a1cf44770aa70a37736ce8b154e07d35b65eeaf",
-                    "0x8f0c2be34fdecdd412aed1c76d054e85eb724ff4164ff1b836f167c7845254b8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -4779,21 +3028,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 63,
-                "rewards": "13171485509814446",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x23a5e3338e8080dc3a63c69755266be7cfd13fdf2a1c6ffe0b75c159d5da9aff",
-                    "0x6b9fd8d6ec185eebf3db79530a85dee416b0adaea0856377a489a96ee810a455",
-                    "0x2692ae39ad22b9e20922fe424a1cf44770aa70a37736ce8b154e07d35b65eeaf",
-                    "0x8f0c2be34fdecdd412aed1c76d054e85eb724ff4164ff1b836f167c7845254b8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -4812,20 +3046,6 @@
                     "0xab82148ec62928eb921068d4d2067cec9be321c0fe072f2394e958ea17cd8d32",
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 64,
-                "rewards": "126931905958445347",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xb9be05339012054ad3b2248eeff5d25ed1bf357edd0d1fcc99ea86e4cc9bf81f",
-                    "0x935ea4a01e641d5b1a4e8431bebb55f1b0a635412235f4b450970dce3e3f5962",
-                    "0x1942965bc49138dfd3e4a3fa32afc8fe0132a61a99e99a2534f97dbf8b64cf45",
-                    "0x6013d17457fe04bb50783fd8165207cc8064ccef4a931b07a300195f42f90607",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -4846,20 +3066,6 @@
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 65,
-                "rewards": "150596267099662336",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xc37cc2fb7d946b7b7d5227b5e2b3c4646925d8e9dc67d7bb6e392f8888f11f31",
-                    "0x2d01119ba216cd65e850689fd7af67fc4839ae2b3334df50ed9df39141348d4b",
-                    "0x5402e1e18a4d605f7bf918572fe5c30dc4f65214f60df1b72c71ab12d3165de6",
-                    "0x6013d17457fe04bb50783fd8165207cc8064ccef4a931b07a300195f42f90607",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -4877,21 +3083,6 @@
                     "0x8ced5d539403a0b19619ba1f6fe3adb20810a0b748ea366b01b0682287cadd8e",
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 66,
-                "rewards": "9902063015988433",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x849edd1a74473dc4f304be57a39112216197007622af76e554bf2fa7d3a7d97b",
-                    "0xce354a0f7919b82e76580a946f9e1584e2dac16d5e3f9326411da9f8b500f6c7",
-                    "0xf6efb0eee8d93b97112f59c8b0a68cf370e96b8cdfc5a9b8f8d91d9e5c9d3cb2",
-                    "0x971460c3852261591e3a9464c60800106fa0837aeee2e01b94eebb9f382b64d7",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -4912,21 +3103,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 67,
-                "rewards": "169452316387661083",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xb437b4c9b98f9740dadab721071ef19aab4a08216e4b8529f7c7a6b5bf3228a6",
-                    "0x2bfc0591040c58d70d34f1858310ab8e4c6cdb635d50c13ac0efcd276038c693",
-                    "0x7311df8d1584a356af31b8191a8738048f0acb704b220440dd9d6c1b53591031",
-                    "0x5203992c936dedd231363919348a1468411549d65668885cd4a1764fdccf41e8",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -4944,21 +3120,6 @@
                     "0x8ced5d539403a0b19619ba1f6fe3adb20810a0b748ea366b01b0682287cadd8e",
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 68,
-                "rewards": "5936131300748591",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x8e1e14022727e82d7c3d595615e16c0ba918116a01149f94932aa9c7a476993d",
-                    "0x11acba58f34b8ce41187ea7687ebc775a74f6f56ec1026851b20d2bade914d1f",
-                    "0xffb20ba20fd4325c69dede3789d0abd7b6c9574eaebf3b1ca526d1975fa672bf",
-                    "0x2fcd1ca1d6caeb492b729b379e0472fa92864653245643545b04e3259990ca39",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -4979,21 +3140,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 69,
-                "rewards": "64623750421482184",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xb423f7ea992d7dbb2e588aa2b99cd3e78dc458810813c99e1e01d0d777c89a0f",
-                    "0x6fba2def3954767a883cf6d5f370f8a3ad8e9bfccd45e7ace920cbe531e7f72a",
-                    "0x7311df8d1584a356af31b8191a8738048f0acb704b220440dd9d6c1b53591031",
-                    "0x5203992c936dedd231363919348a1468411549d65668885cd4a1764fdccf41e8",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -5013,21 +3159,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 70,
-                "rewards": "32311875210741079",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x9538984df9ad01355a20167c977ce7ef63fe41ced8d7400cc7a77564fb434ae1",
-                    "0x3c4f2db39457645fa6d157f8f52d4566fb288db1a0d67db8f04b4c6beef9bf16",
-                    "0x0531cb799483c00e4c0c8d87eb19615dde793798909c233427f50141b70ec8e7",
-                    "0x2fcd1ca1d6caeb492b729b379e0472fa92864653245643545b04e3259990ca39",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -5045,20 +3176,6 @@
                     "0x36368c2a6962551c77b837bdab49d5d97bc0485cc2a3fd89c96cfe0c42883341",
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 71,
-                "rewards": "6462787218723563",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xbfb73ec82c6b5c4a01359fdccdf86282655137b0a8797773cbaffa581351f71e",
-                    "0x8a72e3febfab15e51e1aa48c1d3b43d97e73bd7bea04c1a9d5b63204378322de",
-                    "0x1942965bc49138dfd3e4a3fa32afc8fe0132a61a99e99a2534f97dbf8b64cf45",
-                    "0x6013d17457fe04bb50783fd8165207cc8064ccef4a931b07a300195f42f90607",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -5078,20 +3195,6 @@
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 72,
-                "rewards": "64623750421482158",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xfddd3978d1554b4c7c70ec0e13f3f791db2cf2e8fb0a776fb2d5eb814f741bde",
-                    "0x942525e7803aff57b6311317df2987bfb62136bf557f80ca9c0816f8d5c1b71e",
-                    "0xa0c5c7de7715ebb9e0f254fed0f14dd0932909a9835da4be9330f996d28c6080",
-                    "0x4fe42d2fb0b40eee623ee9be1dc7b83802f9607e4a8b60b5170550aa7b115784",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -5109,21 +3212,6 @@
                     "0x819fd8d7db1ba029710f00d7bde1253632d493210828acd8eccd4b02e6b2d56a",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 73,
-                "rewards": "5776842189951761",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x43801bbdd892d4449bb87ec2b459f60f00e89d6c0706f72e3d3bd2e5115821ef",
-                    "0x9bedbd10bfd286fd8cb93839f7622a9fb9314e538915e5e5c0067f1436a7381e",
-                    "0x48b93af4536a0383b083e22e4d8d0f8fe14e12efc7ae958890039fc09a27ef5b",
-                    "0xd27868949bc2af206d8fc7e9a6698f2adf6cc3a60a423c362cc83a459e641550",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -5144,21 +3232,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 74,
-                "rewards": "17934669455378885",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x35fd5f2c496cb0ff5df2afc5a28c9376362da15b6f6fa48be6007f4a8796b104",
-                    "0x84d60666ec190a849c53d7b174c3c2ba533ad585727d2c4b9a55e52cbf81fd28",
-                    "0xd6695215b4d00409e15b630ef78862984ac5aed7d22aede15de03b3d5b2b3e86",
-                    "0xe51af77e247873eba072fdb667448173a4606633df167bbf67a4af47d59f1279",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -5176,20 +3249,6 @@
                     "0xa6a01a04623ca677003471f2bb2de88af3943e52cd175a46f6b14060fc79fa7c",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 75,
-                "rewards": "51899595616262924",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xd138d78c4d715b70eb37f992df0eaeafc250940b85e839cb1e447468be18d6c7",
-                    "0x48cc9a886d1bbe3205b3099f96837ea3b222e2ae5a31d3773c35045cbd94c459",
-                    "0x49cfdf071f97cade46cac2867d69b8dc06239e76457ef2531195cc120ac83f78",
-                    "0x32a505e2da828885f0408376cb185c1a728c869bda1e62cbc5f6050e6be4d6a2",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -5210,21 +3269,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 76,
-                "rewards": "421654919584953655",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x98d018c3fa17d67b8000fc051a5f7365e0966c9bfce1bea44a3eb5eba041eb4e",
-                    "0x9ef34318e5c41e27bdd9d0720fa26a82fae246be4396c19266ed7a3368929bda",
-                    "0xc58c22ad33ebaaed3e210db341c4ea7b865328bc01714c83ab9250e573334e87",
-                    "0x5203992c936dedd231363919348a1468411549d65668885cd4a1764fdccf41e8",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -5242,21 +3286,6 @@
                     "0x8ced5d539403a0b19619ba1f6fe3adb20810a0b748ea366b01b0682287cadd8e",
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 77,
-                "rewards": "54934472412912772",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x3fc6fc376666caec1b366976f381387eed3d6488af5cac25db2177f00a4696ee",
-                    "0x98632dc145d1df5c8a1b8a6da048180a60604b0ff49cfab520aba920f3b8a5c4",
-                    "0x51cd5fbd087c661f11ed9e099aa02e3494d4dc62400e80fea491041fc2cc8b7c",
-                    "0xe51af77e247873eba072fdb667448173a4606633df167bbf67a4af47d59f1279",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -5277,21 +3306,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 78,
-                "rewards": "36531044604313730",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x35c4a555c3a6bf3c82c316f9bd5109946e03347ababe4e88a4eb7b30691c9fd1",
-                    "0x84d60666ec190a849c53d7b174c3c2ba533ad585727d2c4b9a55e52cbf81fd28",
-                    "0xd6695215b4d00409e15b630ef78862984ac5aed7d22aede15de03b3d5b2b3e86",
-                    "0xe51af77e247873eba072fdb667448173a4606633df167bbf67a4af47d59f1279",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -5309,21 +3323,6 @@
                     "0x819fd8d7db1ba029710f00d7bde1253632d493210828acd8eccd4b02e6b2d56a",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 79,
-                "rewards": "19948765825162205",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x3845765606b5581f2b40edaac1f22076a3ea170395097d8d99f92091f108efeb",
-                    "0xa20599b5e0f0b854145d5809ac4c02f5f17f3104068e26d60b61ab6f90862e0c",
-                    "0xd6695215b4d00409e15b630ef78862984ac5aed7d22aede15de03b3d5b2b3e86",
-                    "0xe51af77e247873eba072fdb667448173a4606633df167bbf67a4af47d59f1279",
-                    "0x6d4e43b2b50626924d93e2992b1f766a6fcb61751b76a0677cefa0d674132bda",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -5344,21 +3343,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 80,
-                "rewards": "3008929217548510",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x16e72267589db5a0f35e7d908d38a24ba7d2a5a6f2a3eba3eb65f9b4a785433d",
-                    "0xfc5123c06e075483e53d8f087d16fc42187689e7aa3a80ba3b16efb7f3983c1a",
-                    "0x957d8ae85a7768b8a329b365bd68b08bfe2abc7d978231b57625908bf82a647e",
-                    "0x8f0c2be34fdecdd412aed1c76d054e85eb724ff4164ff1b836f167c7845254b8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -5378,20 +3362,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 81,
-                "rewards": "235584056435756222",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xf88443292ab5e11e6ed0cf43461ed671db29ca048bab194f0ddc3f2631bbe436",
-                    "0x9651598c27f01b72a573633142d3380633781e08d093b895c4822f730b4adfef",
-                    "0xa0c5c7de7715ebb9e0f254fed0f14dd0932909a9835da4be9330f996d28c6080",
-                    "0x4fe42d2fb0b40eee623ee9be1dc7b83802f9607e4a8b60b5170550aa7b115784",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -5409,21 +3379,6 @@
                     "0x819fd8d7db1ba029710f00d7bde1253632d493210828acd8eccd4b02e6b2d56a",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 82,
-                "rewards": "19028111279845537",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x5977ce1f6b73fe88c350047f03d8a7c92cd57fc0180a8aa524f8a67f0f34b719",
-                    "0x52ff6dbe4c1dd0ffed5bc8a00d899fa14d2be10c5996abe0affcfa71bce74481",
-                    "0x24d1792cadb6da5aeef0b36771b3ae0648645735dcc65e0de2c6617143998f97",
-                    "0xb691d83397945f725e450df5acc1890415442766a4c652d1c5add3a71cb67e12",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -5444,20 +3399,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 83,
-                "rewards": "694317897647156",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xef356556f05d2fc9c0d4fee0752e39efe9319ef5e4274facaa06c0eee59a8b5b",
-                    "0xa7d4a43b5a9a79c1fa449e29eeadacf95e81ece12ec01a515f79253097d6a0d5",
-                    "0xb4671d45fb008656ed3acc268042f46bbf202f4f4c71a32b66a2412b334887e6",
-                    "0x08a174f356d07ea0b901d01cec0990baa713b1bb773aa1ef8ee5c38ce79c8566",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -5476,21 +3417,6 @@
                     "0xc131deab18ca3513aa51f68f9ad5c8419f5b365dd0488495540feedca4cc3359",
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 85,
-                "rewards": "24102072997849934",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x2e6adc69487addf2a2f3a56c9cf18447f21180af6266f60269c1d01f4fc7af2b",
-                    "0x790816ff853c85664432c2cc35e3b8a50737402fbb7f0476be7c5f33f4f222da",
-                    "0x31dc76aafbe34622192f548f6441dffcae5c350c739c46cccf27e7820c7f42c6",
-                    "0xf8bf141fc69196d54515b54b12e1b8e9e0dd30d064558060b108f25d3857dff8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
@@ -5511,21 +3437,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 87,
-                "rewards": "2693949587329437",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x927c35589f314b64d67cd5a8095bda0aaa171e7571de2842d51f20056e623618",
-                    "0xd18442131787e669b990fe6a5ff57b4d0094eaafcd2cbfae7b4b930d896d4717",
-                    "0x0531cb799483c00e4c0c8d87eb19615dde793798909c233427f50141b70ec8e7",
-                    "0x2fcd1ca1d6caeb492b729b379e0472fa92864653245643545b04e3259990ca39",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -5544,20 +3455,6 @@
                     "0x13f49ee30e8ebf8368a5b956c1c91be57149d21fdca909ad3bf0e2f54882dab6",
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 88,
-                "rewards": "2665171450471606",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xb830694f7574ad89b40a57c2ab8e201185eb3a013f6840e042dcd07ccc9bd48e",
-                    "0x935ea4a01e641d5b1a4e8431bebb55f1b0a635412235f4b450970dce3e3f5962",
-                    "0x1942965bc49138dfd3e4a3fa32afc8fe0132a61a99e99a2534f97dbf8b64cf45",
-                    "0x6013d17457fe04bb50783fd8165207cc8064ccef4a931b07a300195f42f90607",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -5578,21 +3475,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 89,
-                "rewards": "302497132020049383",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x0a57e049637d5cde85531e9634ff3f757897c7ebd0d2560b3f1d3094ac3dac58",
-                    "0xf0b4e41df8f90ef27b30d1443471d68cf2de1f7b8db41f435ebfcb8bc62cff00",
-                    "0xb7936ca412f8b1d29257df0f9ddae054c652786f6b0b09b39b317b12a2949489",
-                    "0xf0b0228a0afe7f61fc23d2b441ee7396396bdcb16c0468f7d97e50b6f6f02d57",
-                    "0x4fe42d2fb0b40eee623ee9be1dc7b83802f9607e4a8b60b5170550aa7b115784",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -5611,20 +3493,6 @@
                     "0x13f49ee30e8ebf8368a5b956c1c91be57149d21fdca909ad3bf0e2f54882dab6",
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 90,
-                "rewards": "42347802371148685",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xc240ff936557665dab0d5535124d2db95d9affc236553fe7c9177f1592754ea9",
-                    "0x2d01119ba216cd65e850689fd7af67fc4839ae2b3334df50ed9df39141348d4b",
-                    "0x5402e1e18a4d605f7bf918572fe5c30dc4f65214f60df1b72c71ab12d3165de6",
-                    "0x6013d17457fe04bb50783fd8165207cc8064ccef4a931b07a300195f42f90607",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -5645,21 +3513,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 91,
-                "rewards": "34113105760322559",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x065605de5bccb0010a75bde5f05689fe5353425ed8dc91128f8a28b0bb6b736f",
-                    "0xff27c19517f080515db12081b4e04c271f703369b0d887694f7dc2b57748b5ef",
-                    "0xc8a977cc16bfba15a43a5249e2dd0297e385081030e299008f2204b54e1d97ba",
-                    "0xf0b0228a0afe7f61fc23d2b441ee7396396bdcb16c0468f7d97e50b6f6f02d57",
-                    "0x4fe42d2fb0b40eee623ee9be1dc7b83802f9607e4a8b60b5170550aa7b115784",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -5678,20 +3531,6 @@
                     "0xab82148ec62928eb921068d4d2067cec9be321c0fe072f2394e958ea17cd8d32",
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 92,
-                "rewards": "337991729954197",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xc3e5250075d0b5832d91e9ea31d763f601978d729690ddcd8d83965bc7ecb24a",
-                    "0xb1ddbdf3ae66854e9bc9e821da4c2e17c24f9c82dbbfaf07f8ab193df16a0452",
-                    "0x5402e1e18a4d605f7bf918572fe5c30dc4f65214f60df1b72c71ab12d3165de6",
-                    "0x6013d17457fe04bb50783fd8165207cc8064ccef4a931b07a300195f42f90607",
-                    "0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -5712,21 +3551,6 @@
                     "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 93,
-                "rewards": "11535350116182079",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x89129be8c3c5c01a8edfa9dfd805929083eaed8e7612550c59789963a17bab90",
-                    "0x32ccb628ccedf0ee4f30ae61fda2d461893974351745fbc6b3a7ac4b74b90a0d",
-                    "0xf30fad3d23613dc1de9f087685a0197d1bee0081b603b21e59f422364ade9ad1",
-                    "0x971460c3852261591e3a9464c60800106fa0837aeee2e01b94eebb9f382b64d7",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -5745,20 +3569,6 @@
                     "0xe98a9386450ad2011812245b272a9fd1debf83160f56407d1ea9fceb61fd0d55",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 94,
-                "rewards": "1692416398798205763",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xf1b51b4505f9aa599763addc9f2bd9c8c95896bdd684c7774e2fbb92f5f43182",
-                    "0x103fff26128401cc7affd48d3d2983ab1b030b73a03123f26dcee72132868adf",
-                    "0x9a399a997f94ffe740c7c9a17f8a2045993765bb81f2ecfbfa10c78679179298",
-                    "0x08a174f356d07ea0b901d01cec0990baa713b1bb773aa1ef8ee5c38ce79c8566",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
-                ]
             }
         }
     },
@@ -5776,20 +3586,6 @@
                     "0x819fd8d7db1ba029710f00d7bde1253632d493210828acd8eccd4b02e6b2d56a",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 95,
-                "rewards": "1936054621482721",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0xf94ea986acb7baa6baf6a25a0a2693bfcc82cd39363445acac5cbca7bc967d1a",
-                    "0x942525e7803aff57b6311317df2987bfb62136bf557f80ca9c0816f8d5c1b71e",
-                    "0xa0c5c7de7715ebb9e0f254fed0f14dd0932909a9835da4be9330f996d28c6080",
-                    "0x4fe42d2fb0b40eee623ee9be1dc7b83802f9607e4a8b60b5170550aa7b115784",
-                    "0x5d0a71b50e7924e0b338b1809cc090f030c8a95d14524d85f93d272cc71d6e6d",
-                    "0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab"
                 ]
             }
         }
@@ -5810,21 +3606,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 96,
-                "rewards": "9395929174968531",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x3192ff024e60ecfcf7e23a29c1100b742b28b52d3779e646b9f2705856055870",
-                    "0xd03e4791c8836fd77b4f1bb4b02731fc65c45fafca4bd7c99b258b2aa7814d96",
-                    "0xcd80d64494739d438f5a63e660cb34d9f214fffaaecf7b1c9e22995bc832f778",
-                    "0xf8bf141fc69196d54515b54b12e1b8e9e0dd30d064558060b108f25d3857dff8",
-                    "0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6",
-                    "0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -5844,21 +3625,6 @@
                     "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
                     "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
                 ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 97,
-                "rewards": "11440359744232052",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x6e82a87cadceec55cde54cf773bf014d1dc051f95d2915875d453835a3585866",
-                    "0x18bcd9cd8bbcf9e5cec909edd176c93e10bdf9273098264651ae9f2a83c04c32",
-                    "0x92cecef47d564f9daa9625d9ee9a0e3eb0fcddfbe10c25e6112679acf152160f",
-                    "0xb691d83397945f725e450df5acc1890415442766a4c652d1c5add3a71cb67e12",
-                    "0x0e0ec7b2c0c7fa500fc7ef72f9f63b6950a46194358d6d14daedecd7a19afaad",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
-                ]
             }
         }
     },
@@ -5877,21 +3643,6 @@
                     "0xa6a01a04623ca677003471f2bb2de88af3943e52cd175a46f6b14060fc79fa7c",
                     "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
                     "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
-                ]
-            },
-            "2023-6": {
-                "windowIndex": 1,
-                "accountIndex": 98,
-                "rewards": "427340444725065450",
-                "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "proof": [
-                    "0x939f3b22bc460f7d0893916d6d91cf99bbdce5936237ccad5a48507e619a8c06",
-                    "0xd18442131787e669b990fe6a5ff57b4d0094eaafcd2cbfae7b4b930d896d4717",
-                    "0x0531cb799483c00e4c0c8d87eb19615dde793798909c233427f50141b70ec8e7",
-                    "0x2fcd1ca1d6caeb492b729b379e0472fa92864653245643545b04e3259990ca39",
-                    "0xda6d7fa65823e590fa3addeb60f4a507a30c7cf2506ead7e275e71a11376b59e",
-                    "0x4b6263f8437199d1030197a1032c872bfa2f7e7c05216f589ab397503d5d4931",
-                    "0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2"
                 ]
             }
         }
