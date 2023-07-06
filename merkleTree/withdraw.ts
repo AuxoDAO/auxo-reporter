@@ -56,6 +56,7 @@ async function fetchPRVHolders(
       amount: balance.valueExact,
     };
   });
+
   return {
     windowIndex: 0,
     maxAmount: "0",
@@ -109,7 +110,7 @@ export const makeTreeWithPrompt = async ({
 
   // write the file
   const fileDestination = destination(epoch);
-  // writeFileSync(fileDestination, tree);
+  writeFileSync(fileDestination, tree);
   console.log(tree);
   console.log(fileDestination);
   console.log(
@@ -124,7 +125,7 @@ async function main() {
   let input = await prompt(
     "WindowIndex, budget (in wei), startBlock, and endBlock, separated by spaces:\n"
   );
-  let inputs = (input as string).split(" ").map(i => i.trim());
+  let inputs = (input as string).split(" ").map((i) => i.trim());
   if (inputs.length !== 4) {
     throw new Error("Incorrect number of inputs");
   }
