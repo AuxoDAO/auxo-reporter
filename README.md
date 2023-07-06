@@ -58,8 +58,6 @@ Run unit tests
 make test
 ```
 
-> An E2E test gets run and will write to the `reports` folder in the year 2099. Feel free to delete this.
-
 ## Running the Application
 
 ### Setting up the `.env`:
@@ -77,6 +75,9 @@ make conf
 ```
 
 This will create a `config/example.json` file with some example data and the schema incorporated. The schema provides some basic warnings and validations to help you get started but it is not essential.
+
+> IMPORTANT: remember to create claims *for the month that has passed* and not for the current month. 
+> Example: If the operator runs the reporter at the start of July 2023, the operator will likely be needing to run for JUNE 2023.
 
 Create the database of claims and rewards:
 

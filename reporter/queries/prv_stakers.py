@@ -35,7 +35,7 @@ def get_all_prv_depositors(block: int) -> PRVDepositorGraphQLReturn:
     """
     query = """
     query ($block: Int, $skip: Int) {
-      prvstakingBalances(skip: $skip, block: { number: $block }, where: { value_not: "0" }) {
+      prvstakingBalances(first: 1000, skip: $skip, block: { number: $block }, where: { value_not: "0" }) {
         account {
           id
         }
