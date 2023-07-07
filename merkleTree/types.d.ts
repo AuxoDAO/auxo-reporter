@@ -81,3 +81,19 @@ type WMerkleDistributor = WithdrawalDistributorInput & {
   root: Bytes32;
   recipients: WMRecipient;
 };
+
+type ERC20Balance = {
+  account: {
+    id: string;
+  };
+  value: string;
+  valueExact: string;
+};
+
+type ERC20GraphQLResponse = {
+  erc20Balances: ERC20Balance[];
+}
+
+type GraphQLResponse<T> = {
+  data: T;
+};

@@ -53,3 +53,6 @@ compound-fetch :; python -m reporter.compound_fetch
 
 # generate the compound quantities per user
 compound-send :; python -m reporter.compound_send
+
+# generate the withdrawal snapshot
+prv-snapshot :; yarn ts-node merkleTree/withdraw.ts
