@@ -1,1 +1,3 @@
-
+id,title,author,created,start,end,choices_0,choices_1,choices_2,choices_3,choices_4,choices_5,choices_6,choices_7,choices_8,choices_9,choices_10
+0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb,oETH - Allocation,0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6,1687183749,1687183629,1687443300,Up to 1000 ETH,Up to 900 ETH,Up to 800 ETH,Up to 700 ETH,Up to 600 ETH,Up to 500 ETH,Up to 400 ETH,Up to 300 ETH,Up to 200 ETH,Up to 100 ETH,Avoid Origin oETH
+0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07,[Epoch-0] MerkleTree Notarization,0x0810C422E4abD05c752618B403d26cf60bB50B5C,1685708362,1685708360,1685967560,Valid,Invalid

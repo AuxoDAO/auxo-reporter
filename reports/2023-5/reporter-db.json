@@ -1,22 +1,22 @@
 {
     "ARV_stats": {
         "1": {
-            "stakers": 98,
-            "votes": 91,
-            "proposals": 2,
-            "voters": 57,
-            "non_voters": 41,
+            "stakers": 97,
+            "votes": 0,
+            "proposals": 0,
+            "voters": 97,
+            "non_voters": 0,
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "18028050152000000000",
-                "pro_rata": "0.000109150869987281"
+                "amount": "25581202212999999488",
+                "pro_rata": "0.000138935792899275"
             },
             "token_stats": {
-                "total": "184582629519604861793925",
-                "active": "165166344107937570335920",
-                "inactive": "19416285411667291458005"
+                "total": "184122476139361883021342",
+                "active": "184122476139361883021342",
+                "inactive": "0"
             }
         }
     },
@@ -27,17 +27,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "36884180432238706055208"
+                "amount": "35577719041315238106397"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "4025940382946698917"
+                "amount": "4943018604552750033"
             },
             "state": "active",
             "notes": [
-                "active reward of 4025940382946698917"
+                "active reward of 4943018604552750033"
             ]
         },
         "2": {
@@ -46,17 +46,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "22970736749474096702590"
+                "amount": "23814252902080863836937"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "2507275900453903648"
+                "amount": "3308652109254454441"
             },
             "state": "active",
             "notes": [
-                "active reward of 2507275900453903648"
+                "active reward of 3308652109254454441"
             ]
         },
         "3": {
@@ -65,17 +65,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "18639955655683698252065"
+                "amount": "17979716439106419245896"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "2034567376342213499"
+                "amount": "2498026159571371249"
             },
             "state": "active",
             "notes": [
-                "active reward of 2034567376342213499"
+                "active reward of 2498026159571371249"
             ]
         },
         "4": {
@@ -90,11 +90,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "1826459943060033195"
+                "amount": "2324861546384188872"
             },
             "state": "active",
             "notes": [
-                "active reward of 1826459943060033195"
+                "active reward of 2324861546384188872"
             ]
         },
         "5": {
@@ -109,11 +109,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "716139014725505289"
+                "amount": "911557936721782185"
             },
             "state": "active",
             "notes": [
-                "active reward of 716139014725505289"
+                "active reward of 911557936721782185"
             ]
         },
         "6": {
@@ -122,17 +122,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "6260110856165522780432"
+                "amount": "6489990493108621317957"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "683296546167288985"
+                "amount": "901691975068800020"
             },
             "state": "active",
             "notes": [
-                "active reward of 683296546167288985"
+                "active reward of 901691975068800020"
             ]
         },
         "7": {
@@ -141,17 +141,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "4646901082120000000000"
+                "amount": "4822896784527500000000"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "507213295858235256"
+                "amount": "670072988829689815"
             },
             "state": "active",
             "notes": [
-                "active reward of 507213295858235256"
+                "active reward of 670072988829689815"
             ]
         },
         "8": {
@@ -160,17 +160,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "4161278192283241786818"
+                "amount": "4013883042617450935433"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "454207134946815603"
+                "amount": "557672023131008100"
             },
             "state": "active",
             "notes": [
-                "active reward of 454207134946815603"
+                "active reward of 557672023131008100"
             ]
         },
         "9": {
@@ -179,16 +179,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "3931972707315303980000"
+                "amount": "4076360000000000000000"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "566352308742886738"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 566352308742886738"
+            ]
         },
         "10": {
             "address": "0x71F9CCd68bf1f5F9b571f509E0765A04ca4fFad2",
@@ -196,17 +198,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "3729077802839172283007"
+                "amount": "3870312069642949452734"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "407032086430153781"
+                "amount": "537724876163475421"
             },
             "state": "active",
             "notes": [
-                "active reward of 407032086430153781"
+                "active reward of 537724876163475421"
             ]
         },
         "11": {
@@ -221,11 +223,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "355311157485497804"
+                "amount": "452267924176500487"
             },
             "state": "active",
             "notes": [
-                "active reward of 355311157485497804"
+                "active reward of 452267924176500487"
             ]
         },
         "12": {
@@ -240,11 +242,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "350133468107926392"
+                "amount": "445677354819216746"
             },
             "state": "active",
             "notes": [
-                "active reward of 350133468107926392"
+                "active reward of 445677354819216746"
             ]
         },
         "13": {
@@ -253,16 +255,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "2928064796253760805694"
+                "amount": "3038961673851218212105"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "422220549747025535"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 422220549747025535"
+            ]
         },
         "14": {
             "address": "0x1dE4F046c45Cd4E39cfCDF36b7DF4856B4031955",
@@ -276,11 +280,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "342271058205581156"
+                "amount": "435669462495420024"
             },
             "state": "active",
             "notes": [
-                "active reward of 342271058205581156"
+                "active reward of 435669462495420024"
             ]
         },
         "15": {
@@ -289,17 +293,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "3077125222744984139217"
+                "amount": "2968131468473050242431"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "335870895122420683"
+                "amount": "412379699001591308"
             },
             "state": "active",
             "notes": [
-                "active reward of 335870895122420683"
+                "active reward of 412379699001591308"
             ]
         },
         "16": {
@@ -308,17 +312,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "2893738070716500000000"
+                "amount": "3000000000000000000000"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "315854027934021886"
+                "amount": "416807378697823601"
             },
             "state": "active",
             "notes": [
-                "active reward of 315854027934021886"
+                "active reward of 416807378697823601"
             ]
         },
         "17": {
@@ -333,11 +337,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "281994621039773169"
+                "amount": "358944883096733627"
             },
             "state": "active",
             "notes": [
-                "active reward of 281994621039773169"
+                "active reward of 358944883096733627"
             ]
         },
         "18": {
@@ -346,17 +350,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "2469592235516781422951"
+                "amount": "2382117690353593121403"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "269558141020490714"
+                "amount": "330961410088664995"
             },
             "state": "active",
             "notes": [
-                "active reward of 269558141020490714"
+                "active reward of 330961410088664995"
             ]
         },
         "19": {
@@ -365,16 +369,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "2062760229123811787686"
+                "amount": "2138507541506406870325"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "297115240900270884"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 297115240900270884"
+            ]
         },
         "20": {
             "address": "0x00BA3CA0B6Df1486c912893d9f288311A60ED753",
@@ -382,17 +388,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "2071428961527421773030"
+                "amount": "1998057615585548194832"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "226098273267567997"
+                "amount": "277601719079812013"
             },
             "state": "active",
             "notes": [
-                "active reward of 226098273267567997"
+                "active reward of 277601719079812013"
             ]
         },
         "21": {
@@ -401,17 +407,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "1992261333459639112719"
+                "amount": "2065419832175427000000"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "217457057789140038"
+                "amount": "286960742053179489"
             },
             "state": "active",
             "notes": [
-                "active reward of 217457057789140038"
+                "active reward of 286960742053179489"
             ]
         },
         "22": {
@@ -426,11 +432,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "215603392289162184"
+                "amount": "274436917112604408"
             },
             "state": "active",
             "notes": [
-                "active reward of 215603392289162184"
+                "active reward of 274436917112604408"
             ]
         },
         "23": {
@@ -439,17 +445,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "1791396754673520406574"
+                "amount": "1859243718608773062900"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "195532514265006445"
+                "amount": "258315500237905551"
             },
             "state": "active",
             "notes": [
-                "active reward of 195532514265006445"
+                "active reward of 258315500237905551"
             ]
         },
         "24": {
@@ -458,17 +464,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "1839212617745616588201"
+                "amount": "1774066524037548045838"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "200751657318518444"
+                "amount": "246481339173216621"
             },
             "state": "active",
             "notes": [
-                "active reward of 200751657318518444"
+                "active reward of 246481339173216621"
             ]
         },
         "25": {
@@ -477,16 +483,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "1682231428874669197313"
+                "amount": "1622645709830148777903"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "225443568289857870"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 225443568289857870"
+            ]
         },
         "26": {
             "address": "0x9A456152E0Da127C30a49357A461f4c3F80bd630",
@@ -500,10 +508,12 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "174108067015324590"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 174108067015324590"
+            ]
         },
         "27": {
             "address": "0x1A1087Bf077f74fb21fD838a8a25Cf9Fe0818450",
@@ -517,11 +527,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "130927499326629615"
+                "amount": "166654795636390342"
             },
             "state": "active",
             "notes": [
-                "active reward of 130927499326629615"
+                "active reward of 166654795636390342"
             ]
         },
         "28": {
@@ -530,17 +540,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "1041409351465488046164"
+                "amount": "1004521962511954283546"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "113670736725348053"
+                "amount": "139564055346333697"
             },
             "state": "active",
             "notes": [
-                "active reward of 113670736725348053"
+                "active reward of 139564055346333697"
             ]
         },
         "29": {
@@ -549,17 +559,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "998238952308837561234"
+                "amount": "1034895620730804419852"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "108958650099701473"
+                "amount": "143784043634221207"
             },
             "state": "active",
             "notes": [
-                "active reward of 108958650099701473"
+                "active reward of 143784043634221207"
             ]
         },
         "30": {
@@ -568,16 +578,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "1008810429400830636885"
+                "amount": "973077715231014525414"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "135195323918235474"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 135195323918235474"
+            ]
         },
         "31": {
             "address": "0x4188c45B8dfC8998Ceee2398e746deC2797B0961",
@@ -585,17 +597,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "964579356905500000000"
+                "amount": "1000000000000000000000"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "105284675978007295"
+                "amount": "138935792899274533"
             },
             "state": "active",
             "notes": [
-                "active reward of 105284675978007295"
+                "active reward of 138935792899274533"
             ]
         },
         "32": {
@@ -604,17 +616,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "964579356905500000000"
+                "amount": "1000000000000000000000"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "105284675978007295"
+                "amount": "138935792899274533"
             },
             "state": "active",
             "notes": [
-                "active reward of 105284675978007295"
+                "active reward of 138935792899274533"
             ]
         },
         "33": {
@@ -623,16 +635,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "892378905063398303234"
+                "amount": "926176666073326513145"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "128679089465704238"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 128679089465704238"
+            ]
         },
         "34": {
             "address": "0x198ca1beaCF70b82c4e6dE21E8Cb7b6dA6D8477A",
@@ -640,17 +654,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "902086034387642503060"
+                "amount": "870133566923064964097"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "98463475456787415"
+                "amount": "120892697048729991"
             },
             "state": "active",
             "notes": [
-                "active reward of 98463475456787415"
+                "active reward of 120892697048729991"
             ]
         },
         "35": {
@@ -659,16 +673,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "865891940146207209888"
+                "amount": "897688649406830284527"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "124721084282016837"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 124721084282016837"
+            ]
         },
         "36": {
             "address": "0xFB9e5F5874565A6eF8FCF1DEbc4975501331a8Ca",
@@ -682,11 +698,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "92612460191233280"
+                "amount": "117884407064468404"
             },
             "state": "active",
             "notes": [
-                "active reward of 92612460191233280"
+                "active reward of 117884407064468404"
             ]
         },
         "37": {
@@ -695,17 +711,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "757433420778938793994"
+                "amount": "785247388259361922240"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "82674516835463410"
+                "amount": "109098968509898929"
             },
             "state": "active",
             "notes": [
-                "active reward of 82674516835463410"
+                "active reward of 109098968509898929"
             ]
         },
         "38": {
@@ -714,16 +730,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "686654514784437129794"
+                "amount": "711869386244504491085"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "98904137618600147"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 98904137618600147"
+            ]
         },
         "39": {
             "address": "0xF3DD72AC3c9833574491861793e8fFe1f07c8905",
@@ -731,17 +749,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "637461671140447452260"
+                "amount": "661604753290807856916"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "69579495988525821"
+                "amount": "91920580984387302"
             },
             "state": "active",
             "notes": [
-                "active reward of 69579495988525821"
+                "active reward of 91920580984387302"
             ]
         },
         "40": {
@@ -750,16 +768,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "559396500098473181566"
+                "amount": "579938287185714000000"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "80574185762794358"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 80574185762794358"
+            ]
         },
         "41": {
             "address": "0xB05136FAcE3F8c6f9e6CDb076a38Ee6D4910f6d4",
@@ -767,16 +787,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "485354820677220000000"
+                "amount": "524272837648820000000"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "72840262394291436"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 72840262394291436"
+            ]
         },
         "42": {
             "address": "0x1b50afeD405C9930eAe5fb3803418b03F9615B1C",
@@ -784,16 +806,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "558373125855414993527"
+                "amount": "538595190650930009031"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "74830149864822895"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 74830149864822895"
+            ]
         },
         "43": {
             "address": "0x5b0D3243c78fB9d4AC035fB2384FFdf7A9eF6396",
@@ -801,17 +825,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "513496477331948531617"
+                "amount": "536551346378886731670"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "56048587236186271"
+                "amount": "74546186740323922"
             },
             "state": "active",
             "notes": [
-                "active reward of 56048587236186271"
+                "active reward of 74546186740323922"
             ]
         },
         "44": {
@@ -820,17 +844,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "478075691120547792969"
+                "amount": "496182223963791783425"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "52182377605578395"
+                "amount": "68937470708934828"
             },
             "state": "active",
             "notes": [
-                "active reward of 52182377605578395"
+                "active reward of 68937470708934828"
             ]
         },
         "45": {
@@ -839,17 +863,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "417161154309655873488"
+                "amount": "432960623476827494576"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "45533502917797292"
+                "amount": "60153727516917284"
             },
             "state": "active",
             "notes": [
-                "active reward of 45533502917797292"
+                "active reward of 60153727516917284"
             ]
         },
         "46": {
@@ -858,17 +882,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "442766756688027321357"
+                "amount": "427083673425271384725"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "48328376693944926"
+                "amount": "59337208801674903"
             },
             "state": "active",
             "notes": [
-                "active reward of 48328376693944926"
+                "active reward of 59337208801674903"
             ]
         },
         "47": {
@@ -877,221 +901,227 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "399580244373167698366"
+                "amount": "414713858051153046749"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "43614531303061576"
+                "amount": "57618598694654136"
             },
             "state": "active",
             "notes": [
-                "active reward of 43614531303061576"
+                "active reward of 57618598694654136"
             ]
         },
         "48": {
-            "address": "0x1Ec289BD5F002B7969887b8E18a1625052a67D0d",
-            "token": {
-                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
-                "symbol": "ARV",
-                "decimals": 18,
-                "amount": "411966300314619429256"
-            },
-            "rewards": {
-                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "symbol": "WETH",
-                "decimals": 18,
-                "amount": "44966480084782162"
-            },
-            "state": "active",
-            "notes": [
-                "active reward of 44966480084782162"
-            ]
-        },
-        "49": {
             "address": "0xB6fcA91D1c166564cC9888F96b3B553f42C96349",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "393419736326446407095"
+                "amount": "379484556259695052367"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "42942106490198302"
+                "amount": "52723987716970087"
             },
             "state": "active",
             "notes": [
-                "active reward of 42942106490198302"
+                "active reward of 52723987716970087"
             ]
         },
-        "50": {
+        "49": {
             "address": "0x91B26b4B49525fDFfff2B099190149a52A36c3cA",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "379705585356500204835"
+                "amount": "366256169336599405533"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "41445194980691761"
+                "amount": "50886091291031398"
             },
             "state": "active",
             "notes": [
-                "active reward of 41445194980691761"
+                "active reward of 50886091291031398"
             ]
         },
-        "51": {
+        "50": {
             "address": "0x4D04EB67A2D1e01c71FAd0366E0C200207A75487",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "349582459975904354469"
+                "amount": "362419595104556033130"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "38157229638663781"
+                "amount": "50353053808085527"
             },
             "state": "active",
             "notes": [
-                "active reward of 38157229638663781"
+                "active reward of 50353053808085527"
             ]
         },
-        "52": {
+        "51": {
             "address": "0x784F0d732aF31C7d70F2e37761D388Ce172c7482",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "347573311021333774273"
+                "amount": "360336667515253065232"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "37937929282338366"
+                "amount": "50063660611913945"
             },
             "state": "active",
             "notes": [
-                "active reward of 37937929282338366"
+                "active reward of 50063660611913945"
             ]
         },
-        "53": {
+        "52": {
             "address": "0x2459d93923CC940E3AA1935Ead83eF8011534BB1",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "326055373559488769079"
+                "amount": "338404322564265573475"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "35589227688046079"
+                "amount": "47016472876008097"
             },
             "state": "active",
             "notes": [
-                "active reward of 35589227688046079"
+                "active reward of 47016472876008097"
             ]
         },
-        "54": {
+        "53": {
             "address": "0xB478d2e5D241683667e15c9c79a2Bc0e5aF35923",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "322713177939837110034"
+                "amount": "334935545367931091972"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "46534535565844444"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 46534535565844444"
+            ]
         },
-        "55": {
+        "54": {
             "address": "0xB0331b22161cA290A15f825A29C008dCB5e1ff68",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "303013655221173802420"
+                "amount": "292280716686824728705"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "33074204085417115"
+                "amount": "40608253122052214"
             },
             "state": "active",
             "notes": [
-                "active reward of 33074204085417115"
+                "active reward of 40608253122052214"
             ]
         },
-        "56": {
+        "55": {
             "address": "0x67017BEbE2A4B8645B28F83D5D472618b35a1230",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "246248922667380523466"
+                "amount": "255575299826277106678"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "26878284142575251"
+                "amount": "35508556926833630"
             },
             "state": "active",
             "notes": [
-                "active reward of 26878284142575251"
+                "active reward of 35508556926833630"
             ]
         },
-        "57": {
+        "56": {
             "address": "0x42556f667Dfc74704914F98d1e0c0aC4Ea2f492e",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "234929184397612945093"
+                "amount": "255070207755560824554"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "35438381559501527"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 35438381559501527"
+            ]
         },
-        "58": {
+        "57": {
             "address": "0x2437Db820DE92d8DD64B524954fA0D160767c471",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "218122462760892704122"
+                "amount": "226383584606624676293"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "31452782826701400"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 31452782826701400"
+            ]
+        },
+        "58": {
+            "address": "0x1Ec289BD5F002B7969887b8E18a1625052a67D0d",
+            "token": {
+                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+                "symbol": "ARV",
+                "decimals": 18,
+                "amount": "191329739576062456761"
+            },
+            "rewards": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "26582549073211944"
+            },
+            "state": "active",
+            "notes": [
+                "active reward of 26582549073211944"
+            ]
         },
         "59": {
             "address": "0xD6ccB9d49A2ecd78efC35D6C733214029a1C74cB",
@@ -1099,17 +1129,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "205783131051410559936"
+                "amount": "194992544230131479861"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "22461407782968110"
+                "amount": "27091443742060176"
             },
             "state": "active",
             "notes": [
-                "active reward of 22461407782968110"
+                "active reward of 27091443742060176"
             ]
         },
         "60": {
@@ -1118,16 +1148,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "180884981794040154963"
+                "amount": "187735779532839074127"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "26083219384958392"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 26083219384958392"
+            ]
         },
         "61": {
             "address": "0xeb4135a5fff5cD44c08614f012e103a6429f65B3",
@@ -1135,16 +1167,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "163537386412348978392"
+                "amount": "169731165165736449667"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "23581734012019319"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 23581734012019319"
+            ]
         },
         "62": {
             "address": "0xDccc5094404422cD48CD7AfA95b618fE0Cd3d0Fe",
@@ -1152,16 +1186,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "153773391832350642207"
+                "amount": "160431066095328964409"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "22289617373630449"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 22289617373630449"
+            ]
         },
         "63": {
             "address": "0x955A44E6baC7c2424Bb52b81870C01D28fCE0038",
@@ -1169,16 +1205,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "151823043415801327096"
+                "amount": "157398188473439885058"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "21868242116466823"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 21868242116466823"
+            ]
         },
         "64": {
             "address": "0xaFbA26E1E3A95d5002a4f91395584803C0B2C0dB",
@@ -1186,16 +1224,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "149902077170095577165"
+                "amount": "155959063539779277749"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "21668296152727571"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 21668296152727571"
+            ]
         },
         "65": {
             "address": "0xCaB5541bad35e9ee799BeA9765C3c416D8Cc1Bb8",
@@ -1209,11 +1249,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "15988731038148104"
+                "amount": "20351711575887597"
             },
             "state": "active",
             "notes": [
-                "active reward of 15988731038148104"
+                "active reward of 20351711575887597"
             ]
         },
         "66": {
@@ -1222,16 +1262,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "125547593688685334127"
+                "amount": "130302555446281230775"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "18103688857730766"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 18103688857730766"
+            ]
         },
         "67": {
             "address": "0x343E3391e48d3a33F731D35A5179a26fd2b5f693",
@@ -1239,16 +1281,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "122678130681843232477"
+                "amount": "127324415033034963415"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "17689918558051022"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 17689918558051022"
+            ]
         },
         "68": {
             "address": "0xe5cD86ff7f825a0ff6f699828D5c9bf163C0e3F9",
@@ -1256,17 +1300,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "118844527339026661623"
+                "amount": "114634977752416450440"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "12971983552281955"
+                "amount": "15926901528022675"
             },
             "state": "active",
             "notes": [
-                "active reward of 12971983552281955"
+                "active reward of 15926901528022675"
             ]
         },
         "69": {
@@ -1275,17 +1319,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "101755954020961007455"
+                "amount": "105609836487056901982"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "11106750907773652"
+                "amount": "14672986370291984"
             },
             "state": "active",
             "notes": [
-                "active reward of 11106750907773652"
+                "active reward of 14672986370291984"
             ]
         },
         "70": {
@@ -1294,16 +1338,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "86343139254282706400"
+                "amount": "93266535532063020003"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "12958060065115537"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 12958060065115537"
+            ]
         },
         "71": {
             "address": "0xedf4FA418216A13E7629fED73e7448985CC8Bc82",
@@ -1311,17 +1357,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "95871022581005548366"
+                "amount": "88163277383284759912"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "10464405521287012"
+                "amount": "12249034847845345"
             },
             "state": "active",
             "notes": [
-                "active reward of 10464405521287012"
+                "active reward of 12249034847845345"
             ]
         },
         "72": {
@@ -1330,16 +1376,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "69738515679699381578"
+                "amount": "72379776777150087678"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "10056141676405844"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 10056141676405844"
+            ]
         },
         "73": {
             "address": "0x3070f20f86fDa706Ac380F5060D256028a46eC29",
@@ -1347,17 +1395,17 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "64644720932452584769"
+                "amount": "67093060775798966171"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "7056027529862191"
+                "amount": "9321627596924844"
             },
             "state": "active",
             "notes": [
-                "active reward of 7056027529862191"
+                "active reward of 9321627596924844"
             ]
         },
         "74": {
@@ -1372,10 +1420,12 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "9614703720900923"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 9614703720900923"
+            ]
         },
         "75": {
             "address": "0x305308cC98560E63e933A6bD70392617c9829BF8",
@@ -1383,16 +1433,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "59132733998344098276"
+                "amount": "61372314069320456517"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "8526811117284339"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 8526811117284339"
+            ]
         },
         "76": {
             "address": "0x8bFD3c3fc34F068C66796880756cC93ffDC6d080",
@@ -1406,11 +1458,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "6931697764854481"
+                "amount": "8823208877862441"
             },
             "state": "active",
             "notes": [
-                "active reward of 6931697764854481"
+                "active reward of 8823208877862441"
             ]
         },
         "77": {
@@ -1419,16 +1471,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "57224086385124627370"
+                "amount": "61812580967321553818"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "8587979947845426"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 8587979947845426"
+            ]
         },
         "78": {
             "address": "0x7d0a2547b23e5F91F448bD9D2ae994748Af2C1E3",
@@ -1436,16 +1490,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "53982060703697635390"
+                "amount": "57247384367325511233"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "7953710738483903"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 7953710738483903"
+            ]
         },
         "79": {
             "address": "0xD781F65cD90eE9418C70d1D244192C349Bf1176c",
@@ -1453,16 +1509,18 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "48228967845275000000"
+                "amount": "50000000000000000000"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "6946789644963726"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 6946789644963726"
+            ]
         },
         "80": {
             "address": "0x2067BEd542762D26E2755Ce7d8776728F3429f48",
@@ -1470,179 +1528,172 @@
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "48228967845275000000"
+                "amount": "50000000000000000000"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
-            },
-            "state": "inactive",
-            "notes": []
-        },
-        "81": {
-            "address": "0x43079513eBD84AFb15BE79021C420Fe8055Bc635",
-            "token": {
-                "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
-                "symbol": "ARV",
-                "decimals": 18,
-                "amount": "48642249598486849766"
-            },
-            "rewards": {
-                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                "symbol": "WETH",
-                "decimals": 18,
-                "amount": "5309343861813306"
+                "amount": "6946789644963726"
             },
             "state": "active",
             "notes": [
-                "active reward of 5309343861813306"
+                "active reward of 6946789644963726"
             ]
         },
-        "82": {
+        "81": {
             "address": "0xb4367aBE9d87C508eceb60c422cBBF8E34Aa8dc9",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "40323528853982847830"
+                "amount": "38895243530135148772"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "5403941499869704"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 5403941499869704"
+            ]
         },
-        "83": {
+        "82": {
             "address": "0xb3a7FBC2fa38C18ad4433aE93FE7F215Fd2D057f",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "35967007157984946533"
+                "amount": "37329213621260309236"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "3925830122132818"
+                "amount": "5186363892776200"
             },
             "state": "active",
             "notes": [
-                "active reward of 3925830122132818"
+                "active reward of 5186363892776200"
             ]
         },
-        "84": {
+        "83": {
             "address": "0xbD1bfF03034aC340235E48EE35c85b1121b8198e",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "35125400129664908706"
+                "amount": "36455731754745372898"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "5065005997068809"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 5065005997068809"
+            ]
         },
-        "85": {
+        "84": {
             "address": "0x7dd508a1e4Da1243789B799a480f8B45e58b1B5b",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "28132955235154851633"
+                "amount": "29198456550958838935"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "3070736539230382"
+                "amount": "4056710712342483"
             },
             "state": "active",
             "notes": [
-                "active reward of 3070736539230382"
+                "active reward of 4056710712342483"
             ]
         },
-        "86": {
+        "85": {
             "address": "0x1959b5EFb8fdD52C688c1D685Ad8F3D82ea27B01",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "27490360195233937720"
+                "amount": "28938331996734097067"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "3000596731573502"
+                "amount": "4020570101148698"
             },
             "state": "active",
             "notes": [
-                "active reward of 3000596731573502"
+                "active reward of 4020570101148698"
             ]
         },
-        "87": {
+        "86": {
             "address": "0x7ecF3a3ea7Cfd250dA7fc33d85bb2157706f247C",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "26739327035347963791"
+                "amount": "27752046385367558881"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "3855752569128487"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 3855752569128487"
+            ]
         },
-        "88": {
+        "87": {
             "address": "0xd384Cc029B537503895fE252f94FBA87A05D677E",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "21862014134612408201"
+                "amount": "23328974625651820726"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "3241229587141992"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 3241229587141992"
+            ]
         },
-        "89": {
+        "88": {
             "address": "0xadC5012f0206031632b09ddb61dBe84e41D66570",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "23132751591896177914"
+                "amount": "23982217146040890687"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "3331988354667767"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 3331988354667767"
+            ]
         },
-        "90": {
+        "89": {
             "address": "0x2b614ecc9e91aF9D056EB8ACcCF5D9928A7cF4F7",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
@@ -1654,152 +1705,164 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "2307251265399924"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 2307251265399924"
+            ]
         },
-        "91": {
+        "90": {
             "address": "0x62661B101ca48734668669a9F1Cb83c4889049F3",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "14243865063288182563"
+                "amount": "14766918824579050568"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "1554730263639341"
+                "amount": "2051653575572113"
             },
             "state": "active",
             "notes": [
-                "active reward of 1554730263639341"
+                "active reward of 2051653575572113"
             ]
         },
-        "92": {
+        "91": {
             "address": "0x65B0F840ea292fc284C23Fc839e65b3951d46195",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "11611864748931760198"
+                "amount": "12607376820951461608"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "1267445139520541"
+                "amount": "1751615894998826"
             },
             "state": "active",
             "notes": [
-                "active reward of 1267445139520541"
+                "active reward of 1751615894998826"
             ]
         },
-        "93": {
+        "92": {
             "address": "0x7B79c37Bb80cc76Fe6b758c7140228FEcc7e2A2e",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "7653590354852097449"
+                "amount": "7943460740865766766"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "1103631016396444"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 1103631016396444"
+            ]
         },
-        "94": {
+        "93": {
             "address": "0x976DcA1615502419B7003A1853E022b023d47Cf4",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "5169963668481543615"
+                "amount": "5613196633656247123"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "779873924996569"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 779873924996569"
+            ]
         },
-        "95": {
+        "94": {
             "address": "0xA483C9954E8c6B43cBb6DBdeCAE14F98D81789e0",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "5310650923121667513"
+                "amount": "5616766972991156304"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "780369972922984"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 780369972922984"
+            ]
         },
-        "96": {
+        "95": {
             "address": "0xe8537cC2abDf20CfB8D0409BFc00E9Ff883Fa927",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "3290520267205994466"
+                "amount": "3463838496772338780"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "481251148024096"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 481251148024096"
+            ]
         },
-        "97": {
+        "96": {
             "address": "0x679A51D6F75Ea1bdCd8Cb2d3F3e6dE4663718cAd",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "2000000000000000000"
+                "amount": "1929158713811000000"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "218301739974561"
+                "amount": "268029195531875"
             },
             "state": "active",
             "notes": [
-                "active reward of 218301739974561"
+                "active reward of 268029195531875"
             ]
         },
-        "98": {
+        "97": {
             "address": "0xFDaF56c89Caf56Dc65192f1a80e2166F9e5a7A43",
             "token": {
                 "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
                 "symbol": "ARV",
                 "decimals": 18,
-                "amount": "34386916198630000"
+                "amount": "37334986205940000"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "0"
+                "amount": "5187165911405"
             },
-            "state": "inactive",
-            "notes": []
+            "state": "active",
+            "notes": [
+                "active reward of 5187165911405"
+            ]
         }
     },
     "PRV_stats": {
@@ -1809,16 +1872,16 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "7726307207999999999",
-                "pro_rata": "0.000064623750421482",
-                "redistributed_total": "427340444725065450",
+                "amount": "10963372376999999487",
+                "pro_rata": "0.000091697534134006",
+                "redistributed_total": "551522976956638362",
                 "redistributed_to_stakers": "0",
-                "redistributed_transferred": "427340444725065450"
+                "redistributed_transferred": "551522976956638362"
             },
             "token_stats": {
-                "total": "119558322715848276253105",
-                "active": "112945576752670481613956",
-                "inactive": "6612745963177794639149"
+                "total": "119560165718068933804064",
+                "active": "113545576752670481613956",
+                "inactive": "6014588965398452190108"
             }
         }
     },
@@ -1835,11 +1898,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "52570312980405470"
+                "amount": "74594371844962488"
             },
             "state": "active",
             "notes": [
-                "active reward of 52570312980405470"
+                "active reward of 74594371844962488"
             ]
         },
         "2": {
@@ -1854,11 +1917,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "21853766638805918"
+                "amount": "31009288369193030"
             },
             "state": "active",
             "notes": [
-                "active reward of 21853766638805918"
+                "active reward of 31009288369193030"
             ]
         },
         "3": {
@@ -1873,11 +1936,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "3111930068944539"
+                "amount": "4415656966031216"
             },
             "state": "active",
             "notes": [
-                "active reward of 3111930068944539"
+                "active reward of 4415656966031216"
             ]
         },
         "4": {
@@ -1892,11 +1955,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "10238191768381062"
+                "amount": "14527428894617941"
             },
             "state": "active",
             "notes": [
-                "active reward of 10238191768381062"
+                "active reward of 14527428894617941"
             ]
         },
         "5": {
@@ -1911,11 +1974,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "64623750421482158"
+                "amount": "91697534134005660"
             },
             "state": "active",
             "notes": [
-                "active reward of 64623750421482158"
+                "active reward of 91697534134005660"
             ]
         },
         "6": {
@@ -1930,11 +1993,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "2551398802660246"
+                "amount": "3620294044689603"
             },
             "state": "active",
             "notes": [
-                "active reward of 2551398802660246"
+                "active reward of 3620294044689603"
             ]
         },
         "7": {
@@ -1949,11 +2012,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "80431249019350062"
+                "amount": "114127501952298586"
             },
             "state": "active",
             "notes": [
-                "active reward of 80431249019350062"
+                "active reward of 114127501952298586"
             ]
         },
         "8": {
@@ -1968,11 +2031,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "1546629729335371"
+                "amount": "2194582200404974"
             },
             "state": "active",
             "notes": [
-                "active reward of 1546629729335371"
+                "active reward of 2194582200404974"
             ]
         },
         "9": {
@@ -1987,11 +2050,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "2996329464451907"
+                "amount": "4251626090273640"
             },
             "state": "active",
             "notes": [
-                "active reward of 2996329464451907"
+                "active reward of 4251626090273640"
             ]
         },
         "10": {
@@ -2006,11 +2069,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "144172358081188"
+                "amount": "204572616725370"
             },
             "state": "active",
             "notes": [
-                "active reward of 144172358081188"
+                "active reward of 204572616725370"
             ]
         },
         "11": {
@@ -2025,11 +2088,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "3642939984182165"
+                "amount": "5169130720036856"
             },
             "state": "active",
             "notes": [
-                "active reward of 3642939984182165"
+                "active reward of 5169130720036856"
             ]
         },
         "12": {
@@ -2044,11 +2107,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "66503275314294846"
+                "amount": "94364476193083573"
             },
             "state": "active",
             "notes": [
-                "active reward of 66503275314294846"
+                "active reward of 94364476193083573"
             ]
         },
         "13": {
@@ -2063,11 +2126,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "2618377053528724"
+                "amount": "3715332484971871"
             },
             "state": "active",
             "notes": [
-                "active reward of 2618377053528724"
+                "active reward of 3715332484971871"
             ]
         },
         "14": {
@@ -2076,17 +2139,17 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "5488276883229928680820"
+                "amount": "5638276883229928680820"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "354673035545840892"
+                "amount": "517016086956951434"
             },
             "state": "active",
             "notes": [
-                "active reward of 354673035545840892"
+                "active reward of 517016086956951434"
             ]
         },
         "15": {
@@ -2101,11 +2164,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "3231187521074107"
+                "amount": "4584876706700283"
             },
             "state": "active",
             "notes": [
-                "active reward of 3231187521074107"
+                "active reward of 4584876706700283"
             ]
         },
         "16": {
@@ -2120,11 +2183,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "2202083230785443"
+                "amount": "3124634533029914"
             },
             "state": "active",
             "notes": [
-                "active reward of 2202083230785443"
+                "active reward of 3124634533029914"
             ]
         },
         "17": {
@@ -2139,11 +2202,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "6992110684108787"
+                "amount": "9921419043975474"
             },
             "state": "active",
             "notes": [
-                "active reward of 6992110684108787"
+                "active reward of 9921419043975474"
             ]
         },
         "18": {
@@ -2158,11 +2221,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "12699694762001912"
+                "amount": "18020165749201259"
             },
             "state": "active",
             "notes": [
-                "active reward of 12699694762001912"
+                "active reward of 18020165749201259"
             ]
         },
         "19": {
@@ -2177,11 +2240,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "2532043223729328"
+                "amount": "3592829546759268"
             },
             "state": "active",
             "notes": [
-                "active reward of 2532043223729328"
+                "active reward of 3592829546759268"
             ]
         },
         "20": {
@@ -2196,11 +2259,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "55996735789022667"
+                "amount": "79456276646239183"
             },
             "state": "active",
             "notes": [
-                "active reward of 55996735789022667"
+                "active reward of 79456276646239183"
             ]
         },
         "21": {
@@ -2215,11 +2278,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "68044734443346021"
+                "amount": "96551721597141058"
             },
             "state": "active",
             "notes": [
-                "active reward of 68044734443346021"
+                "active reward of 96551721597141058"
             ]
         },
         "22": {
@@ -2234,11 +2297,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "1245574289753227"
+                "amount": "1767401152148527"
             },
             "state": "active",
             "notes": [
-                "active reward of 1245574289753227"
+                "active reward of 1767401152148527"
             ]
         },
         "23": {
@@ -2247,17 +2310,17 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "2946923566728885615279"
+                "amount": "3096923566728885615279"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "190441253087471528"
+                "amount": "283980254470528546"
             },
             "state": "active",
             "notes": [
-                "active reward of 190441253087471528"
+                "active reward of 283980254470528546"
             ]
         },
         "24": {
@@ -2272,11 +2335,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "16195005326779192"
+                "amount": "22979818473350046"
             },
             "state": "active",
             "notes": [
-                "active reward of 16195005326779192"
+                "active reward of 22979818473350046"
             ]
         },
         "25": {
@@ -2291,11 +2354,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "102220956254957830"
+                "amount": "145045893564911332"
             },
             "state": "active",
             "notes": [
-                "active reward of 102220956254957830"
+                "active reward of 145045893564911332"
             ]
         },
         "26": {
@@ -2310,11 +2373,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "272130610692520920"
+                "amount": "386138312928835502"
             },
             "state": "active",
             "notes": [
-                "active reward of 272130610692520920"
+                "active reward of 386138312928835502"
             ]
         },
         "27": {
@@ -2329,11 +2392,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "27062198521444129"
+                "amount": "38399765666284368"
             },
             "state": "active",
             "notes": [
-                "active reward of 27062198521444129"
+                "active reward of 38399765666284368"
             ]
         },
         "28": {
@@ -2348,11 +2411,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "306962814502040254"
+                "amount": "435563287136526888"
             },
             "state": "active",
             "notes": [
-                "active reward of 306962814502040254"
+                "active reward of 435563287136526888"
             ]
         },
         "29": {
@@ -2367,11 +2430,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "13318580201105265"
+                "amount": "18898330020186589"
             },
             "state": "active",
             "notes": [
-                "active reward of 13318580201105265"
+                "active reward of 18898330020186589"
             ]
         },
         "30": {
@@ -2386,11 +2449,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "21583697646736371"
+                "amount": "30626075379273436"
             },
             "state": "active",
             "notes": [
-                "active reward of 21583697646736371"
+                "active reward of 30626075379273436"
             ]
         },
         "31": {
@@ -2405,11 +2468,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "66169572192349867"
+                "amount": "93890969885950367"
             },
             "state": "active",
             "notes": [
-                "active reward of 66169572192349867"
+                "active reward of 93890969885950367"
             ]
         },
         "32": {
@@ -2424,11 +2487,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "116448832000471637"
+                "amount": "165234463762702724"
             },
             "state": "active",
             "notes": [
-                "active reward of 116448832000471637"
+                "active reward of 165234463762702724"
             ]
         },
         "33": {
@@ -2443,11 +2506,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "257866695103452682"
+                "amount": "365898604182709130"
             },
             "state": "active",
             "notes": [
-                "active reward of 257866695103452682"
+                "active reward of 365898604182709130"
             ]
         },
         "34": {
@@ -2462,11 +2525,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "13029547825052286"
+                "amount": "18488209035315050"
             },
             "state": "active",
             "notes": [
-                "active reward of 13029547825052286"
+                "active reward of 18488209035315050"
             ]
         },
         "35": {
@@ -2481,11 +2544,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "6682141655132939"
+                "amount": "9481590104466124"
             },
             "state": "active",
             "notes": [
-                "active reward of 6682141655132939"
+                "active reward of 9481590104466124"
             ]
         },
         "36": {
@@ -2500,11 +2563,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "110237924550496222"
+                "amount": "156421528979704586"
             },
             "state": "active",
             "notes": [
-                "active reward of 110237924550496222"
+                "active reward of 156421528979704586"
             ]
         },
         "37": {
@@ -2519,11 +2582,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "2990431738878876"
+                "amount": "4243257543284044"
             },
             "state": "active",
             "notes": [
-                "active reward of 2990431738878876"
+                "active reward of 4243257543284044"
             ]
         },
         "38": {
@@ -2538,11 +2601,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "18507379633230304"
+                "amount": "26260949953857755"
             },
             "state": "active",
             "notes": [
-                "active reward of 18507379633230304"
+                "active reward of 26260949953857755"
             ]
         },
         "39": {
@@ -2557,11 +2620,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "22023878948414126"
+                "amount": "31250668345056018"
             },
             "state": "active",
             "notes": [
-                "active reward of 22023878948414126"
+                "active reward of 31250668345056018"
             ]
         },
         "40": {
@@ -2576,11 +2639,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "8027699529933950"
+                "amount": "11390862443956198"
             },
             "state": "active",
             "notes": [
-                "active reward of 8027699529933950"
+                "active reward of 11390862443956198"
             ]
         },
         "41": {
@@ -2595,11 +2658,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "4569738114081000"
+                "amount": "6484206100178835"
             },
             "state": "active",
             "notes": [
-                "active reward of 4569738114081000"
+                "active reward of 6484206100178835"
             ]
         },
         "42": {
@@ -2614,11 +2677,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "13870097279941247"
+                "amount": "19680902307189576"
             },
             "state": "active",
             "notes": [
-                "active reward of 13870097279941247"
+                "active reward of 19680902307189576"
             ]
         },
         "43": {
@@ -2633,11 +2696,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "6346124105852965"
+                "amount": "9004799752718249"
             },
             "state": "active",
             "notes": [
-                "active reward of 6346124105852965"
+                "active reward of 9004799752718249"
             ]
         },
         "44": {
@@ -2652,11 +2715,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "20006997346861568"
+                "amount": "28388824699393276"
             },
             "state": "active",
             "notes": [
-                "active reward of 20006997346861568"
+                "active reward of 28388824699393276"
             ]
         },
         "45": {
@@ -2671,11 +2734,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "129247500842964317"
+                "amount": "183395068268011321"
             },
             "state": "active",
             "notes": [
-                "active reward of 129247500842964317"
+                "active reward of 183395068268011321"
             ]
         },
         "46": {
@@ -2690,11 +2753,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "239706711070762861"
+                "amount": "340130589407184434"
             },
             "state": "active",
             "notes": [
-                "active reward of 239706711070762861"
+                "active reward of 340130589407184434"
             ]
         },
         "47": {
@@ -2709,11 +2772,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "18815421547084570"
+                "amount": "26698044423400741"
             },
             "state": "active",
             "notes": [
-                "active reward of 18815421547084570"
+                "active reward of 26698044423400741"
             ]
         },
         "48": {
@@ -2728,11 +2791,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "923241083802019"
+                "amount": "1310028128106130"
             },
             "state": "active",
             "notes": [
-                "active reward of 923241083802019"
+                "active reward of 1310028128106130"
             ]
         },
         "49": {
@@ -2747,11 +2810,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "3312300637935062"
+                "amount": "4699971741475616"
             },
             "state": "active",
             "notes": [
-                "active reward of 3312300637935062"
+                "active reward of 4699971741475616"
             ]
         },
         "50": {
@@ -2766,11 +2829,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "6943161928500850"
+                "amount": "9851963462105008"
             },
             "state": "active",
             "notes": [
-                "active reward of 6943161928500850"
+                "active reward of 9851963462105008"
             ]
         },
         "51": {
@@ -2785,11 +2848,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "292092983918691398"
+                "amount": "414463818464553143"
             },
             "state": "active",
             "notes": [
-                "active reward of 292092983918691398"
+                "active reward of 414463818464553143"
             ]
         },
         "52": {
@@ -2804,11 +2867,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "16675959396945273"
+                "amount": "23662265746655971"
             },
             "state": "active",
             "notes": [
-                "active reward of 16675959396945273"
+                "active reward of 23662265746655971"
             ]
         },
         "53": {
@@ -2823,11 +2886,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "51911907326880957"
+                "amount": "73660130571524777"
             },
             "state": "active",
             "notes": [
-                "active reward of 51911907326880957"
+                "active reward of 73660130571524777"
             ]
         },
         "54": {
@@ -2842,11 +2905,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "913324863549124"
+                "amount": "1295957559016753"
             },
             "state": "active",
             "notes": [
-                "active reward of 913324863549124"
+                "active reward of 1295957559016753"
             ]
         },
         "55": {
@@ -2861,11 +2924,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "5838492314780928"
+                "amount": "8284498266256379"
             },
             "state": "active",
             "notes": [
-                "active reward of 5838492314780928"
+                "active reward of 8284498266256379"
             ]
         },
         "56": {
@@ -2880,11 +2943,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "73671502118390214"
+                "amount": "104535794288393737"
             },
             "state": "active",
             "notes": [
-                "active reward of 73671502118390214"
+                "active reward of 104535794288393737"
             ]
         },
         "57": {
@@ -2899,11 +2962,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "233899873086324404"
+                "amount": "331891006888128374"
             },
             "state": "active",
             "notes": [
-                "active reward of 233899873086324404"
+                "active reward of 331891006888128374"
             ]
         },
         "58": {
@@ -2918,11 +2981,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "70871900788993342"
+                "amount": "100563314560899619"
             },
             "state": "active",
             "notes": [
-                "active reward of 70871900788993342"
+                "active reward of 100563314560899619"
             ]
         },
         "59": {
@@ -2937,11 +3000,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "16951579715359275"
+                "amount": "24053355762183637"
             },
             "state": "active",
             "notes": [
-                "active reward of 16951579715359275"
+                "active reward of 24053355762183637"
             ]
         },
         "60": {
@@ -2956,11 +3019,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "7305501548153975"
+                "amount": "10366103378537344"
             },
             "state": "active",
             "notes": [
-                "active reward of 7305501548153975"
+                "active reward of 10366103378537344"
             ]
         },
         "61": {
@@ -2975,11 +3038,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "5553206291361309"
+                "amount": "7879693148944909"
             },
             "state": "active",
             "notes": [
-                "active reward of 5553206291361309"
+                "active reward of 7879693148944909"
             ]
         },
         "62": {
@@ -2994,11 +3057,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "6364405822857964"
+                "amount": "9030740499860911"
             },
             "state": "active",
             "notes": [
-                "active reward of 6364405822857964"
+                "active reward of 9030740499860911"
             ]
         },
         "63": {
@@ -3013,11 +3076,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "732363964975213"
+                "amount": "1039184034334634"
             },
             "state": "active",
             "notes": [
-                "active reward of 732363964975213"
+                "active reward of 1039184034334634"
             ]
         },
         "64": {
@@ -3032,11 +3095,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "13171485509814446"
+                "amount": "18689610773971391"
             },
             "state": "active",
             "notes": [
-                "active reward of 13171485509814446"
+                "active reward of 18689610773971391"
             ]
         },
         "65": {
@@ -3051,11 +3114,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "126931905958445347"
+                "amount": "180109366965025303"
             },
             "state": "active",
             "notes": [
-                "active reward of 126931905958445347"
+                "active reward of 180109366965025303"
             ]
         },
         "66": {
@@ -3070,11 +3133,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "150596267099662336"
+                "amount": "213687788974789147"
             },
             "state": "active",
             "notes": [
-                "active reward of 150596267099662336"
+                "active reward of 213687788974789147"
             ]
         },
         "67": {
@@ -3089,11 +3152,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "9902063015988433"
+                "amount": "14050480751792451"
             },
             "state": "active",
             "notes": [
-                "active reward of 9902063015988433"
+                "active reward of 14050480751792451"
             ]
         },
         "68": {
@@ -3108,11 +3171,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "169452316387661083"
+                "amount": "240443481919592119"
             },
             "state": "active",
             "notes": [
-                "active reward of 169452316387661083"
+                "active reward of 240443481919592119"
             ]
         },
         "69": {
@@ -3127,11 +3190,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "5936131300748591"
+                "amount": "8423042596942628"
             },
             "state": "active",
             "notes": [
-                "active reward of 5936131300748591"
+                "active reward of 8423042596942628"
             ]
         },
         "70": {
@@ -3146,11 +3209,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "64623750421482184"
+                "amount": "91697534134005697"
             },
             "state": "active",
             "notes": [
-                "active reward of 64623750421482184"
+                "active reward of 91697534134005697"
             ]
         },
         "71": {
@@ -3165,11 +3228,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "32311875210741079"
+                "amount": "45848767067002830"
             },
             "state": "active",
             "notes": [
-                "active reward of 32311875210741079"
+                "active reward of 45848767067002830"
             ]
         },
         "72": {
@@ -3184,11 +3247,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "6462787218723563"
+                "amount": "9170338269205757"
             },
             "state": "active",
             "notes": [
-                "active reward of 6462787218723563"
+                "active reward of 9170338269205757"
             ]
         },
         "73": {
@@ -3203,11 +3266,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "64623750421482158"
+                "amount": "91697534134005660"
             },
             "state": "active",
             "notes": [
-                "active reward of 64623750421482158"
+                "active reward of 91697534134005660"
             ]
         },
         "74": {
@@ -3222,11 +3285,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "5776842189951761"
+                "amount": "8197020142671508"
             },
             "state": "active",
             "notes": [
-                "active reward of 5776842189951761"
+                "active reward of 8197020142671508"
             ]
         },
         "75": {
@@ -3241,11 +3304,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "17934669455378885"
+                "amount": "25448305829369344"
             },
             "state": "active",
             "notes": [
-                "active reward of 17934669455378885"
+                "active reward of 25448305829369344"
             ]
         },
         "76": {
@@ -3260,11 +3323,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "51899595616262924"
+                "amount": "73642660933856242"
             },
             "state": "active",
             "notes": [
-                "active reward of 51899595616262924"
+                "active reward of 73642660933856242"
             ]
         },
         "77": {
@@ -3279,11 +3342,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "421654919584953655"
+                "amount": "598305052387671634"
             },
             "state": "active",
             "notes": [
-                "active reward of 421654919584953655"
+                "active reward of 598305052387671634"
             ]
         },
         "78": {
@@ -3298,11 +3361,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "54934472412912772"
+                "amount": "77948983560417887"
             },
             "state": "active",
             "notes": [
-                "active reward of 54934472412912772"
+                "active reward of 77948983560417887"
             ]
         },
         "79": {
@@ -3317,11 +3380,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "36531044604313730"
+                "amount": "51835535506794146"
             },
             "state": "active",
             "notes": [
-                "active reward of 36531044604313730"
+                "active reward of 51835535506794146"
             ]
         },
         "80": {
@@ -3336,11 +3399,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "19948765825162205"
+                "amount": "28306197384917151"
             },
             "state": "active",
             "notes": [
-                "active reward of 19948765825162205"
+                "active reward of 28306197384917151"
             ]
         },
         "81": {
@@ -3355,11 +3418,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "3008929217548510"
+                "amount": "4269504444317167"
             },
             "state": "active",
             "notes": [
-                "active reward of 3008929217548510"
+                "active reward of 4269504444317167"
             ]
         },
         "82": {
@@ -3374,11 +3437,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "235584056435756222"
+                "amount": "334280770081462180"
             },
             "state": "active",
             "notes": [
-                "active reward of 235584056435756222"
+                "active reward of 334280770081462180"
             ]
         },
         "83": {
@@ -3393,11 +3456,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "19028111279845537"
+                "amount": "26999839412125476"
             },
             "state": "active",
             "notes": [
-                "active reward of 19028111279845537"
+                "active reward of 26999839412125476"
             ]
         },
         "84": {
@@ -3412,11 +3475,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "694317897647156"
+                "amount": "985198765223427"
             },
             "state": "active",
             "notes": [
-                "active reward of 694317897647156"
+                "active reward of 985198765223427"
             ]
         },
         "85": {
@@ -3431,11 +3494,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "30373162698096614"
+                "amount": "43097841042982660"
             },
             "state": "active",
             "notes": [
-                "active reward of 30373162698096614"
+                "active reward of 43097841042982660"
             ]
         },
         "86": {
@@ -3450,11 +3513,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "24102072997849934"
+                "amount": "34199510969359667"
             },
             "state": "active",
             "notes": [
-                "active reward of 24102072997849934"
+                "active reward of 34199510969359667"
             ]
         },
         "87": {
@@ -3469,11 +3532,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "3231187521074107"
+                "amount": "4584876706700283"
             },
             "state": "active",
             "notes": [
-                "active reward of 3231187521074107"
+                "active reward of 4584876706700283"
             ]
         },
         "88": {
@@ -3488,11 +3551,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "2693949587329437"
+                "amount": "3822565738266323"
             },
             "state": "active",
             "notes": [
-                "active reward of 2693949587329437"
+                "active reward of 3822565738266323"
             ]
         },
         "89": {
@@ -3507,11 +3570,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "2665171450471606"
+                "amount": "3781731150833328"
             },
             "state": "active",
             "notes": [
-                "active reward of 2665171450471606"
+                "active reward of 3781731150833328"
             ]
         },
         "90": {
@@ -3520,17 +3583,17 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "4680897194098682441539"
+                "amount": "4830897194098682441539"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "302497132020049383"
+                "amount": "442981360353736103"
             },
             "state": "active",
             "notes": [
-                "active reward of 302497132020049383"
+                "active reward of 442981360353736103"
             ]
         },
         "91": {
@@ -3539,17 +3602,17 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "655297813806106080193"
+                "amount": "805297813806106080193"
             },
             "rewards": {
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "42347802371148685"
+                "amount": "73843823769525547"
             },
             "state": "active",
             "notes": [
-                "active reward of 42347802371148685"
+                "active reward of 73843823769525547"
             ]
         },
         "92": {
@@ -3564,11 +3627,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "34113105760322559"
+                "amount": "48404613775468646"
             },
             "state": "active",
             "notes": [
-                "active reward of 34113105760322559"
+                "active reward of 48404613775468646"
             ]
         },
         "93": {
@@ -3583,11 +3646,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "337991729954197"
+                "amount": "479591605135067"
             },
             "state": "active",
             "notes": [
-                "active reward of 337991729954197"
+                "active reward of 479591605135067"
             ]
         },
         "94": {
@@ -3602,11 +3665,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "11535350116182079"
+                "amount": "16368024977310692"
             },
             "state": "active",
             "notes": [
-                "active reward of 11535350116182079"
+                "active reward of 16368024977310692"
             ]
         },
         "95": {
@@ -3621,11 +3684,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "1692416398798205763"
+                "amount": "2401445435858844520"
             },
             "state": "active",
             "notes": [
-                "active reward of 1692416398798205763"
+                "active reward of 2401445435858844520"
             ]
         },
         "96": {
@@ -3640,11 +3703,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "1936054621482721"
+                "amount": "2747154623197115"
             },
             "state": "active",
             "notes": [
-                "active reward of 1936054621482721"
+                "active reward of 2747154623197115"
             ]
         },
         "97": {
@@ -3659,11 +3722,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "9395929174968531"
+                "amount": "13332304773756521"
             },
             "state": "active",
             "notes": [
-                "active reward of 9395929174968531"
+                "active reward of 13332304773756521"
             ]
         },
         "98": {
@@ -3678,11 +3741,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "11440359744232052"
+                "amount": "16233238883692177"
             },
             "state": "active",
             "notes": [
-                "active reward of 11440359744232052"
+                "active reward of 16233238883692177"
             ]
         },
         "99": {
@@ -3697,11 +3760,11 @@
                 "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                 "symbol": "WETH",
                 "decimals": 18,
-                "amount": "427340444725065450"
+                "amount": "551522976956638362"
             },
             "state": "inactive",
             "notes": [
-                "Transfer of 427340444725065450"
+                "Transfer of 551522976956638362"
             ]
         }
     }

@@ -5,12 +5,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "36884180432238706055208",
+            "amount": "35577719041315238106397",
             "non_decayed_amount": "36884180432238706055208",
             "lock": {
                 "amount": "36884180432238706055208",
                 "lockDuration": 94608000,
-                "lockedAt": 1687432595
+                "lockedAt": 1682846627
             }
         }
     },
@@ -20,7 +20,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "22970736749474096702590",
+            "amount": "23814252902080863836937",
             "non_decayed_amount": "23814252902080863836937",
             "lock": {
                 "amount": "23814252902080863836937",
@@ -35,12 +35,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "18639955655683698252065",
+            "amount": "17979716439106419245896",
             "non_decayed_amount": "18639955655683698252065",
             "lock": {
                 "amount": "18639955655683698252065",
                 "lockDuration": 94608000,
-                "lockedAt": 1687432919
+                "lockedAt": 1682694671
             }
         }
     },
@@ -55,7 +55,7 @@
             "lock": {
                 "amount": "16733352132446270107425",
                 "lockDuration": 94608000,
-                "lockedAt": 1687432847
+                "lockedAt": 1684221575
             }
         }
     },
@@ -70,7 +70,7 @@
             "lock": {
                 "amount": "6561001435984477475580",
                 "lockDuration": 94608000,
-                "lockedAt": 1687707095
+                "lockedAt": 1683865799
             }
         }
     },
@@ -80,7 +80,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "6260110856165522780432",
+            "amount": "6489990493108621317957",
             "non_decayed_amount": "6489990493108621317957",
             "lock": {
                 "amount": "6489990493108621317957",
@@ -95,7 +95,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "4646901082120000000000",
+            "amount": "4822896784527500000000",
             "non_decayed_amount": "5000000000000000000000",
             "lock": {
                 "amount": "5000000000000000000000",
@@ -110,12 +110,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "4161278192283241786818",
+            "amount": "4013883042617450935433",
             "non_decayed_amount": "4161278192283241786818",
             "lock": {
                 "amount": "4161278192283241786818",
                 "lockDuration": 94608000,
-                "lockedAt": 1686122303
+                "lockedAt": 1682079515
             }
         }
     },
@@ -125,7 +125,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "3931972707315303980000",
+            "amount": "4076360000000000000000",
             "non_decayed_amount": "4076360000000000000000",
             "lock": {
                 "amount": "4076360000000000000000",
@@ -140,7 +140,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "3729077802839172283007",
+            "amount": "3870312069642949452734",
             "non_decayed_amount": "4012435101306158856360",
             "lock": {
                 "amount": "4012435101306158856360",
@@ -160,7 +160,7 @@
             "lock": {
                 "amount": "3255229734100161070178",
                 "lockDuration": 94608000,
-                "lockedAt": 1686743975
+                "lockedAt": 1683173375
             }
         }
     },
@@ -175,7 +175,7 @@
             "lock": {
                 "amount": "3207793654312846923706",
                 "lockDuration": 94608000,
-                "lockedAt": 1687763879
+                "lockedAt": 1684442147
             }
         }
     },
@@ -185,7 +185,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "2928064796253760805694",
+            "amount": "3038961673851218212105",
             "non_decayed_amount": "3150556407925434996277",
             "lock": {
                 "amount": "3150556407925434996277",
@@ -205,7 +205,7 @@
             "lock": {
                 "amount": "3135761155595599680257",
                 "lockDuration": 94608000,
-                "lockedAt": 1687469567
+                "lockedAt": 1683616799
             }
         }
     },
@@ -215,12 +215,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "3077125222744984139217",
+            "amount": "2968131468473050242431",
             "non_decayed_amount": "3077125222744984139217",
             "lock": {
                 "amount": "3077125222744984139217",
                 "lockDuration": 94608000,
-                "lockedAt": 1686547523
+                "lockedAt": 1682051111
             }
         }
     },
@@ -230,7 +230,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "2893738070716500000000",
+            "amount": "3000000000000000000000",
             "non_decayed_amount": "3000000000000000000000",
             "lock": {
                 "amount": "3000000000000000000000",
@@ -250,7 +250,7 @@
             "lock": {
                 "amount": "2583530677058581726023",
                 "lockDuration": 94608000,
-                "lockedAt": 1687482719
+                "lockedAt": 1684151099
             }
         }
     },
@@ -260,12 +260,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "2469592235516781422951",
+            "amount": "2382117690353593121403",
             "non_decayed_amount": "2469592235516781422951",
             "lock": {
                 "amount": "2469592235516781422951",
                 "lockDuration": 94608000,
-                "lockedAt": 1686034259
+                "lockedAt": 1681891535
             }
         }
     },
@@ -275,7 +275,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "2062760229123811787686",
+            "amount": "2138507541506406870325",
             "non_decayed_amount": "2138507541506406870325",
             "lock": {
                 "amount": "2138507541506406870325",
@@ -290,12 +290,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "2071428961527421773030",
+            "amount": "1998057615585548194832",
             "non_decayed_amount": "2071428961527421773030",
             "lock": {
                 "amount": "2071428961527421773030",
                 "lockDuration": 94608000,
-                "lockedAt": 1686311411
+                "lockedAt": 1682076251
             }
         }
     },
@@ -305,7 +305,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "1992261333459639112719",
+            "amount": "2065419832175427000000",
             "non_decayed_amount": "2065419832175427000000",
             "lock": {
                 "amount": "2065419832175427000000",
@@ -325,7 +325,7 @@
             "lock": {
                 "amount": "1975278734052104775571",
                 "lockDuration": 94608000,
-                "lockedAt": 1687386527
+                "lockedAt": 1684291727
             }
         }
     },
@@ -335,7 +335,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "1791396754673520406574",
+            "amount": "1859243718608773062900",
             "non_decayed_amount": "1927517632736280379670",
             "lock": {
                 "amount": "1927517632736280379670",
@@ -350,12 +350,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "1839212617745616588201",
+            "amount": "1774066524037548045838",
             "non_decayed_amount": "1839212617745616588201",
             "lock": {
                 "amount": "1839212617745616588201",
                 "lockDuration": 94608000,
-                "lockedAt": 1686300359
+                "lockedAt": 1682709779
             }
         }
     },
@@ -365,12 +365,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "1682231428874669197313",
+            "amount": "1622645709830148777903",
             "non_decayed_amount": "1682231428874669197313",
             "lock": {
                 "amount": "1682231428874669197313",
                 "lockDuration": 94608000,
-                "lockedAt": 1686072623
+                "lockedAt": 1681892363
             }
         }
     },
@@ -400,7 +400,7 @@
             "lock": {
                 "amount": "1199509443597529189347",
                 "lockDuration": 94608000,
-                "lockedAt": 1687439219
+                "lockedAt": 1683582203
             }
         }
     },
@@ -410,12 +410,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "1041409351465488046164",
+            "amount": "1004521962511954283546",
             "non_decayed_amount": "1041409351465488046164",
             "lock": {
                 "amount": "1041409351465488046164",
                 "lockDuration": 94608000,
-                "lockedAt": 1687252691
+                "lockedAt": 1682718311
             }
         }
     },
@@ -425,7 +425,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "998238952308837561234",
+            "amount": "1034895620730804419852",
             "non_decayed_amount": "1034895620730804419852",
             "lock": {
                 "amount": "1034895620730804419852",
@@ -440,12 +440,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "1008810429400830636885",
+            "amount": "973077715231014525414",
             "non_decayed_amount": "1008810429400830636885",
             "lock": {
                 "amount": "1008810429400830636885",
                 "lockDuration": 94608000,
-                "lockedAt": 1686149027
+                "lockedAt": 1682054987
             }
         }
     },
@@ -455,7 +455,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "964579356905500000000",
+            "amount": "1000000000000000000000",
             "non_decayed_amount": "1000000000000000000000",
             "lock": {
                 "amount": "1000000000000000000000",
@@ -470,7 +470,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "964579356905500000000",
+            "amount": "1000000000000000000000",
             "non_decayed_amount": "1000000000000000000000",
             "lock": {
                 "amount": "1000000000000000000000",
@@ -485,7 +485,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "892378905063398303234",
+            "amount": "926176666073326513145",
             "non_decayed_amount": "960187111037318410224",
             "lock": {
                 "amount": "960187111037318410224",
@@ -500,12 +500,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "902086034387642503060",
+            "amount": "870133566923064964097",
             "non_decayed_amount": "902086034387642503060",
             "lock": {
                 "amount": "902086034387642503060",
                 "lockDuration": 94608000,
-                "lockedAt": 1686648251
+                "lockedAt": 1682341211
             }
         }
     },
@@ -515,7 +515,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "865891940146207209888",
+            "amount": "897688649406830284527",
             "non_decayed_amount": "897688649406830284527",
             "lock": {
                 "amount": "897688649406830284527",
@@ -535,7 +535,7 @@
             "lock": {
                 "amount": "848481191235811116961",
                 "lockDuration": 94608000,
-                "lockedAt": 1687108967
+                "lockedAt": 1683948911
             }
         }
     },
@@ -545,7 +545,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "757433420778938793994",
+            "amount": "785247388259361922240",
             "non_decayed_amount": "785247388259361922240",
             "lock": {
                 "amount": "785247388259361922240",
@@ -560,7 +560,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "686654514784437129794",
+            "amount": "711869386244504491085",
             "non_decayed_amount": "711869386244504491085",
             "lock": {
                 "amount": "711869386244504491085",
@@ -575,7 +575,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "637461671140447452260",
+            "amount": "661604753290807856916",
             "non_decayed_amount": "685899764031157246316",
             "lock": {
                 "amount": "685899764031157246316",
@@ -590,7 +590,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "559396500098473181566",
+            "amount": "579938287185714000000",
             "non_decayed_amount": "579938287185714000000",
             "lock": {
                 "amount": "579938287185714000000",
@@ -605,7 +605,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "485354820677220000000",
+            "amount": "524272837648820000000",
             "non_decayed_amount": "563750976146670000000",
             "lock": {
                 "amount": "1300000000000000000000",
@@ -620,12 +620,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "558373125855414993527",
+            "amount": "538595190650930009031",
             "non_decayed_amount": "558373125855414993527",
             "lock": {
                 "amount": "558373125855414993527",
                 "lockDuration": 94608000,
-                "lockedAt": 1686026519
+                "lockedAt": 1681973999
             }
         }
     },
@@ -635,7 +635,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "513496477331948531617",
+            "amount": "536551346378886731670",
             "non_decayed_amount": "536551346378886731670",
             "lock": {
                 "amount": "678375887822181476370",
@@ -650,7 +650,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "478075691120547792969",
+            "amount": "496182223963791783425",
             "non_decayed_amount": "514402698348854295893",
             "lock": {
                 "amount": "514402698348854295893",
@@ -665,7 +665,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "417161154309655873488",
+            "amount": "432960623476827494576",
             "non_decayed_amount": "448859516199707266654",
             "lock": {
                 "amount": "448859516199707266654",
@@ -680,12 +680,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "442766756688027321357",
+            "amount": "427083673425271384725",
             "non_decayed_amount": "442766756688027321357",
             "lock": {
                 "amount": "442766756688027321357",
                 "lockDuration": 94608000,
-                "lockedAt": 1686066419
+                "lockedAt": 1682082203
             }
         }
     },
@@ -695,7 +695,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "399580244373167698366",
+            "amount": "414713858051153046749",
             "non_decayed_amount": "429942705161772016221",
             "lock": {
                 "amount": "429942705161772016221",
@@ -705,32 +705,17 @@
         }
     },
     {
-        "address": "0x1Ec289BD5F002B7969887b8E18a1625052a67D0d",
-        "token": {
-            "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
-            "symbol": "ARV",
-            "decimals": 18,
-            "amount": "411966300314619429256",
-            "non_decayed_amount": "411966300314619429256",
-            "lock": {
-                "amount": "411966300314619429256",
-                "lockDuration": 94608000,
-                "lockedAt": 1687995191
-            }
-        }
-    },
-    {
         "address": "0xB6fcA91D1c166564cC9888F96b3B553f42C96349",
         "token": {
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "393419736326446407095",
+            "amount": "379484556259695052367",
             "non_decayed_amount": "393419736326446407095",
             "lock": {
                 "amount": "393419736326446407095",
                 "lockDuration": 94608000,
-                "lockedAt": 1687597019
+                "lockedAt": 1682841455
             }
         }
     },
@@ -740,12 +725,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "379705585356500204835",
+            "amount": "366256169336599405533",
             "non_decayed_amount": "379705585356500204835",
             "lock": {
                 "amount": "379705585356500204835",
                 "lockDuration": 94608000,
-                "lockedAt": 1686533699
+                "lockedAt": 1681916171
             }
         }
     },
@@ -755,7 +740,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "349582459975904354469",
+            "amount": "362419595104556033130",
             "non_decayed_amount": "362419595104556033130",
             "lock": {
                 "amount": "362419595104556033130",
@@ -770,7 +755,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "347573311021333774273",
+            "amount": "360336667515253065232",
             "non_decayed_amount": "360336667515253065232",
             "lock": {
                 "amount": "360336667515253065232",
@@ -785,7 +770,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "326055373559488769079",
+            "amount": "338404322564265573475",
             "non_decayed_amount": "350830981548176653787",
             "lock": {
                 "amount": "350830981548176653787",
@@ -800,7 +785,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "322713177939837110034",
+            "amount": "334935545367931091972",
             "non_decayed_amount": "347234826217356819352",
             "lock": {
                 "amount": "347234826217356819352",
@@ -815,12 +800,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "303013655221173802420",
+            "amount": "292280716686824728705",
             "non_decayed_amount": "303013655221173802420",
             "lock": {
                 "amount": "303013655221173802420",
                 "lockDuration": 94608000,
-                "lockedAt": 1687701623
+                "lockedAt": 1682667011
             }
         }
     },
@@ -830,7 +815,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "246248922667380523466",
+            "amount": "255575299826277106678",
             "non_decayed_amount": "264960366398672433235",
             "lock": {
                 "amount": "264960366398672433235",
@@ -845,7 +830,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "234929184397612945093",
+            "amount": "255070207755560824554",
             "non_decayed_amount": "255070207755560824554",
             "lock": {
                 "amount": "683193523491858500430",
@@ -860,7 +845,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "218122462760892704122",
+            "amount": "226383584606624676293",
             "non_decayed_amount": "234696692382981936160",
             "lock": {
                 "amount": "234696692382981936160",
@@ -870,17 +855,32 @@
         }
     },
     {
+        "address": "0x1Ec289BD5F002B7969887b8E18a1625052a67D0d",
+        "token": {
+            "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
+            "symbol": "ARV",
+            "decimals": 18,
+            "amount": "191329739576062456761",
+            "non_decayed_amount": "204168134382265410397",
+            "lock": {
+                "amount": "411966300314619429256",
+                "lockDuration": 55188000,
+                "lockedAt": 1682727431
+            }
+        }
+    },
+    {
         "address": "0xD6ccB9d49A2ecd78efC35D6C733214029a1C74cB",
         "token": {
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "205783131051410559936",
-            "non_decayed_amount": "205783131051410559936",
+            "amount": "194992544230131479861",
+            "non_decayed_amount": "202152931051410559936",
             "lock": {
-                "amount": "205783131051410559936",
+                "amount": "202152931051410559936",
                 "lockDuration": 94608000,
-                "lockedAt": 1687199303
+                "lockedAt": 1682016827
             }
         }
     },
@@ -890,7 +890,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "180884981794040154963",
+            "amount": "187735779532839074127",
             "non_decayed_amount": "194629688256154106839",
             "lock": {
                 "amount": "194629688256154106839",
@@ -905,7 +905,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "163537386412348978392",
+            "amount": "169731165165736449667",
             "non_decayed_amount": "175963920387283428194",
             "lock": {
                 "amount": "175963920387283428194",
@@ -920,7 +920,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "153773391832350642207",
+            "amount": "160431066095328964409",
             "non_decayed_amount": "160431066095328964409",
             "lock": {
                 "amount": "194419717538153385185",
@@ -935,7 +935,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "151823043415801327096",
+            "amount": "157398188473439885058",
             "non_decayed_amount": "157398188473439885058",
             "lock": {
                 "amount": "157398188473439885058",
@@ -950,7 +950,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "149902077170095577165",
+            "amount": "155959063539779277749",
             "non_decayed_amount": "155959063539779277749",
             "lock": {
                 "amount": "174371061719217429202",
@@ -970,7 +970,7 @@
             "lock": {
                 "amount": "146482854786326741427",
                 "lockDuration": 94608000,
-                "lockedAt": 1687589243
+                "lockedAt": 1684037687
             }
         }
     },
@@ -980,7 +980,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "125547593688685334127",
+            "amount": "130302555446281230775",
             "non_decayed_amount": "135087439424693176179",
             "lock": {
                 "amount": "135087439424693176179",
@@ -995,7 +995,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "122678130681843232477",
+            "amount": "127324415033034963415",
             "non_decayed_amount": "131999937715346480849",
             "lock": {
                 "amount": "131999937715346480849",
@@ -1010,12 +1010,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "118844527339026661623",
+            "amount": "114634977752416450440",
             "non_decayed_amount": "118844527339026661623",
             "lock": {
                 "amount": "118844527339026661623",
                 "lockDuration": 94608000,
-                "lockedAt": 1686095723
+                "lockedAt": 1682239691
             }
         }
     },
@@ -1025,7 +1025,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "101755954020961007455",
+            "amount": "105609836487056901982",
             "non_decayed_amount": "109487970824782553609",
             "lock": {
                 "amount": "109487970824782553609",
@@ -1040,7 +1040,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "86343139254282706400",
+            "amount": "93266535532063020003",
             "non_decayed_amount": "100289575717516578243",
             "lock": {
                 "amount": "231266026932522354597",
@@ -1055,12 +1055,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "95871022581005548366",
-            "non_decayed_amount": "95871022581005548366",
+            "amount": "88163277383284759912",
+            "non_decayed_amount": "91400750754322986054",
             "lock": {
-                "amount": "95871022581005548366",
+                "amount": "91400750754322986054",
                 "lockDuration": 94608000,
-                "lockedAt": 1686118571
+                "lockedAt": 1681966223
             }
         }
     },
@@ -1070,7 +1070,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "69738515679699381578",
+            "amount": "72379776777150087678",
             "non_decayed_amount": "75037658912123231812",
             "lock": {
                 "amount": "75037658912123231812",
@@ -1085,7 +1085,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "64644720932452584769",
+            "amount": "67093060775798966171",
             "non_decayed_amount": "69556807633788170000",
             "lock": {
                 "amount": "69556807633788170000",
@@ -1105,7 +1105,7 @@
             "lock": {
                 "amount": "69202496493264175282",
                 "lockDuration": 94608000,
-                "lockedAt": 1687727183
+                "lockedAt": 1684009307
             }
         }
     },
@@ -1115,7 +1115,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "59132733998344098276",
+            "amount": "61372314069320456517",
             "non_decayed_amount": "63625987462774524557",
             "lock": {
                 "amount": "63625987462774524557",
@@ -1135,7 +1135,7 @@
             "lock": {
                 "amount": "63505657496474496669",
                 "lockDuration": 94608000,
-                "lockedAt": 1687229891
+                "lockedAt": 1684218479
             }
         }
     },
@@ -1145,7 +1145,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "57224086385124627370",
+            "amount": "61812580967321553818",
             "non_decayed_amount": "61812580967321553818",
             "lock": {
                 "amount": "153272016948061091191",
@@ -1160,7 +1160,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "53982060703697635390",
+            "amount": "57247384367325511233",
             "non_decayed_amount": "57247384367325511233",
             "lock": {
                 "amount": "102408030364454547840",
@@ -1175,7 +1175,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "48228967845275000000",
+            "amount": "50000000000000000000",
             "non_decayed_amount": "50000000000000000000",
             "lock": {
                 "amount": "50000000000000000000",
@@ -1190,7 +1190,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "48228967845275000000",
+            "amount": "50000000000000000000",
             "non_decayed_amount": "50000000000000000000",
             "lock": {
                 "amount": "50000000000000000000",
@@ -1200,32 +1200,17 @@
         }
     },
     {
-        "address": "0x43079513eBD84AFb15BE79021C420Fe8055Bc635",
-        "token": {
-            "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
-            "symbol": "ARV",
-            "decimals": 18,
-            "amount": "48642249598486849766",
-            "non_decayed_amount": "48642249598486849766",
-            "lock": {
-                "amount": "48642249598486849766",
-                "lockDuration": 94608000,
-                "lockedAt": 1685991911
-            }
-        }
-    },
-    {
         "address": "0xb4367aBE9d87C508eceb60c422cBBF8E34Aa8dc9",
         "token": {
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "40323528853982847830",
+            "amount": "38895243530135148772",
             "non_decayed_amount": "40323528853982847830",
             "lock": {
                 "amount": "40323528853982847830",
                 "lockDuration": 94608000,
-                "lockedAt": 1687048631
+                "lockedAt": 1682307803
             }
         }
     },
@@ -1235,7 +1220,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "35967007157984946533",
+            "amount": "37329213621260309236",
             "non_decayed_amount": "38699992233938569041",
             "lock": {
                 "amount": "38699992233938569041",
@@ -1250,7 +1235,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "35125400129664908706",
+            "amount": "36455731754745372898",
             "non_decayed_amount": "37794434945923217597",
             "lock": {
                 "amount": "37794434945923217597",
@@ -1265,7 +1250,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "28132955235154851633",
+            "amount": "29198456550958838935",
             "non_decayed_amount": "30270662897691907146",
             "lock": {
                 "amount": "30270662897691907146",
@@ -1280,7 +1265,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "27490360195233937720",
+            "amount": "28938331996734097067",
             "non_decayed_amount": "28938331996734097067",
             "lock": {
                 "amount": "44070543168479420000",
@@ -1295,7 +1280,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "26739327035347963791",
+            "amount": "27752046385367558881",
             "non_decayed_amount": "28771138617769975230",
             "lock": {
                 "amount": "28771138617769975230",
@@ -1310,7 +1295,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "21862014134612408201",
+            "amount": "23328974625651820726",
             "non_decayed_amount": "24813317212225924882",
             "lock": {
                 "amount": "47072729521391120152",
@@ -1325,7 +1310,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "23132751591896177914",
+            "amount": "23982217146040890687",
             "non_decayed_amount": "23982217146040890687",
             "lock": {
                 "amount": "23982217146040890687",
@@ -1345,7 +1330,7 @@
             "lock": {
                 "amount": "16606600914370800000",
                 "lockDuration": 94608000,
-                "lockedAt": 1688004779
+                "lockedAt": 1684150175
             }
         }
     },
@@ -1355,7 +1340,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "14243865063288182563",
+            "amount": "14766918824579050568",
             "non_decayed_amount": "14766918824579050568",
             "lock": {
                 "amount": "14766918824579050568",
@@ -1370,7 +1355,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "11611864748931760198",
+            "amount": "12607376820951461608",
             "non_decayed_amount": "12607376820951461608",
             "lock": {
                 "amount": "33768264306859785873",
@@ -1385,7 +1370,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "7653590354852097449",
+            "amount": "7943460740865766766",
             "non_decayed_amount": "8235155235282511791",
             "lock": {
                 "amount": "8235155235282511791",
@@ -1400,7 +1385,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "5169963668481543615",
+            "amount": "5613196633656247123",
             "non_decayed_amount": "6063288963116888486",
             "lock": {
                 "amount": "15034682489753235755",
@@ -1415,7 +1400,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "5310650923121667513",
+            "amount": "5616766972991156304",
             "non_decayed_amount": "5616766972991156304",
             "lock": {
                 "amount": "9500055015622193950",
@@ -1430,7 +1415,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "3290520267205994466",
+            "amount": "3463838496772338780",
             "non_decayed_amount": "3463838496772338780",
             "lock": {
                 "amount": "5275122423015751431",
@@ -1445,12 +1430,12 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "2000000000000000000",
+            "amount": "1929158713811000000",
             "non_decayed_amount": "2000000000000000000",
             "lock": {
                 "amount": "2000000000000000000",
                 "lockDuration": 94608000,
-                "lockedAt": 1686769259
+                "lockedAt": 1681904543
             }
         }
     },
@@ -1460,7 +1445,7 @@
             "address": "0x069c0Ed12dB7199c1DdAF73b94de75AAe8061d33",
             "symbol": "ARV",
             "decimals": 18,
-            "amount": "34386916198630000",
+            "amount": "37334986205940000",
             "non_decayed_amount": "37334986205940000",
             "lock": {
                 "amount": "100000000000000000",
