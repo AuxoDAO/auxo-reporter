@@ -1,0 +1,136 @@
+{
+    "0x0252d89c8781b88858d5A2dbb8b9CF613f84917D": {
+        "windowIndex": 0,
+        "accountIndex": 1,
+        "rewards": "31009288369193030",
+        "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "proof": [
+            "0x12bf491113fc404adf3810cf258826214facea293f0757c95bb8c29f0dd11a1a",
+            "0xb05e30944614201f128c4b1725ff1e6aeeb817ef0edf168a2991270dccde8c7d",
+            "0x3e8dd863fe15433bc0e4edcd1d0b7df9e6c6db7e7342418d4ed30993052f56cc",
+            "0x8f2eb62d711e9969bc2dae97fb27eed5d6cadf9efb6d7f1c69f9863efa1761e0",
+            "0xa6a01a04623ca677003471f2bb2de88af3943e52cd175a46f6b14060fc79fa7c",
+            "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
+            "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
+        ]
+    },
+    "0x124C5E21A073Fb4694308fBDF72aF362451EAe12": {
+        "windowIndex": 0,
+        "accountIndex": 7,
+        "rewards": "2194582200404974",
+        "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "proof": [
+            "0x44d86c384106404f11bac2be56015a41ba3da03406aba0539907e660eb468da6",
+            "0x20bc7d1cc576b7a0c93df152e7f24cac5fa9bcba63553b2f2b6c8fe614ea1519",
+            "0xa76dfc1a54abe6d6dbf2cc655b8b33d60218aba9a58af12ffab9f96d8e58e4ef",
+            "0x3d451c906ed0c05238fde95a02664668f913150536045abebc1fdf71485a7874",
+            "0xc131deab18ca3513aa51f68f9ad5c8419f5b365dd0488495540feedca4cc3359",
+            "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
+            "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
+        ]
+    },
+    "0x1CA4C34b18ECF1df4bA7E2AE0EC1FC5960C349d9": {
+        "windowIndex": 0,
+        "accountIndex": 11,
+        "rewards": "94364476193083573",
+        "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "proof": [
+            "0x242f26a52cdb10306b8f42dafd1c47260a463ba689779620f2f7930dbd694ba7",
+            "0x1eefd6a3e09aa1739d86a3193f36d5af230079e6f7f31c7dfb9b7fbbc86f1019",
+            "0x50a75e553548f441a5258207710375c33377c4c2e925385118db09c57d32aedd",
+            "0x7a00e77522be8ac038ba84a8441737d1f167a43c1bf7b9b62aede303e5e6bfec",
+            "0x883a2dea07ddcde51503f94b4ed7c6a9ef7c772ce937ad30d072e7790f9aae51",
+            "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
+            "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
+        ]
+    },
+    "0x5c2cF283C3baCB15b3137d5E8af30643b33189b0": {
+        "windowIndex": 0,
+        "accountIndex": 39,
+        "rewards": "11390862443956198",
+        "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "proof": [
+            "0x6a0e6d6f2653a27c91984ea1e95444530b6902690340a5a4363a0b893df33960",
+            "0x344d94984c7fdbb2a6b86bcf61f856ba55b354a530cdd366254198947fb00038",
+            "0x79b867453c8bd44742fb85f7462ba20c4c20c0768a2e4455281a4d98d64b7800",
+            "0x4ccf6410a6fa5bdb57280bf93f87ddb782b1634337fbe5e6844e32c9c620f9a8",
+            "0xab82148ec62928eb921068d4d2067cec9be321c0fe072f2394e958ea17cd8d32",
+            "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
+            "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
+        ]
+    },
+    "0x80FDc30D21A672EeF723b809Ed4ba7c91728D421": {
+        "windowIndex": 0,
+        "accountIndex": 52,
+        "rewards": "73660130571524777",
+        "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "proof": [
+            "0x77a922c5e626b520f5fc51df82a1e2d51148f91661814d737656f26afc060ef1",
+            "0xfaca2dcb8005e1d0e0bb490d8bb84e31a4c24edb32579b37aae9b4372e68bbb9",
+            "0xacd28e35afadb784d263579191da275de48a961955a093155c0d41708fc32663",
+            "0x3490a22fb2ee1a002dab0c211950422ab5d93107be8b31e39e3b4f6f67db46c2",
+            "0xab82148ec62928eb921068d4d2067cec9be321c0fe072f2394e958ea17cd8d32",
+            "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
+            "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
+        ]
+    },
+    "0x964Ca78fA3ab137e5BA050DD2C3531B629374A39": {
+        "windowIndex": 0,
+        "accountIndex": 61,
+        "rewards": "9030740499860911",
+        "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "proof": [
+            "0x421fdfa220a4af337a9f0016b04180bb936c7de6e0f2b9cf3551faa91a815d54",
+            "0xd0989416027e0a41a494b1f25ef772363cd43a089b4a6a63ec632418d1fb8934",
+            "0xcc87254af23060342bc558e38a420214a612734d0635a43af0cc4a67ebfa633c",
+            "0xe0d05d57a76f106a20631d8074b8a89b65a3beed816e661584086f6f942af7d4",
+            "0xc131deab18ca3513aa51f68f9ad5c8419f5b365dd0488495540feedca4cc3359",
+            "0x76406b05c6b7fb11e4c38383eb71e35d5ab5eb0dd1af79a9ed6d21cb71bc91ea",
+            "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
+        ]
+    },
+    "0xB6C9e6A2415aB8d26335498BEAc8eeBED4BB2259": {
+        "windowIndex": 0,
+        "accountIndex": 73,
+        "rewards": "8197020142671508",
+        "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "proof": [
+            "0xee9546553f639062f68e19ee3649b2c5e998b70a35343117fd98063a944fc7ed",
+            "0xa5f8df7398456b5bd4e7c52f6bcbb777202ab8c6ff341851359946ed043a066a",
+            "0xa46f284828ea17a7966e16fd31e6fd98988a23a61429a50aff4e49543602d5e7",
+            "0x819fd8d7db1ba029710f00d7bde1253632d493210828acd8eccd4b02e6b2d56a",
+            "0xfb43cfbfa98a2958284356648a4b5272eec3bbbba7d8694ea85d03fb8e152ab0",
+            "0xa9e68d78b3367d8ad920811f09eb748f80592cf9869f11a66e8d4dae1605598a"
+        ]
+    },
+    "0xC9C03900134fa324422519852094792298c71825": {
+        "windowIndex": 0,
+        "accountIndex": 80,
+        "rewards": "4269504444317167",
+        "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "proof": [
+            "0x893264af0d3c491d9deb525d304204f7ca4daf814be1bc13991394502a3f2cdc",
+            "0xb136b3c065ee9652ef999b22f069e77c7e2cd9bcb49de6d82b3e371f53cac324",
+            "0x3106c010e0c26262600a3d03d42618370587635e225699e8afa5edd4d6baaf0b",
+            "0xe794e9c4a2f72fdc4ef878c440de54cbb8764fc73c26e914382b8c604fa116bf",
+            "0x13f49ee30e8ebf8368a5b956c1c91be57149d21fdca909ad3bf0e2f54882dab6",
+            "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
+            "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
+        ]
+    },
+    "0xDb8D484c46cE6B0bd00f38a51b299EB129928AC0": {
+        "windowIndex": 0,
+        "accountIndex": 88,
+        "rewards": "3781731150833328",
+        "token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "proof": [
+            "0xac58591a084bda8959429b93794893d024fdf5f69170efd20d284c571f2442c4",
+            "0x248fcb43d0578310c3f246efdd9e0d190df16208fc957622771b6a74bf493020",
+            "0xfcb4411a096e1806be266a418e27509da55b25ff19e9e0aeb6a7b7fd037fbf60",
+            "0x63a1d330d20f5dd6ed56991c77ef815fb5aedb929f41086ecbc846fcf54b6733",
+            "0x13f49ee30e8ebf8368a5b956c1c91be57149d21fdca909ad3bf0e2f54882dab6",
+            "0xec9cf85ff8d4a27e22998aca356e432350ae8e3457045b95ff84ff27bc583d7a",
+            "0x800d31769ed6889a7fa93c799501e5d4088887bc84d564c855954e3648368572"
+        ]
+    }
+}

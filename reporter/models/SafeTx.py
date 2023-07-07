@@ -75,10 +75,11 @@ class PRVCompoundDepositForSafeTx(SafeTx):
     ) -> SafeTxTransaction:
         return SafeTxTransaction(
             to=ADDRESSES.PRV_ROLLSTAKER,
+            # order is important here - values and type declarations must match
             contractMethod=SafeContractMethod(
                 inputs=[
-                    TxInput(internalType="address", name="_receiver", type="address"),
                     TxInput(internalType="uint256", name="_amount", type="uint256"),
+                    TxInput(internalType="address", name="_receiver", type="address"),
                 ],
                 name="depositFor",
             ),
