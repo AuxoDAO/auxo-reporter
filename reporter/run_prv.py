@@ -43,6 +43,7 @@ def run_prv(path_to_config, directory="reports") -> None:
     # don't drop the DB as we rely on it
     db = DB(config, drop=False, directory=directory)
 
+
     # compute supply at the passed block
     supply = get_prv_total_supply(config.block_snapshot)
 

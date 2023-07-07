@@ -44,7 +44,7 @@ def extract_nested_graphql(res: GraphQL_Response, access_path: list[str]):
 
 
 def graphql_iterate_query(
-    url: str, access_path: list[str], params: GraphQLConfig, max_loops: int = 1000
+    url: str, access_path: list[str], params: GraphQLConfig, max_loops: int = 10
 ) -> list[T]:
     """
     The graph allows fetching of Max 1000 results for subgraphs.
@@ -52,6 +52,7 @@ def graphql_iterate_query(
     :param `url`: the subgraph endpoint
     :param `access_path`: eg ['erc20accounts', 'balances'] - set of keys to fetch data
     :param `params`: GraphQL config such as the actual query and variables
+    :param `max_loops`: revert if we are looping too many times, can be overridden
     """
 
     response: GraphQL_Response = requests.post(url, json=params).json()
@@ -70,7 +71,7 @@ def graphql_iterate_query(
     while len(current_batch) > 0:
         if loops > max_loops:
             raise TooManyLoopsError("graphql_iterate_query")
-        params["variables"]["skip"] = len(current_batch)
+        params["variables"]["skip"] += len(current_batch)
         response = requests.post(url, json=params).json()
         current_batch = extract_nested_graphql(response, access_path)
         all_results += current_batch
