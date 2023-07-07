@@ -1,6 +1,6 @@
 {
     "year": 2023,
-    "month": 6,
+    "month": 5,
     "block_snapshot": 17385599,
     "distribution_window": 0,
     "rewards": {
@@ -19,7 +19,7 @@
         }
     ],
     "arv_percentage": 70,
-    "date": "2023-6",
+    "date": "2023-5",
     "start_timestamp": 1685577600,
     "end_timestamp": 1688169599,
     "prv_rewards": "10963372376999999488",
