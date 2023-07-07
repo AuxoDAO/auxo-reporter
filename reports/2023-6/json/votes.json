@@ -1,0 +1,2017 @@
+[
+    {
+        "voter": "0x71F9CCd68bf1f5F9b571f509E0765A04ca4fFad2",
+        "choice": 5,
+        "created": 1687442860,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x1A1087Bf077f74fb21fD838a8a25Cf9Fe0818450",
+        "choice": 5,
+        "created": 1687439169,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x679A51D6F75Ea1bdCd8Cb2d3F3e6dE4663718cAd",
+        "choice": 6,
+        "created": 1687435459,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xFbEA6F2B10e8Ee770F37Fff9B8C9E10d9B65741D",
+        "choice": 5,
+        "created": 1687433285,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x89d2D4934ee4F1f579056418e6aeb136Ee919d65",
+        "choice": 5,
+        "created": 1687432492,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x4281579D99d855F2430C95a13720e53a0fCC0549",
+        "choice": 5,
+        "created": 1687432438,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xa30C7B2e676bE6b0C26D631c8161b62eBeBC3cD2",
+        "choice": 6,
+        "created": 1687432404,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x1Ec289BD5F002B7969887b8E18a1625052a67D0d",
+        "choice": 6,
+        "created": 1687384357,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xFB9e5F5874565A6eF8FCF1DEbc4975501331a8Ca",
+        "choice": 5,
+        "created": 1687373025,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x4D04EB67A2D1e01c71FAd0366E0C200207A75487",
+        "choice": 4,
+        "created": 1687370374,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xEa9f2E31Ad16636f4e1AF0012dB569900401248a",
+        "choice": 4,
+        "created": 1687365027,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x8e851e94e1667Cd76Dda1A49f258934E2BCDCF3e",
+        "choice": 5,
+        "created": 1687352407,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xB0331b22161cA290A15f825A29C008dCB5e1ff68",
+        "choice": 11,
+        "created": 1687334113,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x4796E4aFD565e43B7267F1688ec09B6A246cB5fc",
+        "choice": 8,
+        "created": 1687333323,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x56446712B219fcC34a5604f5E7AF5d50d65B6647",
+        "choice": 11,
+        "created": 1687328643,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x1dE4F046c45Cd4E39cfCDF36b7DF4856B4031955",
+        "choice": 8,
+        "created": 1687307335,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xB6fcA91D1c166564cC9888F96b3B553f42C96349",
+        "choice": 8,
+        "created": 1687295779,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x00BA3CA0B6Df1486c912893d9f288311A60ED753",
+        "choice": 8,
+        "created": 1687294240,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x3070f20f86fDa706Ac380F5060D256028a46eC29",
+        "choice": 5,
+        "created": 1687288035,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xE5A3D77D7788A83f3549dD7F08Fc2aCed7E262d2",
+        "choice": 8,
+        "created": 1687284985,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x21210E9f52300880E61D0fD0D08d1b882a6369f9",
+        "choice": 5,
+        "created": 1687272078,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x4188c45B8dfC8998Ceee2398e746deC2797B0961",
+        "choice": 4,
+        "created": 1687272050,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xF8C84C6A4f1083f7a7Fd94885B303A3974116D82",
+        "choice": 5,
+        "created": 1687272014,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xD9A0013af48591f8524280D6f8f98189cef45308",
+        "choice": 5,
+        "created": 1687271322,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x461F635488972409981EDbD043834dbaA7239FA6",
+        "choice": 5,
+        "created": 1687269595,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x91B26b4B49525fDFfff2B099190149a52A36c3cA",
+        "choice": 6,
+        "created": 1687269181,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+        "choice": 4,
+        "created": 1687260174,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x7ccf173012bfE53F16F4D6A2a4aea32abAfcD04C",
+        "choice": 4,
+        "created": 1687250854,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x5d47e5D242a8F66a6286b0a2353868875F5d6068",
+        "choice": 5,
+        "created": 1687250733,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x519A0dF0Bd2b586b6F7126799c30A243E13ABCbe",
+        "choice": 5,
+        "created": 1687244470,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x67017BEbE2A4B8645B28F83D5D472618b35a1230",
+        "choice": 8,
+        "created": 1687241260,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xEed8e6512ff83092ffe544bD308e94934A113Ea0",
+        "choice": 8,
+        "created": 1687237368,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x5C7a20b1EFa9A2aB5F448b651Aa264F233076C4C",
+        "choice": 5,
+        "created": 1687229746,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x7dd508a1e4Da1243789B799a480f8B45e58b1B5b",
+        "choice": 10,
+        "created": 1687229301,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x1754352eacb753327Fec2d4F48f0fb36B672C5e0",
+        "choice": 8,
+        "created": 1687225016,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x8e2540edfA7410B6f32f54D4cBF715Acfe2F2e5B",
+        "choice": 6,
+        "created": 1687221138,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x1959b5EFb8fdD52C688c1D685Ad8F3D82ea27B01",
+        "choice": 5,
+        "created": 1687216813,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xb3a7FBC2fa38C18ad4433aE93FE7F215Fd2D057f",
+        "choice": 10,
+        "created": 1687209928,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xd3C808920D8fCcBeBd181Aae8D4FB2ACd1A433cD",
+        "choice": 8,
+        "created": 1687207594,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x477c8ece9393713D258169Aa50cDaF27E422214d",
+        "choice": 8,
+        "created": 1687204563,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xF3DD72AC3c9833574491861793e8fFe1f07c8905",
+        "choice": 8,
+        "created": 1687202507,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x8bFD3c3fc34F068C66796880756cC93ffDC6d080",
+        "choice": 6,
+        "created": 1687201425,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xedf4FA418216A13E7629fED73e7448985CC8Bc82",
+        "choice": 6,
+        "created": 1687200748,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x65B0F840ea292fc284C23Fc839e65b3951d46195",
+        "choice": 6,
+        "created": 1687200411,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x64B7fcC8C17540139BDd84d00c7261035602Cb66",
+        "choice": 5,
+        "created": 1687197109,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x5b0D3243c78fB9d4AC035fB2384FFdf7A9eF6396",
+        "choice": 6,
+        "created": 1687197039,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x2459d93923CC940E3AA1935Ead83eF8011534BB1",
+        "choice": 6,
+        "created": 1687196378,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xD6ccB9d49A2ecd78efC35D6C733214029a1C74cB",
+        "choice": 5,
+        "created": 1687196083,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x19a61e7238270CA99F931C08D7BcfF1984F38AE4",
+        "choice": 8,
+        "created": 1687194281,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x43079513eBD84AFb15BE79021C420Fe8055Bc635",
+        "choice": 6,
+        "created": 1687190618,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0xe5cD86ff7f825a0ff6f699828D5c9bf163C0e3F9",
+        "choice": 6,
+        "created": 1687190162,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x19dd92C9A9c4Eb6f0426846C4F8a071A7b79209A",
+        "choice": 6,
+        "created": 1687187306,
+        "proposal": {
+            "id": "0xc5915e8b65bd754a05360ef028543fd3e8034837af0e3c6968bfd925e69f86fb",
+            "title": "oETH - Allocation",
+            "author": "0x772e903794Eb0F2AA5dE1791029A1a8fdDFb7cA6",
+            "created": 1687183749,
+            "start": 1687183629,
+            "end": 1687443300,
+            "choices": [
+                "Up to 1000 ETH",
+                "Up to 900 ETH",
+                "Up to 800 ETH",
+                "Up to 700 ETH",
+                "Up to 600 ETH",
+                "Up to 500 ETH",
+                "Up to 400 ETH",
+                "Up to 300 ETH",
+                "Up to 200 ETH",
+                "Up to 100 ETH",
+                "Avoid Origin oETH"
+            ]
+        }
+    },
+    {
+        "voter": "0x1A1087Bf077f74fb21fD838a8a25Cf9Fe0818450",
+        "choice": 1,
+        "created": 1685949925,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x89d2D4934ee4F1f579056418e6aeb136Ee919d65",
+        "choice": 1,
+        "created": 1685948637,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x4281579D99d855F2430C95a13720e53a0fCC0549",
+        "choice": 1,
+        "created": 1685948616,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0xa30C7B2e676bE6b0C26D631c8161b62eBeBC3cD2",
+        "choice": 1,
+        "created": 1685948563,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0xd27d90b337717Fd91C4D409F712B890D4eE2FdD6",
+        "choice": 1,
+        "created": 1685919217,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0xe5cD86ff7f825a0ff6f699828D5c9bf163C0e3F9",
+        "choice": 1,
+        "created": 1685904651,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x7dd508a1e4Da1243789B799a480f8B45e58b1B5b",
+        "choice": 1,
+        "created": 1685896235,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x1959b5EFb8fdD52C688c1D685Ad8F3D82ea27B01",
+        "choice": 1,
+        "created": 1685893486,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x67017BEbE2A4B8645B28F83D5D472618b35a1230",
+        "choice": 1,
+        "created": 1685888363,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x5d47e5D242a8F66a6286b0a2353868875F5d6068",
+        "choice": 1,
+        "created": 1685871524,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0xCaB5541bad35e9ee799BeA9765C3c416D8Cc1Bb8",
+        "choice": 1,
+        "created": 1685796149,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x8bFD3c3fc34F068C66796880756cC93ffDC6d080",
+        "choice": 1,
+        "created": 1685795007,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x3070f20f86fDa706Ac380F5060D256028a46eC29",
+        "choice": 1,
+        "created": 1685791781,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x56446712B219fcC34a5604f5E7AF5d50d65B6647",
+        "choice": 1,
+        "created": 1685771043,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0xb3a7FBC2fa38C18ad4433aE93FE7F215Fd2D057f",
+        "choice": 1,
+        "created": 1685769813,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x91B26b4B49525fDFfff2B099190149a52A36c3cA",
+        "choice": 1,
+        "created": 1685768910,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0xedf4FA418216A13E7629fED73e7448985CC8Bc82",
+        "choice": 1,
+        "created": 1685755624,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x19a61e7238270CA99F931C08D7BcfF1984F38AE4",
+        "choice": 1,
+        "created": 1685752249,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0xEed8e6512ff83092ffe544bD308e94934A113Ea0",
+        "choice": 1,
+        "created": 1685751240,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x1754352eacb753327Fec2d4F48f0fb36B672C5e0",
+        "choice": 1,
+        "created": 1685749400,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x1dE4F046c45Cd4E39cfCDF36b7DF4856B4031955",
+        "choice": 1,
+        "created": 1685745579,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x1Ec289BD5F002B7969887b8E18a1625052a67D0d",
+        "choice": 1,
+        "created": 1685742574,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x5C7a20b1EFa9A2aB5F448b651Aa264F233076C4C",
+        "choice": 1,
+        "created": 1685735927,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0xF3DD72AC3c9833574491861793e8fFe1f07c8905",
+        "choice": 1,
+        "created": 1685733518,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x198ca1beaCF70b82c4e6dE21E8Cb7b6dA6D8477A",
+        "choice": 1,
+        "created": 1685730295,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x62661B101ca48734668669a9F1Cb83c4889049F3",
+        "choice": 1,
+        "created": 1685730004,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x784F0d732aF31C7d70F2e37761D388Ce172c7482",
+        "choice": 1,
+        "created": 1685723848,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x64B7fcC8C17540139BDd84d00c7261035602Cb66",
+        "choice": 1,
+        "created": 1685722730,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x8e851e94e1667Cd76Dda1A49f258934E2BCDCF3e",
+        "choice": 1,
+        "created": 1685721691,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0xD6ccB9d49A2ecd78efC35D6C733214029a1C74cB",
+        "choice": 1,
+        "created": 1685720503,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x21210E9f52300880E61D0fD0D08d1b882a6369f9",
+        "choice": 1,
+        "created": 1685719356,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x4188c45B8dfC8998Ceee2398e746deC2797B0961",
+        "choice": 1,
+        "created": 1685719332,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0xF8C84C6A4f1083f7a7Fd94885B303A3974116D82",
+        "choice": 1,
+        "created": 1685719307,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0xFbEA6F2B10e8Ee770F37Fff9B8C9E10d9B65741D",
+        "choice": 1,
+        "created": 1685719136,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x461F635488972409981EDbD043834dbaA7239FA6",
+        "choice": 1,
+        "created": 1685717570,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0xE5A3D77D7788A83f3549dD7F08Fc2aCed7E262d2",
+        "choice": 1,
+        "created": 1685712335,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0xd3C808920D8fCcBeBd181Aae8D4FB2ACd1A433cD",
+        "choice": 1,
+        "created": 1685710535,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x519A0dF0Bd2b586b6F7126799c30A243E13ABCbe",
+        "choice": 1,
+        "created": 1685709171,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    },
+    {
+        "voter": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+        "choice": 1,
+        "created": 1685709122,
+        "proposal": {
+            "id": "0x1eff01fbb345490b1bc89393aab1e1bf16e174b56fd98618614f4caa84ee1e07",
+            "title": "[Epoch-0] MerkleTree Notarization",
+            "author": "0x0810C422E4abD05c752618B403d26cf60bB50B5C",
+            "created": 1685708362,
+            "start": 1685708360,
+            "end": 1685967560,
+            "choices": [
+                "Valid",
+                "Invalid"
+            ]
+        }
+    }
+]
