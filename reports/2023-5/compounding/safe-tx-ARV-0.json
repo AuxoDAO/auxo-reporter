@@ -1,7 +1,7 @@
 {
     "version": "1.0",
     "chainId": "1",
-    "createdAt": 1689677215,
+    "createdAt": 1689677511,
     "meta": {
         "name": "Transactions Batch",
         "description": "",
@@ -18,14 +18,14 @@
             "contractMethod": {
                 "inputs": [
                     {
-                        "internalType": "address",
-                        "name": "_receiver",
-                        "type": "address"
-                    },
-                    {
                         "internalType": "uint256",
                         "name": "_amount",
                         "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
                     }
                 ],
                 "name": "depositFor",
@@ -43,14 +43,14 @@
             "contractMethod": {
                 "inputs": [
                     {
-                        "internalType": "address",
-                        "name": "_receiver",
-                        "type": "address"
-                    },
-                    {
                         "internalType": "uint256",
                         "name": "_amount",
                         "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
                     }
                 ],
                 "name": "depositFor",
@@ -68,14 +68,14 @@
             "contractMethod": {
                 "inputs": [
                     {
-                        "internalType": "address",
-                        "name": "_receiver",
-                        "type": "address"
-                    },
-                    {
                         "internalType": "uint256",
                         "name": "_amount",
                         "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
                     }
                 ],
                 "name": "depositFor",
@@ -93,14 +93,14 @@
             "contractMethod": {
                 "inputs": [
                     {
-                        "internalType": "address",
-                        "name": "_receiver",
-                        "type": "address"
-                    },
-                    {
                         "internalType": "uint256",
                         "name": "_amount",
                         "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
                     }
                 ],
                 "name": "depositFor",
@@ -118,14 +118,14 @@
             "contractMethod": {
                 "inputs": [
                     {
-                        "internalType": "address",
-                        "name": "_receiver",
-                        "type": "address"
-                    },
-                    {
                         "internalType": "uint256",
                         "name": "_amount",
                         "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
                     }
                 ],
                 "name": "depositFor",
@@ -143,14 +143,14 @@
             "contractMethod": {
                 "inputs": [
                     {
-                        "internalType": "address",
-                        "name": "_receiver",
-                        "type": "address"
-                    },
-                    {
                         "internalType": "uint256",
                         "name": "_amount",
                         "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
                     }
                 ],
                 "name": "depositFor",
@@ -168,14 +168,14 @@
             "contractMethod": {
                 "inputs": [
                     {
-                        "internalType": "address",
-                        "name": "_receiver",
-                        "type": "address"
-                    },
-                    {
                         "internalType": "uint256",
                         "name": "_amount",
                         "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
                     }
                 ],
                 "name": "depositFor",
@@ -193,14 +193,14 @@
             "contractMethod": {
                 "inputs": [
                     {
-                        "internalType": "address",
-                        "name": "_receiver",
-                        "type": "address"
-                    },
-                    {
                         "internalType": "uint256",
                         "name": "_amount",
                         "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
                     }
                 ],
                 "name": "depositFor",
@@ -218,14 +218,14 @@
             "contractMethod": {
                 "inputs": [
                     {
-                        "internalType": "address",
-                        "name": "_receiver",
-                        "type": "address"
-                    },
-                    {
                         "internalType": "uint256",
                         "name": "_amount",
                         "type": "uint256"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
                     }
                 ],
                 "name": "depositFor",
