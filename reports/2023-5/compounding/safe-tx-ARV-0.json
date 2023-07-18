@@ -1,0 +1,240 @@
+{
+    "version": "1.0",
+    "chainId": "1",
+    "createdAt": 1689677215,
+    "meta": {
+        "name": "Transactions Batch",
+        "description": "",
+        "txBuilderVersion": "1.41.1",
+        "createdFromSafeAddress": "0x6458A23B020f489651f2777Bd849ddEd34DfCcd2",
+        "createdFromOwnerAddress": "",
+        "checksum": ""
+    },
+    "transactions": [
+        {
+            "to": "0x096b4F2253a430F33edc9B8e6A8e1d2fb4faA317",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "_amount",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "depositFor",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_amount": "72034062175320696148",
+                "_receiver": "0x71F9CCd68bf1f5F9b571f509E0765A04ca4fFad2"
+            }
+        },
+        {
+            "to": "0x096b4F2253a430F33edc9B8e6A8e1d2fb4faA317",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "_amount",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "depositFor",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_amount": "16194884115986033534",
+                "_receiver": "0x198ca1beaCF70b82c4e6dE21E8Cb7b6dA6D8477A"
+            }
+        },
+        {
+            "to": "0x096b4F2253a430F33edc9B8e6A8e1d2fb4faA317",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "_amount",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "depositFor",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_amount": "15791891140630706602",
+                "_receiver": "0xFB9e5F5874565A6eF8FCF1DEbc4975501331a8Ca"
+            }
+        },
+        {
+            "to": "0x096b4F2253a430F33edc9B8e6A8e1d2fb4faA317",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "_amount",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "depositFor",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_amount": "7062948317422550262",
+                "_receiver": "0xB6fcA91D1c166564cC9888F96b3B553f42C96349"
+            }
+        },
+        {
+            "to": "0x096b4F2253a430F33edc9B8e6A8e1d2fb4faA317",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "_amount",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "depositFor",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_amount": "2985935289458464879",
+                "_receiver": "0xDccc5094404422cD48CD7AfA95b618fE0Cd3d0Fe"
+            }
+        },
+        {
+            "to": "0x096b4F2253a430F33edc9B8e6A8e1d2fb4faA317",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "_amount",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "depositFor",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_amount": "1965605199514552086",
+                "_receiver": "0x5d47e5D242a8F66a6286b0a2353868875F5d6068"
+            }
+        },
+        {
+            "to": "0x096b4F2253a430F33edc9B8e6A8e1d2fb4faA317",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "_amount",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "depositFor",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_amount": "538598843915737049",
+                "_receiver": "0x1959b5EFb8fdD52C688c1D685Ad8F3D82ea27B01"
+            }
+        },
+        {
+            "to": "0x096b4F2253a430F33edc9B8e6A8e1d2fb4faA317",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "_amount",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "depositFor",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_amount": "434197754194460256",
+                "_receiver": "0xd384Cc029B537503895fE252f94FBA87A05D677E"
+            }
+        },
+        {
+            "to": "0x096b4F2253a430F33edc9B8e6A8e1d2fb4faA317",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_receiver",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "_amount",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "depositFor",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_amount": "35905409237333888",
+                "_receiver": "0x679A51D6F75Ea1bdCd8Cb2d3F3e6dE4663718cAd"
+            }
+        }
+    ]
+}
