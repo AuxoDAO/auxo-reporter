@@ -1,0 +1,66 @@
+{
+    "version": "1.0",
+    "chainId": "1",
+    "createdAt": 1689683692,
+    "meta": {
+        "name": "Transactions Batch",
+        "description": "",
+        "txBuilderVersion": "1.41.1",
+        "createdFromSafeAddress": "0x6458A23B020f489651f2777Bd849ddEd34DfCcd2",
+        "createdFromOwnerAddress": "",
+        "checksum": ""
+    },
+    "transactions": [
+        {
+            "to": "0x06c88C0FD7296717083C0A449C854005218095c5",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "struct IMerkleDistributor.Claim[]",
+                        "name": "_claims",
+                        "type": "tuple[]",
+                        "components": [
+                            {
+                                "internalType": "uint256",
+                                "name": "windowIndex",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "accountIndex",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "amount",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "token",
+                                "type": "address"
+                            },
+                            {
+                                "internalType": "bytes32[]",
+                                "name": "merkleProof",
+                                "type": "bytes32[]"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "account",
+                                "type": "address"
+                            }
+                        ]
+                    }
+                ],
+                "name": "claimMultiDelegated",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_claims": "[[1, 39, \"8027699529933950\", \"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", [\"0xbcbb72cc52e3c35aea7ba1a23b8246754716fcb6165bf691edcfc74e29f505ed\", \"0x8a72e3febfab15e51e1aa48c1d3b43d97e73bd7bea04c1a9d5b63204378322de\", \"0x1942965bc49138dfd3e4a3fa32afc8fe0132a61a99e99a2534f97dbf8b64cf45\", \"0x6013d17457fe04bb50783fd8165207cc8064ccef4a931b07a300195f42f90607\", \"0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8\", \"0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab\"], \"0x5c2cF283C3baCB15b3137d5E8af30643b33189b0\"], [1, 80, \"3008929217548510\", \"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", [\"0x16e72267589db5a0f35e7d908d38a24ba7d2a5a6f2a3eba3eb65f9b4a785433d\", \"0xfc5123c06e075483e53d8f087d16fc42187689e7aa3a80ba3b16efb7f3983c1a\", \"0x957d8ae85a7768b8a329b365bd68b08bfe2abc7d978231b57625908bf82a647e\", \"0x8f0c2be34fdecdd412aed1c76d054e85eb724ff4164ff1b836f167c7845254b8\", \"0x365ac2dcde90f1c6837b53f9e9d35dff4af481d3bc4a9ad1eeb8f2d1648f15e6\", \"0x34f90c1582afca7c0e9a295e6cad46a66f63e556eafa52c60933743315dfdbbf\", \"0xef740760c18bcb310fe64a79f44c0e7a73d48ab4726169b1788321f957e6b0e2\"], \"0xC9C03900134fa324422519852094792298c71825\"], [1, 88, \"2665171450471606\", \"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", [\"0xb830694f7574ad89b40a57c2ab8e201185eb3a013f6840e042dcd07ccc9bd48e\", \"0x935ea4a01e641d5b1a4e8431bebb55f1b0a635412235f4b450970dce3e3f5962\", \"0x1942965bc49138dfd3e4a3fa32afc8fe0132a61a99e99a2534f97dbf8b64cf45\", \"0x6013d17457fe04bb50783fd8165207cc8064ccef4a931b07a300195f42f90607\", \"0xac20990905efd89e50d25ed0d8c94c377cc91e415bdbcd7f373472a2d20880b8\", \"0x9d2979f90c444ae2b83b8a2a6e7bcd86fdd89f36eeb6822e08aad35bb9ad02ab\"], \"0xDb8D484c46cE6B0bd00f38a51b299EB129928AC0\"]]"
+            }
+        }
+    ]
+}

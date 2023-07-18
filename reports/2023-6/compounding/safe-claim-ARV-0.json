@@ -1,0 +1,66 @@
+{
+    "version": "1.0",
+    "chainId": "1",
+    "createdAt": 1689683692,
+    "meta": {
+        "name": "Transactions Batch",
+        "description": "",
+        "txBuilderVersion": "1.41.1",
+        "createdFromSafeAddress": "0x6458A23B020f489651f2777Bd849ddEd34DfCcd2",
+        "createdFromOwnerAddress": "",
+        "checksum": ""
+    },
+    "transactions": [
+        {
+            "to": "0x727a21924D9267E49D025a48464324edfcD215B5",
+            "value": "0",
+            "data": null,
+            "contractMethod": {
+                "inputs": [
+                    {
+                        "internalType": "struct IMerkleDistributor.Claim[]",
+                        "name": "_claims",
+                        "type": "tuple[]",
+                        "components": [
+                            {
+                                "internalType": "uint256",
+                                "name": "windowIndex",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "accountIndex",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "amount",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "token",
+                                "type": "address"
+                            },
+                            {
+                                "internalType": "bytes32[]",
+                                "name": "merkleProof",
+                                "type": "bytes32[]"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "account",
+                                "type": "address"
+                            }
+                        ]
+                    }
+                ],
+                "name": "claimMultiDelegated",
+                "payable": false
+            },
+            "contractInputsValues": {
+                "_claims": "[[1, 7, \"454207134946815603\", \"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", [\"0xce3c7be22093850a1cbef29c1ad9a23895ac4cbbbabbaf53757ae5c04c415958\", \"0x600849858ded367ee9ce25fc469797adb7533453750e9bc85ff5fb7c626f60a5\", \"0x21abb2f66112e88310194164258d48b0475150904753e1660944e388d197c430\", \"0x0545de01b2952c4606c069f30a3ab16ccdd53386d8b1d1e6dc6e4a198624e53c\", \"0xc76e7a9f47957be65540fd14b88ad79d9d6e4cb99acdd385c591e4521c090411\", \"0x1d63b5c839a0062696aa0b395a8be68359ae7a25dfa7a3a67c651a108bb9ca17\"], \"0x519A0dF0Bd2b586b6F7126799c30A243E13ABCbe\"]]"
+            }
+        }
+    ]
+}
