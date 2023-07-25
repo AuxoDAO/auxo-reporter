@@ -77,8 +77,8 @@ class PRVCompoundDepositForSafeTx(SafeTx):
             to=ADDRESSES.PRV_ROLLSTAKER,
             contractMethod=SafeContractMethod(
                 inputs=[
-                    TxInput(internalType="address", name="_receiver", type="address"),
                     TxInput(internalType="uint256", name="_amount", type="uint256"),
+                    TxInput(internalType="address", name="_receiver", type="address"),
                 ],
                 name="depositFor",
             ),
