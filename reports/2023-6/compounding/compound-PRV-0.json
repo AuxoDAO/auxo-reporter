@@ -2,8 +2,8 @@
     "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
     "symbol": "PRV",
     "decimals": 18,
-    "amount": "29456584307048551312",
-    "pro_rata": "125.31271955732132",
+    "amount": "29456584307046300000",
+    "pro_rata": "125.31271955731174",
     "recipients": [
         {
             "address": "0x0252d89c8781b88858d5A2dbb8b9CF613f84917D",
@@ -17,7 +17,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "2738554930079830389"
+                "amount": "2738554930079621086"
             },
             "state": "active",
             "notes": [
@@ -36,7 +36,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "193812377531219112"
+                "amount": "193812377531204299"
             },
             "state": "active",
             "notes": [
@@ -55,7 +55,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "8333706289103559359"
+                "amount": "8333706289102922429"
             },
             "state": "active",
             "notes": [
@@ -74,7 +74,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "328115949404170283"
+                "amount": "328115949404145206"
             },
             "state": "active",
             "notes": [
@@ -93,7 +93,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "876200405271474489"
+                "amount": "876200405271407523"
             },
             "state": "active",
             "notes": [
@@ -112,7 +112,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "1668987505642796151"
+                "amount": "1668987505642668594"
             },
             "state": "active",
             "notes": [
@@ -131,7 +131,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "1632768072559482962"
+                "amount": "1632768072559358172"
             },
             "state": "active",
             "notes": [
@@ -150,7 +150,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "1005972859885053197"
+                "amount": "1005972859884976313"
             },
             "state": "active",
             "notes": [
@@ -169,7 +169,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "2507131247711335209"
+                "amount": "2507131247711143594"
             },
             "state": "active",
             "notes": [
@@ -188,7 +188,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "6505222284539086802"
+                "amount": "6505222284538589620"
             },
             "state": "active",
             "notes": [
@@ -207,7 +207,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "797541002028782821"
+                "amount": "797541002028721867"
             },
             "state": "active",
             "notes": [
@@ -226,7 +226,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "723911805276326917"
+                "amount": "723911805276271590"
             },
             "state": "active",
             "notes": [
@@ -245,7 +245,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "377057103206486681"
+                "amount": "377057103206457863"
             },
             "state": "active",
             "notes": [
@@ -264,7 +264,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "333979882545127629"
+                "amount": "333979882545102103"
             },
             "state": "active",
             "notes": [
@@ -283,7 +283,7 @@
                 "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
                 "symbol": "PRV",
                 "decimals": 18,
-                "amount": "1433622592263819303"
+                "amount": "1433622592263709734"
             },
             "state": "active",
             "notes": [
