@@ -2,7 +2,7 @@
   "$schema": "./schema.json",
   "year": 2023,
   "month": 6,
-  "block_snapshot": 17595510,
+  "block_snapshot": 17720105,
   "distribution_window": 1,
   "rewards": {
     "amount": "25754357360000000000",

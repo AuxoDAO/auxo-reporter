@@ -1,0 +1,199 @@
+{
+    "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
+    "symbol": "PRV",
+    "decimals": 18,
+    "amount": "98615521375763700000",
+    "pro_rata": "135.2104160504723",
+    "recipients": [
+        {
+            "address": "0x71F9CCd68bf1f5F9b571f509E0765A04ca4fFad2",
+            "token": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "407032086430153781"
+            },
+            "rewards": {
+                "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
+                "symbol": "PRV",
+                "decimals": 18,
+                "amount": "55034977752112894655"
+            },
+            "state": "active",
+            "notes": [
+                "Compounding ARV Rewards for epoch 2023-6/0"
+            ]
+        },
+        {
+            "address": "0x198ca1beaCF70b82c4e6dE21E8Cb7b6dA6D8477A",
+            "token": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "98463475456787415"
+            },
+            "rewards": {
+                "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
+                "symbol": "PRV",
+                "decimals": 18,
+                "amount": "13313287482287694818"
+            },
+            "state": "active",
+            "notes": [
+                "Compounding ARV Rewards for epoch 2023-6/0"
+            ]
+        },
+        {
+            "address": "0xFB9e5F5874565A6eF8FCF1DEbc4975501331a8Ca",
+            "token": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "92612460191233280"
+            },
+            "rewards": {
+                "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
+                "symbol": "PRV",
+                "decimals": 18,
+                "amount": "12522169273914455536"
+            },
+            "state": "active",
+            "notes": [
+                "Compounding ARV Rewards for epoch 2023-6/0"
+            ]
+        },
+        {
+            "address": "0xB6fcA91D1c166564cC9888F96b3B553f42C96349",
+            "token": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "42942106490198302"
+            },
+            "rewards": {
+                "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
+                "symbol": "PRV",
+                "decimals": 18,
+                "amount": "5806220084623399365"
+            },
+            "state": "active",
+            "notes": [
+                "Compounding ARV Rewards for epoch 2023-6/0"
+            ]
+        },
+        {
+            "address": "0x2459d93923CC940E3AA1935Ead83eF8011534BB1",
+            "token": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "35589227688046079"
+            },
+            "rewards": {
+                "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
+                "symbol": "PRV",
+                "decimals": 18,
+                "amount": "4812034282615698868"
+            },
+            "state": "active",
+            "notes": [
+                "Compounding ARV Rewards for epoch 2023-6/0"
+            ]
+        },
+        {
+            "address": "0xB0331b22161cA290A15f825A29C008dCB5e1ff68",
+            "token": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "33074204085417115"
+            },
+            "rewards": {
+                "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
+                "symbol": "PRV",
+                "decimals": 18,
+                "amount": "4471976894927478917"
+            },
+            "state": "active",
+            "notes": [
+                "Compounding ARV Rewards for epoch 2023-6/0"
+            ]
+        },
+        {
+            "address": "0x5d47e5D242a8F66a6286b0a2353868875F5d6068",
+            "token": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "11106750907773652"
+            },
+            "rewards": {
+                "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
+                "symbol": "PRV",
+                "decimals": 18,
+                "amount": "1501748411209036422"
+            },
+            "state": "active",
+            "notes": [
+                "Compounding ARV Rewards for epoch 2023-6/0"
+            ]
+        },
+        {
+            "address": "0x43079513eBD84AFb15BE79021C420Fe8055Bc635",
+            "token": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "5309343861813306"
+            },
+            "rewards": {
+                "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
+                "symbol": "PRV",
+                "decimals": 18,
+                "amount": "717878592510798433"
+            },
+            "state": "active",
+            "notes": [
+                "Compounding ARV Rewards for epoch 2023-6/0"
+            ]
+        },
+        {
+            "address": "0x1959b5EFb8fdD52C688c1D685Ad8F3D82ea27B01",
+            "token": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "3000596731573502"
+            },
+            "rewards": {
+                "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
+                "symbol": "PRV",
+                "decimals": 18,
+                "amount": "405711932475740568"
+            },
+            "state": "active",
+            "notes": [
+                "Compounding ARV Rewards for epoch 2023-6/0"
+            ]
+        },
+        {
+            "address": "0x679A51D6F75Ea1bdCd8Cb2d3F3e6dE4663718cAd",
+            "token": {
+                "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                "symbol": "WETH",
+                "decimals": 18,
+                "amount": "218301739974561"
+            },
+            "rewards": {
+                "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
+                "symbol": "PRV",
+                "decimals": 18,
+                "amount": "29516669086502413"
+            },
+            "state": "active",
+            "notes": [
+                "Compounding ARV Rewards for epoch 2023-6/0"
+            ]
+        }
+    ]
+}

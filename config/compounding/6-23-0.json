@@ -1,15 +1,14 @@
 {
   "$schema": "../compound-schema.json",
   "year": 2023,
-  "month": 5,
-  "block_snapshot": 17552800,
+  "month": 6,
+  "block_snapshot": 17763139,
   "compound_epoch": 0,
   "rewards": {
-    "amount": "148156997779342449000",
+    "amount": "128072105682810000000",
     "address": "0xc72fbD264b40D88E445bcf82663D63FF21e722AF",
     "decimals": 18,
     "symbol": "PRV"
   },
-  "arv_percentage": 79
+  "arv_percentage": 77
 }
-
