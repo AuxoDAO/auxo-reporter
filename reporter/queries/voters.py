@@ -1,8 +1,5 @@
 from typing import Any
-
-import requests
 from pydantic import parse_obj_as
-
 import reporter.utils as utils
 from reporter.env import ADDRESSES, SNAPSHOT_SPACE_ID
 from reporter.models import (
@@ -140,17 +137,16 @@ def filter_votes_by_proposal(
         return (votes, list(unique_proposals.values()))
 
 
-# TODO: Delegation is not currently supported
 def get_delegates() -> list[Delegate]:
     """
-    Delegation is not currently supported
+    We only have 1 whitelisted delegate at the moment, so easiest just to hardcode it
     """
-    return []
-
-    # query = "{ delegates(first: 1000) { delegator, delegate } }"
-    # delegates = requests.post(SUBGRAPHS.VEDOUGH, json={"query": query})
-    # delegate_data = delegates.json().get("data")
-    # return parse_obj_as(list[Delegate], delegate_data.get("delegates"))
+    return [
+        Delegate(
+            delegator="0x4D04EB67A2D1e01c71FAd0366E0C200207A75487",
+            delegate="0xEa9f2E31Ad16636f4e1AF0012dB569900401248a",
+        )
+    ]
 
 
 def get_voters(
