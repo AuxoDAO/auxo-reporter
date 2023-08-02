@@ -1,7 +1,6 @@
 from decimal import getcontext
 from reporter.config import load_conf
 from reporter.models import (
-    ARVRewardSummary,
     DB,
     Writer,
 )
