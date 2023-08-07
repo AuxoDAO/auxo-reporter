@@ -49,6 +49,7 @@
   "required": [
     "year",
     "month",
+    "arv_percentage",
     "block_snapshot",
     "compound_epoch"
   ]

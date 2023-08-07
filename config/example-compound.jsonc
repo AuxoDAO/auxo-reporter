@@ -23,5 +23,8 @@
     "decimals": 18,
     // token symbol
     "symbol": "PRV"
-  }
+  },
+  // here you put the percentage of rewards that accrue to ARV
+  // this will be calculated based on how much ETH was compounded in the ARV vs PRV distributor
+  "arv_percentage": 70
 }

@@ -6,7 +6,7 @@ from pydantic import BaseModel
 
 from reporter.env import ADDRESSES
 from reporter.models.Claim import Claim
-from reporter.models.types import BigNumber, EthereumAddress
+from reporter.models.types import BigNumber, EthereumAddress, RewardsByAccount
 
 
 class SafeTxMeta(BaseModel):
@@ -56,7 +56,12 @@ class SafeTx(BaseModel):
 
 
 class PRVCompoundDepositForSafeTx(SafeTx):
-    def __init__(self, compound_data: list[tuple[EthereumAddress, BigNumber]]):
+    """
+    Builds the SafeTX for MultiSending an array of PRVCompound.depositFor function calls
+
+    """
+
+    def __init__(self, compound_data: RewardsByAccount):
         meta = SafeTxMeta()
         # created at is the unix timestamp in whole seconds
         created_at = int(time.time())
@@ -64,7 +69,7 @@ class PRVCompoundDepositForSafeTx(SafeTx):
         super().__init__(meta=meta, createdAt=created_at, transactions=transactions)
 
     def _create_transactions(
-        self, compound_data: list[tuple[EthereumAddress, BigNumber]]
+        self, compound_data: RewardsByAccount
     ) -> list[SafeTxTransaction]:
         return [
             self._prv_deposit_for(address, amount) for address, amount in compound_data
@@ -87,6 +92,11 @@ class PRVCompoundDepositForSafeTx(SafeTx):
 
 
 class MerkeDistributorClaimMultiDelegatedTx(SafeTx):
+    """
+    Builds the SafeTX for the MerkleDistributor.claimMultiDelegated function
+    :param: distributor: the address of the MerkleDistributor contract
+    :param: claims: the list of claims to be processed
+    """
 
     def __init__(self, distributor: EthereumAddress, claims: list[Claim]):
         meta = SafeTxMeta()
@@ -95,7 +105,9 @@ class MerkeDistributorClaimMultiDelegatedTx(SafeTx):
         transactions = self._create_transactions(claims, distributor)
         super().__init__(meta=meta, createdAt=created_at, transactions=transactions)
 
-    def _create_transactions(self, claims: list[Claim], distributor: EthereumAddress) -> list[SafeTxTransaction]:
+    def _create_transactions(
+        self, claims: list[Claim], distributor: EthereumAddress
+    ) -> list[SafeTxTransaction]:
         return [
             SafeTxTransaction(
                 to=distributor,
@@ -141,6 +153,44 @@ class MerkeDistributorClaimMultiDelegatedTx(SafeTx):
                         )
                     ],
                     name="claimMultiDelegated",
+                ),
+            )
+        ]
+
+
+class ARVIncreaseAmountForManyTx(SafeTx):
+    def __init__(self, compound_data: RewardsByAccount):
+        meta = SafeTxMeta()
+        created_at = int(time.time())
+        transactions = self._create_transactions(compound_data)
+        super().__init__(meta=meta, createdAt=created_at, transactions=transactions)
+
+    def _create_transactions(
+        self, compound_data: RewardsByAccount
+    ) -> list[SafeTxTransaction]:
+        # function increaseAmountsForMany(address[] calldata _receivers, uint192[] calldata _amountNewTokens)
+        receivers, amounts = zip(*compound_data)
+        return [
+            SafeTxTransaction(
+                to=ADDRESSES.TOKEN_LOCKER,
+                contractInputsValues={
+                    "_receivers": json.dumps(receivers),
+                    "_amountNewTokens": json.dumps(amounts),
+                },
+                contractMethod=SafeContractMethod(
+                    name="increaseAmountsForMany",
+                    inputs=[
+                        TxInput(
+                            internalType="address[]",
+                            name="_receivers",
+                            type="address[]",
+                        ),
+                        TxInput(
+                            internalType="uint192[]",
+                            name="_amountNewTokens",
+                            type="uint192[]",
+                        ),
+                    ],
                 ),
             )
         ]

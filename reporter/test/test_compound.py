@@ -5,12 +5,10 @@ from reporter.compounding import (
     fetch_and_write_compounders,
     distribute_compounded_auxo,
 )
-from reporter.config import create_conf
 from reporter.env import ADDRESSES
 from reporter.models import CompoundConf
 from reporter.models.Config import CompoundConf
-from reporter.models.ERC20 import PRV
-from reporter.models.types import BigNumber
+from reporter.models.ERC20 import ARV, AUXO_TOKEN_NAMES, PRV
 from reporter.test.conftest import TEST_REPORTS_DIR
 from reporter.test.stubs.compound.compounders import TestDataARV, TestDataPRV
 from reporter.test.stubs.compound.create_compound_stubs import (
@@ -105,6 +103,47 @@ def test_get_compounding_recipients(recipients_arv: dict, recipients_prv: dict):
     assert all(c.address in recipients_prv for c in TestDataPRV.COMPOUNDERS)
 
 
+def safe_tx_reward_prv(address: str, safe_tx: dict) -> str:
+    """
+    Returns the amount of PRV that was sent to `address` in the safe tx
+    You can check this matches the original value in the compounders file
+    """
+    for transaction in safe_tx["transactions"]:
+        if transaction["contractInputsValues"]["_receiver"] == address:
+            return transaction["contractInputsValues"]["_amount"]
+    raise Exception(f"Could not find {address} in safe tx")
+
+
+def safe_tx_reward_arv(address: str, safe_tx: dict) -> str:
+    """
+    Returns the amount of ARV that was sent to `address` in the safe tx
+    You can check this matches the original value in the compounders file
+    """
+
+    assert (
+        len(safe_tx["transactions"]) == 1
+    ), "Should only be one transaction in safe tx"
+    transaction = safe_tx["transactions"][0]
+    receivers = json.loads(transaction["contractInputsValues"]["_receivers"])
+
+    for idx, r in enumerate(receivers):
+        if r == address:
+            return json.loads(transaction["contractInputsValues"]["_amountNewTokens"])[
+                idx
+            ]
+
+    raise Exception(f"Could not find {address} in safe tx")
+
+
+def safe_tx_reward(address: str, safe_tx: dict, token: AUXO_TOKEN_NAMES) -> str:
+    if token == "PRV":
+        return safe_tx_reward_prv(address, safe_tx)
+    elif token == "ARV":
+        return safe_tx_reward_arv(address, safe_tx)
+    else:
+        raise Exception(f"Invalid token {token}")
+
+
 def test_compound_distribution(conf: CompoundConf):
     params = [
         ["333888084700000000000", "ARV", TestDataARV, True],
@@ -115,7 +154,7 @@ def test_compound_distribution(conf: CompoundConf):
         distribute_compounded_auxo(
             conf,
             token,
-            PRV(amount=total),
+            PRV(amount=total) if token == "PRV" else ARV(amount=total),
             f"recipients-{token}-0.json",
             TEST_REPORTS_DIR,
         )
@@ -144,14 +183,20 @@ def test_compound_distribution(conf: CompoundConf):
             100
         )
 
+        # check the correct reward token
+        assert all(
+            recipient["rewards"]["symbol"] == token
+            for recipient in compounded["recipients"]
+        )
+
+        # check that we can find in the safe tx
+        for recipient in compounded["recipients"]:
+            assert safe_tx_reward(recipient["address"], safe_tx, token) == str(
+                recipient["rewards"]["amount"]
+            )
+
         if not run_loop:
             continue
-
-        def fetch_from_safe_tx(address: str) -> str:
-            for transaction in safe_tx["transactions"]:
-                if transaction["contractInputsValues"]["_receiver"] == address:
-                    return transaction["contractInputsValues"]["_amount"]
-            raise Exception(f"Could not find {address} in safe tx")
 
         for recipient in compounded["recipients"]:
             reward_amount = Decimal(recipient["rewards"]["amount"])
@@ -160,6 +205,5 @@ def test_compound_distribution(conf: CompoundConf):
             )
             expected_reward = Decimal(compounder.auxo_compound)
             diff = abs(reward_amount - expected_reward)
-            # TODO this looks bad, so need to check
+            # TODO understand why the rounding is 5 gwei
             assert diff <= Decimal(5000000000)  # 5 GWEI
-            assert fetch_from_safe_tx(recipient["address"]) == str(reward_amount)

@@ -3,7 +3,7 @@ from decimal import Decimal
 from pydantic import BaseModel, parse_obj_as, validator
 from reporter.env import ADDRESSES
 from reporter.errors import BadConfigException
-from reporter.models.ERC20 import AUXO_TOKEN_NAMES, PRV, ERC20Amount
+from reporter.models.ERC20 import ARV, AUXO_TOKEN_NAMES, PRV, ERC20Amount
 from reporter.models.Redistribution import (
     ERROR_MESSAGES,
     RedistributionOption,
@@ -178,7 +178,7 @@ class CompoundConf(BaseModel):
 
     def token_rewards(self, token: AUXO_TOKEN_NAMES) -> ERC20Amount:
         if token == "ARV":
-            return PRV(amount=self.arv_reward_total())
+            return ARV(amount=self.arv_reward_total())
         elif token == "PRV":
             return PRV(amount=self.prv_reward_total())
         else:
