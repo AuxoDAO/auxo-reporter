@@ -1,5 +1,7 @@
 import json
+from reporter.env import ADDRESSES
 from reporter.models.SafeTx import MerkeDistributorClaimMultiDelegatedTx
+from reporter.models.types import EthereumAddress
 from reporter.queries import get_unclaimed_delegated_recipients
 from reporter.models import (
     AUXO_TOKEN_NAMES,
@@ -32,10 +34,12 @@ def create_tuple_array(recipients: RecipientMerkleClaim) -> list[Claim]:
 
 
 def get_compound_claims(
-    conf: CompoundConf, token: AUXO_TOKEN_NAMES
+    conf: CompoundConf,
+    token: AUXO_TOKEN_NAMES,
+    multisig: EthereumAddress = ADDRESSES.MULTISIG_OPS,
 ) -> RecipientMerkleClaim:
     tree = read_tree(conf, token)
-    recipients = get_unclaimed_delegated_recipients(tree, conf, token)
+    recipients = get_unclaimed_delegated_recipients(tree, conf, token, multisig)
     return recipients
 
 
@@ -55,7 +59,9 @@ def create_multi_delegated_tx(
         json.dump(safe_tx.dict(), f, indent=4)
 
 
-def fetch_and_write_compounders(conf: CompoundConf, token: AUXO_TOKEN_NAMES):
+def fetch_and_write_compounders(
+    conf: CompoundConf, token: AUXO_TOKEN_NAMES, multisig: EthereumAddress
+):
 
     recipients = get_compound_claims(conf, token)
     recipient_dict = {recipient: data.dict() for recipient, data in recipients.items()}

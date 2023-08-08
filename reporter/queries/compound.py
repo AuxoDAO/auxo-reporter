@@ -18,6 +18,7 @@ def multicall_is_compounder(
     recipients: RecipientMerkleClaim,
     distributor: EthereumAddress,
     block_number: int,
+    multisig: EthereumAddress = ADDRESSES.MULTISIG_OPS,
 ) -> MulticallIsRewardsCompounder:
 
     calls = [
@@ -28,7 +29,7 @@ def multicall_is_compounder(
             [
                 "isRewardsDelegate(address,address)(bool)",
                 address,
-                ADDRESSES.MULTISIG_OPS,
+                multisig,
             ],
             # return in a format of {[address]: bool}:
             [[address, None]],
@@ -80,11 +81,11 @@ def delegated_and_unclaimed(
 
 
 def get_unclaimed_delegated_recipients(
-    tree: MerkleTree, conf: CompoundConf, token: AUXO_TOKEN_NAMES
+    tree: MerkleTree, conf: CompoundConf, token: AUXO_TOKEN_NAMES, multisig: EthereumAddress = ADDRESSES.MULTISIG_OPS
 ) -> RecipientMerkleClaim:
     distributor = conf.distributor(token)
     block = conf.block_snapshot
-    delegated = multicall_is_compounder(tree.recipients, distributor, block)
+    delegated = multicall_is_compounder(tree.recipients, distributor, block, multisig)
     claimed = multicall_is_claimed(tree.recipients, distributor, block)
     delegated_but_unclaimed = delegated_and_unclaimed(delegated, claimed)
     return {
