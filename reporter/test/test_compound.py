@@ -33,6 +33,7 @@ def conf() -> CompoundConf:
         directory=TEST_REPORTS_DIR,
         compound_epoch=0,
         rewards=PRV(amount=0),
+        arv_percentage=50
     )
 
 
@@ -56,7 +57,7 @@ def recipients_arv(monkeypatch, conf: CompoundConf):
         lambda *_: create_is_compounder_response(TestDataARV),
     )
 
-    fetch_and_write_compounders(conf, "ARV")
+    fetch_and_write_compounders(conf, "ARV", ADDRESSES.MULTISIG_OPS)
 
     with open(f"{TEST_REPORTS_DIR}/{conf.date}/compounding/recipients-ARV-0.json") as f:
         recipients = json.load(f)
@@ -75,7 +76,7 @@ def recipients_prv(monkeypatch, conf: CompoundConf):
         lambda *_: create_is_compounder_response(TestDataPRV),
     )
 
-    fetch_and_write_compounders(conf, "PRV")
+    fetch_and_write_compounders(conf, "PRV", ADDRESSES.MULTISIG_OPS)
 
     with open(f"{TEST_REPORTS_DIR}/{conf.date}/compounding/recipients-PRV-0.json") as f:
         recipients = json.load(f)

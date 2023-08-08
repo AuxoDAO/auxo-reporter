@@ -63,7 +63,7 @@ def fetch_and_write_compounders(
     conf: CompoundConf, token: AUXO_TOKEN_NAMES, multisig: EthereumAddress
 ):
 
-    recipients = get_compound_claims(conf, token)
+    recipients = get_compound_claims(conf, token, multisig)
     recipient_dict = {recipient: data.dict() for recipient, data in recipients.items()}
     writer = RecipientWriter(conf)
     filename = writer.to_json(recipient_dict, f"recipients-{token}")
