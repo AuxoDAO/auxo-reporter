@@ -40,6 +40,7 @@ def get_all_prv_depositors(block: int) -> PRVDepositorGraphQLReturn:
           id
         }
         value
+        valueExact
       }
     }
     """

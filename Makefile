@@ -56,3 +56,7 @@ compound-send :; python -m reporter.compound_send
 
 # generate the withdrawal snapshot
 prv-snapshot :; yarn ts-node merkleTree/withdraw.ts
+
+# dissolve the DAO
+dissolve :; python -m reporter.run_auxo
+dissolveTree :; yarn ts-node merkleTree/dissolve.ts
