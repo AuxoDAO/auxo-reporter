@@ -1,13 +1,13 @@
 {
   "year": 2023,
-  "month": 7,
+  "month": 10,
   "block_snapshot": 18262867,
   "distribution_window": 3,
   "rewards": {
     "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
     "symbol": "WETH",
     "decimals": 18,
-    "amount": "5000000000000000000000"
+    "amount": "2335096422000000000000"
   },
   "redistributions": [
     {

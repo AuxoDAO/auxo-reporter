@@ -78,7 +78,6 @@ def get_all_auxo_holders(
     prv_staker = get_all_prv_depositors(conf.block_snapshot)
     arv_locked = get_all_arv_depositors(conf.block_snapshot)
 
-    print(len(arv_locked))
     total = {}
 
     for a in auxo:
