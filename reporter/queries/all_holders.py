@@ -57,6 +57,13 @@ def get_all_arv_depositors(block: int):
     return extract_nested_graphql(response, ["tokenLockerContract", "locks"])
 
 
+COMPROMISED = [
+    {
+        "old": "0x0810C422E4abD05c752618B403d26cf60bB50B5C".lower(),
+        "new": "0xC0F085803e3C29550bECd648D3835E732842a0b2".lower(),
+    }
+]
+
 EXCLUDE_LIST = [
     "0x3e70ff09c8f53294ffd389a7fcf7276cc3d92e64",  # token locker
     "0xc72fbd264b40d88e445bcf82663d63ff21e722af",  # prv
@@ -178,6 +185,13 @@ def get_all_auxo_holders(
                     v["reward_share"],
                 ]
             )
+
+    # swap addresses that are compromised
+    for c in COMPROMISED:
+        if c["old"] in total:
+            print(f"Swapping {c['old']} for {c['new']}")
+            total[c["new"]] = total[c["old"]]
+            del total[c["old"]]
 
     # write claims
     with open("reports/dissolution/auxo_claims.json", "w") as f:
