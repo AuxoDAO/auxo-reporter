@@ -1,6 +1,7 @@
 import { readFileSync, writeFile, writeFileSync } from "fs";
 import { createMerkleTree } from "./create";
 import { validateTree } from "./validate";
+import { BigNumber, FixedNumber } from "ethers";
 
 type DissolutionTree = {
   [address: `0x${string}`]: {
@@ -16,6 +17,7 @@ function main() {
   );
 
   const tree = createMerkleTree(claims);
+  const secondTree = createMerkleTree(createMockClaims(claims));
 
   if (!validateTree(tree)) throw new Error("Invalid tree");
 
@@ -23,10 +25,15 @@ function main() {
   writeFileSync(`reports/dissolution/merkle-tree.json`, strTree);
   console.log(`✨✨ Merkle Tree Created at reports/dissolution/merkle-tree.json ✨✨`);
 
+  const strSecondTree = JSON.stringify(secondTree, null, 4);
+  writeFileSync(`reports/dissolution/merkle-tree-mock.json`, strSecondTree);
+  console.log(`✨✨ Merkle Tree Created at reports/dissolution/merkle-tree-mock.json ✨✨`);
+
   const dissolutionTree: DissolutionTree = {};
-  Object.entries(tree.recipients).forEach(([address, claim]) => {
+  Object.keys(tree.recipients).forEach((address) => {
     dissolutionTree[address as `0x${string}`] = {};
     dissolutionTree[address as `0x${string}`][0] = tree.recipients[address];
+    dissolutionTree[address as `0x${string}`][1] = secondTree.recipients[address];
   });
 
   // write it to a file
@@ -37,4 +44,27 @@ function main() {
 
 if (require.main === module) {
   main();
+}
+
+function createMockClaims(existingClaims: MerkleDistributorInput): MerkleDistributorInput {
+  // divide each claim by 10 and add 1 to the window index
+  const mockClaims = Object.entries(existingClaims.recipients).reduce((prev, [address, claim]) => {
+    const mockClaim = {
+      ...claim,
+      windowIndex: claim.windowIndex + 1,
+      rewards: BigNumber.from(claim.rewards).div(10).toString(),
+    };
+    return { ...prev, [address]: mockClaim };
+  }, {});
+
+  return {
+    ...existingClaims,
+    windowIndex: existingClaims.windowIndex + 1,
+    aggregateRewards: {
+      ...existingClaims.aggregateRewards,
+      amount: BigNumber.from(existingClaims.aggregateRewards.amount).div(10).toString(),
+      pro_rata: (Number(existingClaims.aggregateRewards.pro_rata) / 10).toString(),
+    },
+    recipients: mockClaims,
+  };
 }
