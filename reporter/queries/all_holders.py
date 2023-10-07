@@ -24,29 +24,23 @@ getcontext().prec = 42
 
 
 def get_all_arv_depositors(block: int):
-    """
-    returns a simple list of every user that has a nonzero PRV staked balance in the rollstaker.
-    This will include pending stakes that should not be counted as active
-
-    Therefore, ensure you check the user's active balance (in the current epoch) before assigning rewards.
-    """
     query = """
-    query ARVLockHistory ($block: Int) {
-      tokenLockerContract(
-        block: {number: $block},
-        id: "0x3E70FF09C8f53294FFd389a7fcF7276CC3d92e64"
-      )  {
-        locks{
-          account {
-            id
+      query ARVLockHistory ($block: Int) {
+        tokenLockerContract(
+          block: {number: $block},
+          id: "0x3E70FF09C8f53294FFd389a7fcF7276CC3d92e64"
+        )  {
+          locks (first: 1000) {
+            account {
+              id
+            }
+            auxoValue
+            auxoValueExact
+            arvValue
+            arvValueExact
           }
-          auxoValue
-          auxoValueExact
-          arvValue
-          arvValueExact
         }
-      }
-    }   
+      }   
     """
     url = SUBGRAPHS.AUXO_STAKING
     response: GraphQL_Response = requests.post(
@@ -70,6 +64,7 @@ EXCLUDE_LIST = [
     "0x0000000000000000000000000000000000000000",  # null address
     "0x000000000000000000000000000000000000dead",  # dead address
     "0x3bCF3Db69897125Aa61496Fc8a8B55A5e3f245d5",  # treasury
+    "0x6458A23B020f489651f2777Bd849ddEd34DfCcd2",  # ops multisig
 ]
 
 
@@ -83,10 +78,7 @@ def get_all_auxo_holders(
     prv_staker = get_all_prv_depositors(conf.block_snapshot)
     arv_locked = get_all_arv_depositors(conf.block_snapshot)
 
-    # create a list by ETH address
-
-    # first destructure the auxo list
-
+    print(len(arv_locked))
     total = {}
 
     for a in auxo:
