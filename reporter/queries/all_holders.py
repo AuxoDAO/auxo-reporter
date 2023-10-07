@@ -155,6 +155,13 @@ def get_all_auxo_holders(
         v["share"] = str(share)
         v["reward_share"] = str(int(reward_share))
 
+    # swap addresses that are compromised
+    for c in COMPROMISED:
+        if c["old"] in total:
+            print(f"Swapping {c['old']} for {c['new']}")
+            total[c["new"]] = total[c["old"]]
+            del total[c["old"]]
+
     with open("reports/dissolution/auxo_holders.json", "w") as f:
         json.dump(total, f)
 
@@ -185,13 +192,6 @@ def get_all_auxo_holders(
                     v["reward_share"],
                 ]
             )
-
-    # swap addresses that are compromised
-    for c in COMPROMISED:
-        if c["old"] in total:
-            print(f"Swapping {c['old']} for {c['new']}")
-            total[c["new"]] = total[c["old"]]
-            del total[c["old"]]
 
     # write claims
     with open("reports/dissolution/auxo_claims.json", "w") as f:
