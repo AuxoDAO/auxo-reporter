@@ -45,20 +45,21 @@ async function queryPRVNonZeroBalancesAtBlock(
  * Grabs PRV staking positions from the Subgraph
  */
 async function fetchPRVHolders(
-  blockNumber: number
+  blockNumber: number,
+  windowIndex: number
 ): Promise<WithdrawalDistributorInput> {
   const response = await queryPRVNonZeroBalancesAtBlock(blockNumber);
   const { erc20Balances } = response.data;
   const recipients: WithdrawalRecipient = {};
   erc20Balances.forEach((balance) => {
     recipients[balance.account.id] = {
-      windowIndex: 0,
+      windowIndex,
       amount: balance.valueExact,
     };
   });
 
   return {
-    windowIndex: 0,
+    windowIndex,
     maxAmount: "0",
     startBlock: blockNumber,
     endBlock: blockNumber,
@@ -86,6 +87,7 @@ export const makeTreeWithPrompt = async ({
   startBlock,
   endBlock,
   budget,
+  isDryRun = true,
 }: {
   epoch: unknown;
   windowIndex: number;
@@ -93,8 +95,9 @@ export const makeTreeWithPrompt = async ({
   endBlock: number;
   budget: string;
   blockNumber: number;
+  isDryRun?: boolean;
 }) => {
-  const holders = await fetchPRVHolders(blockNumber);
+  const holders = await fetchPRVHolders(blockNumber, windowIndex);
 
   // create the tree as a string
   const tree = JSON.stringify(
@@ -110,7 +113,7 @@ export const makeTreeWithPrompt = async ({
 
   // write the file
   const fileDestination = destination(epoch);
-  writeFileSync(fileDestination, tree);
+  if (!isDryRun) writeFileSync(fileDestination, tree);
   console.log(tree);
   console.log(fileDestination);
   console.log(
@@ -129,6 +132,10 @@ async function main() {
   if (inputs.length !== 4) {
     throw new Error("Incorrect number of inputs");
   }
+  const writeFile = await prompt(
+    "Do you want to write the merkleTree file? (y/n)\n"
+  );
+  const isDryRun = writeFile === "n";
   let [_windowIndex, budget, _startBlock, _endBlock] = inputs;
 
   await makeTreeWithPrompt({
@@ -138,6 +145,7 @@ async function main() {
     endBlock: parseInt(_endBlock),
     budget,
     blockNumber,
+    isDryRun,
   });
 }
 
