@@ -2,6 +2,7 @@ import { readFileSync, writeFile, writeFileSync } from "fs";
 import { createMerkleTree } from "./create";
 import { validateTree } from "./validate";
 
+const PREV_DISSOLUTION_DIR = "dissolution";
 const DISSOLUTION_DIR = "dissolution-2";
 
 type DissolutionTree = {
@@ -25,10 +26,19 @@ function main() {
   writeFileSync(`reports/${DISSOLUTION_DIR}/merkle-tree.json`, strTree);
   console.log(`✨✨ Merkle Tree Created at reports/${DISSOLUTION_DIR}/merkle-tree.json ✨✨`);
 
-  const dissolutionTree: DissolutionTree = {};
+  // get the previous dissolution tree as a starting point
+  const dissolutionTree = JSON.parse(
+    readFileSync(`reports/${PREV_DISSOLUTION_DIR}/dissolution-tree.json`, {
+      encoding: "utf8",
+    })
+  ) as DissolutionTree;
+
   Object.entries(tree.recipients).forEach(([address, claim]) => {
-    dissolutionTree[address as `0x${string}`] = {};
-    dissolutionTree[address as `0x${string}`][0] = tree.recipients[address];
+    if (!dissolutionTree[address as `0x${string}`]) {
+      throw new Error(`Address ${address} not found in previous dissolution tree`);
+    } else {
+      dissolutionTree[address as `0x${string}`][1] = tree.recipients[address];
+    }
   });
 
   // write it to a file
