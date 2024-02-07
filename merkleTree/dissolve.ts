@@ -2,6 +2,9 @@ import { readFileSync, writeFile, writeFileSync } from "fs";
 import { createMerkleTree } from "./create";
 import { validateTree } from "./validate";
 
+const PREV_DISSOLUTION_DIR = "dissolution";
+const DISSOLUTION_DIR = "dissolution-2";
+
 type DissolutionTree = {
   [address: `0x${string}`]: {
     [claimIndex: number]: MerkleDistributor["recipients"][number];
@@ -10,7 +13,7 @@ type DissolutionTree = {
 
 function main() {
   const claims = JSON.parse(
-    readFileSync(`reports/dissolution/auxo_claims.json`, {
+    readFileSync(`reports/${DISSOLUTION_DIR}/auxo_claims.json`, {
       encoding: "utf8",
     })
   );
@@ -20,19 +23,28 @@ function main() {
   if (!validateTree(tree)) throw new Error("Invalid tree");
 
   const strTree = JSON.stringify(tree, null, 4);
-  writeFileSync(`reports/dissolution/merkle-tree.json`, strTree);
-  console.log(`✨✨ Merkle Tree Created at reports/dissolution/merkle-tree.json ✨✨`);
+  writeFileSync(`reports/${DISSOLUTION_DIR}/merkle-tree.json`, strTree);
+  console.log(`✨✨ Merkle Tree Created at reports/${DISSOLUTION_DIR}/merkle-tree.json ✨✨`);
 
-  const dissolutionTree: DissolutionTree = {};
+  // get the previous dissolution tree as a starting point
+  const dissolutionTree = JSON.parse(
+    readFileSync(`reports/${PREV_DISSOLUTION_DIR}/dissolution-tree.json`, {
+      encoding: "utf8",
+    })
+  ) as DissolutionTree;
+
   Object.entries(tree.recipients).forEach(([address, claim]) => {
-    dissolutionTree[address as `0x${string}`] = {};
-    dissolutionTree[address as `0x${string}`][0] = tree.recipients[address];
+    if (!dissolutionTree[address as `0x${string}`]) {
+      throw new Error(`Address ${address} not found in previous dissolution tree`);
+    } else {
+      dissolutionTree[address as `0x${string}`][1] = tree.recipients[address];
+    }
   });
 
   // write it to a file
   const strDissolutionTree = JSON.stringify(dissolutionTree, null, 4);
-  writeFileSync(`reports/dissolution/dissolution-tree.json`, strDissolutionTree);
-  console.log(`✨✨ Dissolution Tree Created at reports/dissolution/dissolution-tree.json ✨✨`);
+  writeFileSync(`reports/${DISSOLUTION_DIR}/dissolution-tree.json`, strDissolutionTree);
+  console.log(`✨✨ Dissolution Tree Created at reports/${DISSOLUTION_DIR}/dissolution-tree.json ✨✨`);
 }
 
 if (require.main === module) {

@@ -22,6 +22,8 @@ from reporter.models import GraphQL_Response, Config, EthereumAddress
 
 getcontext().prec = 42
 
+DISSOLUTION_REPORT = "dissolution-2"
+
 
 def get_all_arv_depositors(block: int):
     query = """
@@ -78,7 +80,7 @@ EXCLUDE_LIST = [
 def get_all_auxo_holders(
     exclude=EXCLUDE_LIST,
 ):
-    conf = load_conf("reports/dissolution")
+    conf = load_conf(f"reports/{DISSOLUTION_REPORT}")
 
     auxo = get_token_hodlers(conf, ADDRESSES.AUXO)
     prv = get_token_hodlers(conf, ADDRESSES.PRV)
@@ -162,10 +164,10 @@ def get_all_auxo_holders(
             total[c["new"]] = total[c["old"]]
             del total[c["old"]]
 
-    with open("reports/dissolution/auxo_holders.json", "w") as f:
+    with open(f"reports/{DISSOLUTION_REPORT}/auxo_holders.json", "w") as f:
         json.dump(total, f)
 
-    with open("reports/dissolution/auxo_holders.csv", "w") as f:
+    with open(f"reports/{DISSOLUTION_REPORT}/auxo_holders.csv", "w") as f:
         csv_writer = csv.writer(f)
         csv_writer.writerow(
             [
@@ -194,7 +196,7 @@ def get_all_auxo_holders(
             )
 
     # write claims
-    with open("reports/dissolution/auxo_claims.json", "w") as f:
+    with open(f"reports/{DISSOLUTION_REPORT}/auxo_claims.json", "w") as f:
         claims = {}
         claims["window_index"] = conf.distribution_window
         claims["chainId"] = 1

@@ -60,3 +60,7 @@ prv-snapshot :; yarn ts-node merkleTree/withdraw.ts
 # dissolve the DAO
 dissolve :; python -m reporter.run_auxo
 dissolveTree :; yarn ts-node merkleTree/dissolve.ts
+
+# dissolve round 2
+dissolve2 :; python -m reporter.run_auxo
+dissolveTree2 :; yarn ts-node merkleTree/dissolve.ts
