@@ -41,7 +41,7 @@ function main() {
         `Address ${address} not found in previous dissolution tree`
       );
     } else {
-      dissolutionTree[address as `0x${string}`][1] = tree.recipients[address];
+      dissolutionTree[address as `0x${string}`][2] = tree.recipients[address];
     }
   });
 
