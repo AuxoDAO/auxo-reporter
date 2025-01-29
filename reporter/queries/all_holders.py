@@ -1,63 +1,64 @@
-import requests
-from reporter.queries import get_token_hodlers
+# import requests
+# from reporter.queries import get_token_hodlers
 from reporter.config import load_conf
-from reporter.queries import (
-    get_all_prv_depositors,
-    get_arv_stakers,
-    graphql_iterate_query,
-    extract_nested_graphql,
-)
-from env import ADDRESSES, SUBGRAPHS
-from copy import deepcopy
-from typing import Any, TypedDict, TypeVar, cast
 
-import requests
+# from reporter.queries import (
+#     get_all_prv_depositors,
+#     get_arv_stakers,
+#     graphql_iterate_query,
+#     extract_nested_graphql,
+# )
+# from env import ADDRESSES, SUBGRAPHS
+# from copy import deepcopy
+# from typing import Any, TypedDict, TypeVar, cast
+
 from decimal import Decimal, getcontext
-from web3 import Web3
+
+# from web3 import Web3
 import json, csv
 
-from reporter.env import RPC_URL, SUBGRAPHS
-from reporter.errors import EmptyQueryError, TooManyLoopsError
-from reporter.models import GraphQL_Response, Config, EthereumAddress
+# from reporter.env import RPC_URL, SUBGRAPHS
+# from reporter.errors import EmptyQueryError, TooManyLoopsError
+# from reporter.models import GraphQL_Response, Config, EthereumAddress
 
 getcontext().prec = 42
 
-DISSOLUTION_REPORT = "dissolution-2"
+DISSOLUTION_REPORT = "dissolution-3"
 
 
-def get_all_arv_depositors(block: int):
-    query = """
-      query ARVLockHistory ($block: Int) {
-        tokenLockerContract(
-          block: {number: $block},
-          id: "0x3E70FF09C8f53294FFd389a7fcF7276CC3d92e64"
-        )  {
-          locks (first: 1000) {
-            account {
-              id
-            }
-            auxoValue
-            auxoValueExact
-            arvValue
-            arvValueExact
-          }
-        }
-      }   
-    """
-    url = SUBGRAPHS.AUXO_STAKING
-    response: GraphQL_Response = requests.post(
-        url, json=dict(variables={"block": block}, query=query)
-    ).json()
-
-    if not response:
-        raise EmptyQueryError(f"No results for graph query to {url}")
-    if "errors" in response:
-        raise EmptyQueryError(
-            f"Error in graph query to {url}: {cast(dict, response)['errors']}"
-        )
-
-    return extract_nested_graphql(response, ["tokenLockerContract", "locks"])
-
+# def get_all_arv_depositors(block: int):
+#     query = """
+#       query ARVLockHistory ($block: Int) {
+#         tokenLockerContract(
+#           block: {number: $block},
+#           id: "0x3E70FF09C8f53294FFd389a7fcF7276CC3d92e64"
+#         )  {
+#           locks (first: 1000) {
+#             account {
+#               id
+#             }
+#             auxoValue
+#             auxoValueExact
+#             arvValue
+#             arvValueExact
+#           }
+#         }
+#       }
+#     """
+#     url = SUBGRAPHS.AUXO_STAKING
+#     response: GraphQL_Response = requests.post(
+#         url, json=dict(variables={"block": block}, query=query)
+#     ).json()
+#
+#     if not response:
+#         raise EmptyQueryError(f"No results for graph query to {url}")
+#     if "errors" in response:
+#         raise EmptyQueryError(
+#             f"Error in graph query to {url}: {cast(dict, response)['errors']}"
+#         )
+#
+#     return extract_nested_graphql(response, ["tokenLockerContract", "locks"])
+#
 
 COMPROMISED = [
     {
@@ -81,63 +82,64 @@ def get_all_auxo_holders(
     exclude=EXCLUDE_LIST,
 ):
     conf = load_conf(f"reports/{DISSOLUTION_REPORT}")
+    #
+    # auxo = get_token_hodlers(conf, ADDRESSES.AUXO)
+    # prv = get_token_hodlers(conf, ADDRESSES.PRV)
+    # prv_staker = get_all_prv_depositors(conf.block_snapshot)
+    # arv_locked = get_all_arv_depositors(conf.block_snapshot)
 
-    auxo = get_token_hodlers(conf, ADDRESSES.AUXO)
-    prv = get_token_hodlers(conf, ADDRESSES.PRV)
-    prv_staker = get_all_prv_depositors(conf.block_snapshot)
-    arv_locked = get_all_arv_depositors(conf.block_snapshot)
+    with open(f"reports/{DISSOLUTION_REPORT}/auxo_holders.json", "r") as f:
+        total = json.load(f)
 
-    total = {}
-
-    for a in auxo:
-        address = a["account"]["id"].lower()
-        total[address] = {
-            "auxo": a["valueExact"],
-        }
-
-    for p in prv:
-        address = p["account"]["id"].lower()
-        if address in total:
-            total[address]["prv"] = p["valueExact"]
-        else:
-            total[address] = {
-                "prv": p["valueExact"],
-            }
-
-    for p in prv_staker:
-        address = p["account"]["id"].lower()
-        if address in total:
-            total[address]["prv_staker"] = p["valueExact"]
-        else:
-            total[address] = {
-                "prv_staker": p["valueExact"],
-            }
-
-    for a in arv_locked:
-        address = a["account"]["id"].lower()
-        if address in total:
-            total[address]["arv_locked"] = a["auxoValueExact"]
-        else:
-            total[address] = {
-                "arv_locked": a["auxoValueExact"],
-            }
-
-    # compute totals
-    for k, v in total.items():
-        if "prv" not in v:
-            v["prv"] = 0
-        if "prv_staker" not in v:
-            v["prv_staker"] = 0
-        if "arv_locked" not in v:
-            v["arv_locked"] = 0
-        if "auxo" not in v:
-            v["auxo"] = 0
-
-    # remove exclude list
-    for e in exclude:
-        lower_e = e.lower()
-        if lower_e in total:
-            del total[lower_e]
+    # for a in auxo:
+    #     address = a["account"]["id"].lower()
+    #     total[address] = {
+    #         "auxo": a["valueExact"],
+    #     }
+    #
+    # for p in prv:
+    #     address = p["account"]["id"].lower()
+    #     if address in total:
+    #         total[address]["prv"] = p["valueExact"]
+    #     else:
+    #         total[address] = {
+    #             "prv": p["valueExact"],
+    #         }
+    #
+    # for p in prv_staker:
+    #     address = p["account"]["id"].lower()
+    #     if address in total:
+    #         total[address]["prv_staker"] = p["valueExact"]
+    #     else:
+    #         total[address] = {
+    #             "prv_staker": p["valueExact"],
+    #         }
+    #
+    # for a in arv_locked:
+    #     address = a["account"]["id"].lower()
+    #     if address in total:
+    #         total[address]["arv_locked"] = a["auxoValueExact"]
+    #     else:
+    #         total[address] = {
+    #             "arv_locked": a["auxoValueExact"],
+    #         }
+    #
+    # # compute totals
+    # for k, v in total.items():
+    #     if "prv" not in v:
+    #         v["prv"] = 0
+    #     if "prv_staker" not in v:
+    #         v["prv_staker"] = 0
+    #     if "arv_locked" not in v:
+    #         v["arv_locked"] = 0
+    #     if "auxo" not in v:
+    #         v["auxo"] = 0
+    #
+    # # remove exclude list
+    # for e in exclude:
+    #     lower_e = e.lower()
+    #     if lower_e in total:
+    #         del total[lower_e]
 
     # compute total
     global_total = 0
