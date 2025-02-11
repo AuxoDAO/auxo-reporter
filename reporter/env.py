@@ -12,7 +12,8 @@ def env_var(accessor: str) -> str:
     """
     var = os.environ.get(accessor)
     if not var:
-        raise MissingEnvironmentVariableException(accessor)
+        pass
+        # raise MissingEnvironmentVariableException(accessor)
     return var
 
 

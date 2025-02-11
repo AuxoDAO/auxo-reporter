@@ -1,0 +1,27 @@
+{
+  "year": 2025,
+  "month": 1,
+  "block_snapshot": 18291000,
+  "distribution_window": 5,
+  "rewards": {
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "symbol": "WETH",
+    "decimals": 18,
+    "amount": "87220000000000000000"
+  },
+  "redistributions": [
+    {
+      "weight": 100.0,
+      "address": "0x3bCF3Db69897125Aa61496Fc8a8B55A5e3f245d5",
+      "option": "transfer",
+      "distributed": false,
+      "rewards": "0"
+    }
+  ],
+  "arv_percentage": 70,
+  "date": "2023-7",
+  "start_timestamp": 1688169600,
+  "end_timestamp": 1690847999,
+  "prv_rewards": "5327618355000000512",
+  "arv_rewards": "12431109495000000512"
+}
