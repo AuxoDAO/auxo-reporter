@@ -2,8 +2,8 @@ import { readFileSync, writeFileSync } from "fs";
 import { createMerkleTree } from "./create";
 import { validateTree } from "./validate";
 
-const PREV_DISSOLUTION_DIR = "dissolution-2";
-const DISSOLUTION_DIR = "dissolution-3";
+const PREV_DISSOLUTION_DIR = "dissolution";
+const DISSOLUTION_DIR = "dissolution-2";
 
 type DissolutionTree = {
   [address: `0x${string}`]: {
@@ -41,7 +41,7 @@ function main() {
         `Address ${address} not found in previous dissolution tree`
       );
     } else {
-      dissolutionTree[address as `0x${string}`][2] = tree.recipients[address];
+      dissolutionTree[address as `0x${string}`][1] = tree.recipients[address];
     }
   });
 
